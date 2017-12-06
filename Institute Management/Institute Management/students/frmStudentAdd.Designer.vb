@@ -120,6 +120,7 @@ Partial Class frmStudentAdd
         Me.Label70 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.ListView3 = New System.Windows.Forms.ListView()
         Me.Label82 = New System.Windows.Forms.Label()
         Me.ComboBox16 = New System.Windows.Forms.ComboBox()
         Me.ComboBox15 = New System.Windows.Forms.ComboBox()
@@ -128,7 +129,6 @@ Partial Class frmStudentAdd
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label92 = New System.Windows.Forms.Label()
         Me.Label93 = New System.Windows.Forms.Label()
-        Me.ListView3 = New System.Windows.Forms.ListView()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
@@ -411,7 +411,7 @@ Partial Class frmStudentAdd
         '
         Me.Label19.AutoSize = True
         Me.Label19.ForeColor = System.Drawing.Color.Black
-        Me.Label19.Location = New System.Drawing.Point(315, 301)
+        Me.Label19.Location = New System.Drawing.Point(314, 301)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(78, 24)
         Me.Label19.TabIndex = 31
@@ -485,9 +485,9 @@ Partial Class frmStudentAdd
         'TextBox14
         '
         Me.TextBox14.ForeColor = System.Drawing.Color.Black
-        Me.TextBox14.Location = New System.Drawing.Point(527, 374)
+        Me.TextBox14.Location = New System.Drawing.Point(574, 374)
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(312, 32)
+        Me.TextBox14.Size = New System.Drawing.Size(265, 32)
         Me.TextBox14.TabIndex = 28
         '
         'TextBox13
@@ -518,7 +518,7 @@ Partial Class frmStudentAdd
         '
         Me.Label24.AutoSize = True
         Me.Label24.ForeColor = System.Drawing.Color.Black
-        Me.Label24.Location = New System.Drawing.Point(398, 377)
+        Me.Label24.Location = New System.Drawing.Point(440, 377)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(122, 24)
         Me.Label24.TabIndex = 27
@@ -762,27 +762,27 @@ Partial Class frmStudentAdd
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(763, 26)
+        Me.Button8.Location = New System.Drawing.Point(774, 192)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(71, 37)
         Me.Button8.TabIndex = 30
-        Me.Button8.Text = "Button7"
+        Me.Button8.Text = "លុប"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(686, 26)
+        Me.Button7.Location = New System.Drawing.Point(774, 149)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(71, 37)
         Me.Button7.TabIndex = 30
-        Me.Button7.Text = "Button7"
+        Me.Button7.Text = "បន្ថែម"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'ListView1
         '
         Me.ListView1.Location = New System.Drawing.Point(14, 139)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(820, 196)
+        Me.ListView1.Size = New System.Drawing.Size(744, 196)
         Me.ListView1.TabIndex = 29
         Me.ListView1.UseCompatibleStateImageBehavior = False
         '
@@ -790,7 +790,7 @@ Partial Class frmStudentAdd
         '
         Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBox8.Location = New System.Drawing.Point(284, 97)
+        Me.ComboBox8.Location = New System.Drawing.Point(274, 97)
         Me.ComboBox8.Name = "ComboBox8"
         Me.ComboBox8.Size = New System.Drawing.Size(152, 32)
         Me.ComboBox8.TabIndex = 23
@@ -801,7 +801,7 @@ Partial Class frmStudentAdd
         Me.ComboBox7.Items.AddRange(New Object() {"ទេ", "បាទ/ចាស"})
         Me.ComboBox7.Location = New System.Drawing.Point(179, 98)
         Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(99, 32)
+        Me.ComboBox7.Size = New System.Drawing.Size(90, 32)
         Me.ComboBox7.TabIndex = 23
         '
         'Label25
@@ -818,7 +818,7 @@ Partial Class frmStudentAdd
         'TextBox16
         '
         Me.TextBox16.ForeColor = System.Drawing.Color.Black
-        Me.TextBox16.Location = New System.Drawing.Point(442, 98)
+        Me.TextBox16.Location = New System.Drawing.Point(431, 98)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(81, 32)
         Me.TextBox16.TabIndex = 28
@@ -826,15 +826,15 @@ Partial Class frmStudentAdd
         'TextBox18
         '
         Me.TextBox18.ForeColor = System.Drawing.Color.Black
-        Me.TextBox18.Location = New System.Drawing.Point(692, 97)
+        Me.TextBox18.Location = New System.Drawing.Point(680, 97)
         Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(142, 32)
+        Me.TextBox18.Size = New System.Drawing.Size(165, 32)
         Me.TextBox18.TabIndex = 28
         '
         'TextBox17
         '
         Me.TextBox17.ForeColor = System.Drawing.Color.Black
-        Me.TextBox17.Location = New System.Drawing.Point(529, 97)
+        Me.TextBox17.Location = New System.Drawing.Point(516, 97)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(159, 32)
         Me.TextBox17.TabIndex = 28
@@ -851,7 +851,7 @@ Partial Class frmStudentAdd
         '
         Me.Label31.AutoSize = True
         Me.Label31.ForeColor = System.Drawing.Color.Black
-        Me.Label31.Location = New System.Drawing.Point(720, 71)
+        Me.Label31.Location = New System.Drawing.Point(708, 71)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(50, 24)
         Me.Label31.TabIndex = 18
@@ -861,7 +861,7 @@ Partial Class frmStudentAdd
         '
         Me.Label30.AutoSize = True
         Me.Label30.ForeColor = System.Drawing.Color.Black
-        Me.Label30.Location = New System.Drawing.Point(550, 71)
+        Me.Label30.Location = New System.Drawing.Point(537, 71)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(78, 24)
         Me.Label30.TabIndex = 18
@@ -871,7 +871,7 @@ Partial Class frmStudentAdd
         '
         Me.Label29.AutoSize = True
         Me.Label29.ForeColor = System.Drawing.Color.Black
-        Me.Label29.Location = New System.Drawing.Point(452, 71)
+        Me.Label29.Location = New System.Drawing.Point(436, 71)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(54, 24)
         Me.Label29.TabIndex = 18
@@ -881,7 +881,7 @@ Partial Class frmStudentAdd
         '
         Me.Label28.AutoSize = True
         Me.Label28.ForeColor = System.Drawing.Color.Black
-        Me.Label28.Location = New System.Drawing.Point(321, 71)
+        Me.Label28.Location = New System.Drawing.Point(311, 71)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(41, 24)
         Me.Label28.TabIndex = 18
@@ -1015,7 +1015,7 @@ Partial Class frmStudentAdd
         Me.GroupBox4.Controls.Add(Me.Label70)
         Me.GroupBox4.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox4.Location = New System.Drawing.Point(3, 6)
+        Me.GroupBox4.Location = New System.Drawing.Point(13, 6)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(851, 448)
         Me.GroupBox4.TabIndex = 9
@@ -1174,6 +1174,14 @@ Partial Class frmStudentAdd
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "(E) ការបញ្ចេញព័ត៌មានដោយស្ម័គ្រចិត្ត"
         '
+        'ListView3
+        '
+        Me.ListView3.Location = New System.Drawing.Point(15, 176)
+        Me.ListView3.Name = "ListView3"
+        Me.ListView3.Size = New System.Drawing.Size(820, 235)
+        Me.ListView3.TabIndex = 37
+        Me.ListView3.UseCompatibleStateImageBehavior = False
+        '
         'Label82
         '
         Me.Label82.AutoSize = True
@@ -1249,14 +1257,6 @@ Partial Class frmStudentAdd
         Me.Label93.Size = New System.Drawing.Size(164, 24)
         Me.Label93.TabIndex = 0
         Me.Label93.Text = "មូលហេតុរារាំងមិនឲ្យធ្វើការងារ"
-        '
-        'ListView3
-        '
-        Me.ListView3.Location = New System.Drawing.Point(15, 176)
-        Me.ListView3.Name = "ListView3"
-        Me.ListView3.Size = New System.Drawing.Size(820, 235)
-        Me.ListView3.TabIndex = 37
-        Me.ListView3.UseCompatibleStateImageBehavior = False
         '
         'frmStudentAdd
         '
