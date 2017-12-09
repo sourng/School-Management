@@ -24,7 +24,6 @@ Partial Class frmUprofile
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnBack = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.txtGPasswd = New System.Windows.Forms.TextBox()
         Me.txtTPasswd = New System.Windows.Forms.TextBox()
@@ -40,9 +39,10 @@ Partial Class frmUprofile
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnBack = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -51,7 +51,7 @@ Partial Class frmUprofile
         Me.Label2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.BackColor = System.Drawing.Color.Navy
-        Me.Label2.Font = New System.Drawing.Font("Khmer OS Battambang", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Khmer OS Battambang", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(-3, -2)
         Me.Label2.Name = "Label2"
@@ -90,15 +90,6 @@ Partial Class frmUprofile
         Me.GroupBox1.Size = New System.Drawing.Size(828, 449)
         Me.GroupBox1.TabIndex = 18
         Me.GroupBox1.TabStop = False
-        '
-        'btnBack
-        '
-        Me.btnBack.Location = New System.Drawing.Point(624, 118)
-        Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(128, 51)
-        Me.btnBack.TabIndex = 32
-        Me.btnBack.Text = "Back"
-        Me.btnBack.UseVisualStyleBackColor = True
         '
         'btnSave
         '
@@ -221,35 +212,44 @@ Partial Class frmUprofile
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "UserName"
         '
-        'Label8
+        'Label1
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(11, 201)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(92, 27)
-        Me.Label8.TabIndex = 1
-        Me.Label8.Text = "Google Plus"
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(11, 25)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(92, 27)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Face Book"
+        '
+        'btnBack
+        '
+        Me.btnBack.Location = New System.Drawing.Point(624, 118)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(128, 51)
+        Me.btnBack.TabIndex = 32
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(11, 118)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(56, 27)
+        Me.Label5.Size = New System.Drawing.Size(63, 27)
         Me.Label5.TabIndex = 1
         Me.Label5.Text = "Twitter"
         '
-        'Label1
+        'Label8
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(11, 25)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(83, 27)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Face Book"
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(11, 201)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(103, 27)
+        Me.Label8.TabIndex = 1
+        Me.Label8.Text = "Google Plus"
         '
         'frmUprofile
         '
