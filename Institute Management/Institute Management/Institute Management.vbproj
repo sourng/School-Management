@@ -128,22 +128,22 @@
     <Compile Include="students\frmStudentRegistration.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="students\frmUprofile.Designer.vb">
+    <Compile Include="user\frmUprofile.Designer.vb">
       <DependentUpon>frmUprofile.vb</DependentUpon>
     </Compile>
-    <Compile Include="students\frmUprofile.vb">
+    <Compile Include="user\frmUprofile.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="students\frmUserList.Designer.vb">
+    <Compile Include="user\frmUserList.Designer.vb">
       <DependentUpon>frmUserList.vb</DependentUpon>
     </Compile>
-    <Compile Include="students\frmUserList.vb">
+    <Compile Include="user\frmUserList.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="students\frmUserRegister.Designer.vb">
+    <Compile Include="user\frmUserRegister.Designer.vb">
       <DependentUpon>frmUserRegister.vb</DependentUpon>
     </Compile>
-    <Compile Include="students\frmUserRegister.vb">
+    <Compile Include="user\frmUserRegister.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -166,13 +166,13 @@
     <EmbeddedResource Include="students\frmStudentRegistration.resx">
       <DependentUpon>frmStudentRegistration.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="students\frmUprofile.resx">
+    <EmbeddedResource Include="user\frmUprofile.resx">
       <DependentUpon>frmUprofile.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="students\frmUserList.resx">
+    <EmbeddedResource Include="user\frmUserList.resx">
       <DependentUpon>frmUserList.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="students\frmUserRegister.resx">
+    <EmbeddedResource Include="user\frmUserRegister.resx">
       <DependentUpon>frmUserRegister.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
