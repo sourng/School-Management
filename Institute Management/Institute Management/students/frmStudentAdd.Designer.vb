@@ -35,28 +35,28 @@ Partial Class frmStudentAdd
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.txtPob = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.txtDob = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.txtTravelDistance = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.cboTransportMethod = New System.Windows.Forms.ComboBox()
+        Me.cboCommune = New System.Windows.Forms.ComboBox()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.cboDistrict = New System.Windows.Forms.ComboBox()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.cboProvice = New System.Windows.Forms.ComboBox()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.txtMaritalStatus = New System.Windows.Forms.ComboBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.txtNumOfDependants = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtParentPhone = New System.Windows.Forms.TextBox()
+        Me.txtParentAdress = New System.Windows.Forms.TextBox()
+        Me.txtParentMail = New System.Windows.Forms.TextBox()
+        Me.txtParentName = New System.Windows.Forms.TextBox()
+        Me.txtStuID = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
@@ -64,32 +64,32 @@ Partial Class frmStudentAdd
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtNationalid = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cboGender = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtLNameEN = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtLNameKH = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtFNameEN = New System.Windows.Forms.TextBox()
+        Me.txtFNameKh = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.ComboBox8 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.LVCourseOfEdu = New System.Windows.Forms.ListView()
+        Me.cboCourseType = New System.Windows.Forms.ComboBox()
+        Me.cboTvet = New System.Windows.Forms.ComboBox()
         Me.Label25 = New System.Windows.Forms.Label()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.txtEndCCourse = New System.Windows.Forms.TextBox()
+        Me.txtLocation = New System.Windows.Forms.TextBox()
+        Me.txtSclName = New System.Windows.Forms.TextBox()
+        Me.txtTermName = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
@@ -97,10 +97,10 @@ Partial Class frmStudentAdd
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.ComboBox12 = New System.Windows.Forms.ComboBox()
+        Me.rdbNo = New System.Windows.Forms.RadioButton()
+        Me.rdbYes = New System.Windows.Forms.RadioButton()
+        Me.txtEndyear = New System.Windows.Forms.TextBox()
+        Me.cboGeneralEdu = New System.Windows.Forms.ComboBox()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
@@ -113,13 +113,14 @@ Partial Class frmStudentAdd
         Me.ComboBox10 = New System.Windows.Forms.ComboBox()
         Me.ComboBox11 = New System.Windows.Forms.ComboBox()
         Me.ComboBox9 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox18 = New System.Windows.Forms.ComboBox()
+        Me.cboEmStatus = New System.Windows.Forms.ComboBox()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label69 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.ListView3 = New System.Windows.Forms.ListView()
         Me.Label82 = New System.Windows.Forms.Label()
         Me.ComboBox16 = New System.Windows.Forms.ComboBox()
         Me.ComboBox15 = New System.Windows.Forms.ComboBox()
@@ -128,7 +129,6 @@ Partial Class frmStudentAdd
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label92 = New System.Windows.Forms.Label()
         Me.Label93 = New System.Windows.Forms.Label()
-        Me.ListView3 = New System.Windows.Forms.ListView()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
@@ -176,7 +176,7 @@ Partial Class frmStudentAdd
         Me.GroupBox2.Controls.Add(Me.Button3)
         Me.GroupBox2.Location = New System.Drawing.Point(914, 292)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(175, 222)
+        Me.GroupBox2.Size = New System.Drawing.Size(175, 206)
         Me.GroupBox2.TabIndex = 8
         Me.GroupBox2.TabStop = False
         '
@@ -192,13 +192,14 @@ Partial Class frmStudentAdd
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button3.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(6, 14)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(163, 45)
         Me.Button3.TabIndex = 1
         Me.Button3.Text = "រក្សារទុក"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Button1
         '
@@ -255,28 +256,28 @@ Partial Class frmStudentAdd
         '
         Me.GroupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.GroupBox1.Controls.Add(Me.Label15)
-        Me.GroupBox1.Controls.Add(Me.TextBox10)
+        Me.GroupBox1.Controls.Add(Me.txtPob)
         Me.GroupBox1.Controls.Add(Me.Label17)
-        Me.GroupBox1.Controls.Add(Me.TextBox9)
+        Me.GroupBox1.Controls.Add(Me.txtDob)
         Me.GroupBox1.Controls.Add(Me.Label16)
-        Me.GroupBox1.Controls.Add(Me.TextBox8)
+        Me.GroupBox1.Controls.Add(Me.txtTravelDistance)
         Me.GroupBox1.Controls.Add(Me.Label13)
-        Me.GroupBox1.Controls.Add(Me.ComboBox3)
-        Me.GroupBox1.Controls.Add(Me.ComboBox6)
+        Me.GroupBox1.Controls.Add(Me.cboTransportMethod)
+        Me.GroupBox1.Controls.Add(Me.cboCommune)
         Me.GroupBox1.Controls.Add(Me.Label20)
-        Me.GroupBox1.Controls.Add(Me.ComboBox5)
+        Me.GroupBox1.Controls.Add(Me.cboDistrict)
         Me.GroupBox1.Controls.Add(Me.Label19)
-        Me.GroupBox1.Controls.Add(Me.ComboBox4)
+        Me.GroupBox1.Controls.Add(Me.cboProvice)
         Me.GroupBox1.Controls.Add(Me.Label18)
-        Me.GroupBox1.Controls.Add(Me.ComboBox2)
+        Me.GroupBox1.Controls.Add(Me.txtMaritalStatus)
         Me.GroupBox1.Controls.Add(Me.Label12)
-        Me.GroupBox1.Controls.Add(Me.TextBox7)
+        Me.GroupBox1.Controls.Add(Me.txtNumOfDependants)
         Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.TextBox12)
-        Me.GroupBox1.Controls.Add(Me.TextBox14)
-        Me.GroupBox1.Controls.Add(Me.TextBox13)
-        Me.GroupBox1.Controls.Add(Me.TextBox11)
-        Me.GroupBox1.Controls.Add(Me.TextBox6)
+        Me.GroupBox1.Controls.Add(Me.txtParentPhone)
+        Me.GroupBox1.Controls.Add(Me.txtParentAdress)
+        Me.GroupBox1.Controls.Add(Me.txtParentMail)
+        Me.GroupBox1.Controls.Add(Me.txtParentName)
+        Me.GroupBox1.Controls.Add(Me.txtStuID)
         Me.GroupBox1.Controls.Add(Me.Label24)
         Me.GroupBox1.Controls.Add(Me.Label22)
         Me.GroupBox1.Controls.Add(Me.Label23)
@@ -284,23 +285,23 @@ Partial Class frmStudentAdd
         Me.GroupBox1.Controls.Add(Me.Label21)
         Me.GroupBox1.Controls.Add(Me.Label11)
         Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.TextBox5)
+        Me.GroupBox1.Controls.Add(Me.txtNationalid)
         Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.DateTimePicker1)
-        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.cboGender)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
+        Me.GroupBox1.Controls.Add(Me.txtLNameEN)
         Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.TextBox3)
+        Me.GroupBox1.Controls.Add(Me.txtLNameKH)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.txtFNameEN)
+        Me.GroupBox1.Controls.Add(Me.txtFNameKh)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 7)
+        Me.GroupBox1.Location = New System.Drawing.Point(18, 6)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(851, 448)
         Me.GroupBox1.TabIndex = 8
@@ -317,13 +318,13 @@ Partial Class frmStudentAdd
         Me.Label15.TabIndex = 33
         Me.Label15.Text = "មធ្យោបាយធ្វើដំណើរ"
         '
-        'TextBox10
+        'txtPob
         '
-        Me.TextBox10.ForeColor = System.Drawing.Color.Black
-        Me.TextBox10.Location = New System.Drawing.Point(149, 259)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(690, 32)
-        Me.TextBox10.TabIndex = 34
+        Me.txtPob.ForeColor = System.Drawing.Color.Black
+        Me.txtPob.Location = New System.Drawing.Point(149, 259)
+        Me.txtPob.Name = "txtPob"
+        Me.txtPob.Size = New System.Drawing.Size(690, 32)
+        Me.txtPob.TabIndex = 34
         '
         'Label17
         '
@@ -335,13 +336,13 @@ Partial Class frmStudentAdd
         Me.Label17.TabIndex = 33
         Me.Label17.Text = "ទីលំនៅអចិន្ត្រៃយ៍" & Global.Microsoft.VisualBasic.ChrW(9)
         '
-        'TextBox9
+        'txtDob
         '
-        Me.TextBox9.ForeColor = System.Drawing.Color.Black
-        Me.TextBox9.Location = New System.Drawing.Point(149, 221)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(690, 32)
-        Me.TextBox9.TabIndex = 34
+        Me.txtDob.ForeColor = System.Drawing.Color.Black
+        Me.txtDob.Location = New System.Drawing.Point(149, 221)
+        Me.txtDob.Name = "txtDob"
+        Me.txtDob.Size = New System.Drawing.Size(690, 32)
+        Me.txtDob.TabIndex = 34
         '
         'Label16
         '
@@ -353,13 +354,13 @@ Partial Class frmStudentAdd
         Me.Label16.TabIndex = 33
         Me.Label16.Text = "ទីកន្លែងកំណើត"
         '
-        'TextBox8
+        'txtTravelDistance
         '
-        Me.TextBox8.ForeColor = System.Drawing.Color.Black
-        Me.TextBox8.Location = New System.Drawing.Point(149, 183)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(110, 32)
-        Me.TextBox8.TabIndex = 34
+        Me.txtTravelDistance.ForeColor = System.Drawing.Color.Black
+        Me.txtTravelDistance.Location = New System.Drawing.Point(149, 183)
+        Me.txtTravelDistance.Name = "txtTravelDistance"
+        Me.txtTravelDistance.Size = New System.Drawing.Size(110, 32)
+        Me.txtTravelDistance.TabIndex = 34
         '
         'Label13
         '
@@ -371,22 +372,22 @@ Partial Class frmStudentAdd
         Me.Label13.TabIndex = 33
         Me.Label13.Text = "ចម្ងាយផ្លូវធ្វើដំណើរ"
         '
-        'ComboBox3
+        'cboTransportMethod
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"ម៉ុតូឌុប(ចំណាយលុយផ្ទាល់ខ្លួន)", "ម៉ូតូផ្ទាល់ខ្លួន", "សាធារណះ(ចំណាយលុយផ្ទាល់ខ្លួន)", "កង់", "មធ្យោបាយធ្វើដំណើរផ្ដល់ដោយគ្រឺះស្ថាន(ឥតគិតថ្លៃ)", "មធ្យោបាយធ្វើដំណើរផ្ដល់ដោយសហគមន៍(ឥតគិតថ្លៃ)", "ថ្មើរជើង", "ផ្សេងៗ"})
-        Me.ComboBox3.Location = New System.Drawing.Point(462, 180)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(377, 32)
-        Me.ComboBox3.TabIndex = 32
+        Me.cboTransportMethod.FormattingEnabled = True
+        Me.cboTransportMethod.Items.AddRange(New Object() {"ម៉ុតូឌុប(ចំណាយលុយផ្ទាល់ខ្លួន)", "ម៉ូតូផ្ទាល់ខ្លួន", "សាធារណះ(ចំណាយលុយផ្ទាល់ខ្លួន)", "កង់", "មធ្យោបាយធ្វើដំណើរផ្ដល់ដោយគ្រឺះស្ថាន(ឥតគិតថ្លៃ)", "មធ្យោបាយធ្វើដំណើរផ្ដល់ដោយសហគមន៍(ឥតគិតថ្លៃ)", "ថ្មើរជើង", "ផ្សេងៗ"})
+        Me.cboTransportMethod.Location = New System.Drawing.Point(462, 180)
+        Me.cboTransportMethod.Name = "cboTransportMethod"
+        Me.cboTransportMethod.Size = New System.Drawing.Size(377, 32)
+        Me.cboTransportMethod.TabIndex = 32
         '
-        'ComboBox6
+        'cboCommune
         '
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(670, 297)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(169, 32)
-        Me.ComboBox6.TabIndex = 32
+        Me.cboCommune.FormattingEnabled = True
+        Me.cboCommune.Location = New System.Drawing.Point(670, 297)
+        Me.cboCommune.Name = "cboCommune"
+        Me.cboCommune.Size = New System.Drawing.Size(169, 32)
+        Me.cboCommune.TabIndex = 32
         '
         'Label20
         '
@@ -398,14 +399,14 @@ Partial Class frmStudentAdd
         Me.Label20.TabIndex = 31
         Me.Label20.Text = " ឃុំ / សង្កាត់ :"
         '
-        'ComboBox5
+        'cboDistrict
         '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"នៅលីវ", "រៀបការរួច", "លេងលះ", "ពោះម៉ាយ​ ឬ មេម៉ាយ"})
-        Me.ComboBox5.Location = New System.Drawing.Point(393, 297)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(169, 32)
-        Me.ComboBox5.TabIndex = 32
+        Me.cboDistrict.FormattingEnabled = True
+        Me.cboDistrict.Items.AddRange(New Object() {"នៅលីវ", "រៀបការរួច", "លេងលះ", "ពោះម៉ាយ​ ឬ មេម៉ាយ"})
+        Me.cboDistrict.Location = New System.Drawing.Point(393, 297)
+        Me.cboDistrict.Name = "cboDistrict"
+        Me.cboDistrict.Size = New System.Drawing.Size(169, 32)
+        Me.cboDistrict.TabIndex = 32
         '
         'Label19
         '
@@ -417,14 +418,14 @@ Partial Class frmStudentAdd
         Me.Label19.TabIndex = 31
         Me.Label19.Text = "ស្រុក / ក្រុង :"
         '
-        'ComboBox4
+        'cboProvice
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"បន្ទាយមានជ័យ", "រតនគីរី", "កណ្ដាល", "ព្រះសីហនុ", "ក្រចះ", "ឧត្តមានជ័យ", "សៀមរាប", "កំពង់ចាម", "ស្វាយរៀង", "មណ្ឌល់គីរី", "កំពង់ឆ្នាំង", "តាកែវ", "កែប", "កំពង់ធំ", "ប៉ៃលិន", "កោះកុង", "ស្ទឹងត្រែង", "បាត់ដំបង", "កំពត", "ព្រះវិហា", "ភ្នំពេញ", "កំពង់ស្ពឺ", "ត្បូងឃ្មុំ", "ពោធិ៍សាត់", "ព្រៃវែង"})
-        Me.ComboBox4.Location = New System.Drawing.Point(149, 297)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(157, 32)
-        Me.ComboBox4.TabIndex = 32
+        Me.cboProvice.FormattingEnabled = True
+        Me.cboProvice.Items.AddRange(New Object() {"បន្ទាយមានជ័យ", "រតនគីរី", "កណ្ដាល", "ព្រះសីហនុ", "ក្រចះ", "ឧត្តមានជ័យ", "សៀមរាប", "កំពង់ចាម", "ស្វាយរៀង", "មណ្ឌល់គីរី", "កំពង់ឆ្នាំង", "តាកែវ", "កែប", "កំពង់ធំ", "ប៉ៃលិន", "កោះកុង", "ស្ទឹងត្រែង", "បាត់ដំបង", "កំពត", "ព្រះវិហា", "ភ្នំពេញ", "កំពង់ស្ពឺ", "ត្បូងឃ្មុំ", "ពោធិ៍សាត់", "ព្រៃវែង"})
+        Me.cboProvice.Location = New System.Drawing.Point(149, 297)
+        Me.cboProvice.Name = "cboProvice"
+        Me.cboProvice.Size = New System.Drawing.Size(157, 32)
+        Me.cboProvice.TabIndex = 32
         '
         'Label18
         '
@@ -436,14 +437,14 @@ Partial Class frmStudentAdd
         Me.Label18.TabIndex = 31
         Me.Label18.Text = "" & Global.Microsoft.VisualBasic.ChrW(9) & "ខេត្ត :"
         '
-        'ComboBox2
+        'txtMaritalStatus
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"នៅលីវ", "រៀបការរួច", "លេងលះ", "ពោះម៉ាយ​ ឬ មេម៉ាយ"})
-        Me.ComboBox2.Location = New System.Drawing.Point(660, 145)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(179, 32)
-        Me.ComboBox2.TabIndex = 32
+        Me.txtMaritalStatus.FormattingEnabled = True
+        Me.txtMaritalStatus.Items.AddRange(New Object() {"នៅលីវ", "រៀបការរួច", "លេងលះ", "ពោះម៉ាយ​ ឬ មេម៉ាយ"})
+        Me.txtMaritalStatus.Location = New System.Drawing.Point(660, 145)
+        Me.txtMaritalStatus.Name = "txtMaritalStatus"
+        Me.txtMaritalStatus.Size = New System.Drawing.Size(179, 32)
+        Me.txtMaritalStatus.TabIndex = 32
         '
         'Label12
         '
@@ -455,14 +456,14 @@ Partial Class frmStudentAdd
         Me.Label12.TabIndex = 31
         Me.Label12.Text = "ស្ថានភាពគ្រួសារ"
         '
-        'TextBox7
+        'txtNumOfDependants
         '
-        Me.TextBox7.BackColor = System.Drawing.SystemColors.Window
-        Me.TextBox7.ForeColor = System.Drawing.Color.Black
-        Me.TextBox7.Location = New System.Drawing.Point(433, 145)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(74, 32)
-        Me.TextBox7.TabIndex = 30
+        Me.txtNumOfDependants.BackColor = System.Drawing.SystemColors.Window
+        Me.txtNumOfDependants.ForeColor = System.Drawing.Color.Black
+        Me.txtNumOfDependants.Location = New System.Drawing.Point(433, 145)
+        Me.txtNumOfDependants.Name = "txtNumOfDependants"
+        Me.txtNumOfDependants.Size = New System.Drawing.Size(74, 32)
+        Me.txtNumOfDependants.TabIndex = 30
         '
         'Label10
         '
@@ -474,55 +475,56 @@ Partial Class frmStudentAdd
         Me.Label10.TabIndex = 29
         Me.Label10.Text = "ចំនួនសមាជិកគ្រួសារក្នុងបន្ទុក"
         '
-        'TextBox12
+        'txtParentPhone
         '
-        Me.TextBox12.ForeColor = System.Drawing.Color.Black
-        Me.TextBox12.Location = New System.Drawing.Point(574, 336)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(265, 32)
-        Me.TextBox12.TabIndex = 28
+        Me.txtParentPhone.ForeColor = System.Drawing.Color.Black
+        Me.txtParentPhone.Location = New System.Drawing.Point(574, 336)
+        Me.txtParentPhone.Name = "txtParentPhone"
+        Me.txtParentPhone.Size = New System.Drawing.Size(265, 32)
+        Me.txtParentPhone.TabIndex = 28
         '
-        'TextBox14
+        'txtParentAdress
         '
-        Me.TextBox14.ForeColor = System.Drawing.Color.Black
-        Me.TextBox14.Location = New System.Drawing.Point(527, 374)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(312, 32)
-        Me.TextBox14.TabIndex = 28
+        Me.txtParentAdress.ForeColor = System.Drawing.Color.Black
+        Me.txtParentAdress.Location = New System.Drawing.Point(149, 411)
+        Me.txtParentAdress.Name = "txtParentAdress"
+        Me.txtParentAdress.Size = New System.Drawing.Size(690, 32)
+        Me.txtParentAdress.TabIndex = 28
         '
-        'TextBox13
+        'txtParentMail
         '
-        Me.TextBox13.ForeColor = System.Drawing.Color.Black
-        Me.TextBox13.Location = New System.Drawing.Point(149, 373)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(244, 32)
-        Me.TextBox13.TabIndex = 28
+        Me.txtParentMail.ForeColor = System.Drawing.Color.Black
+        Me.txtParentMail.Location = New System.Drawing.Point(149, 373)
+        Me.txtParentMail.Name = "txtParentMail"
+        Me.txtParentMail.Size = New System.Drawing.Size(244, 32)
+        Me.txtParentMail.TabIndex = 28
         '
-        'TextBox11
+        'txtParentName
         '
-        Me.TextBox11.ForeColor = System.Drawing.Color.Black
-        Me.TextBox11.Location = New System.Drawing.Point(149, 335)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(244, 32)
-        Me.TextBox11.TabIndex = 28
+        Me.txtParentName.ForeColor = System.Drawing.Color.Black
+        Me.txtParentName.Location = New System.Drawing.Point(149, 335)
+        Me.txtParentName.Name = "txtParentName"
+        Me.txtParentName.Size = New System.Drawing.Size(244, 32)
+        Me.txtParentName.TabIndex = 28
         '
-        'TextBox6
+        'txtStuID
         '
-        Me.TextBox6.ForeColor = System.Drawing.Color.Black
-        Me.TextBox6.Location = New System.Drawing.Point(149, 145)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(110, 32)
-        Me.TextBox6.TabIndex = 28
+        Me.txtStuID.ForeColor = System.Drawing.Color.Black
+        Me.txtStuID.Location = New System.Drawing.Point(149, 145)
+        Me.txtStuID.Name = "txtStuID"
+        Me.txtStuID.Size = New System.Drawing.Size(110, 32)
+        Me.txtStuID.TabIndex = 28
         '
         'Label24
         '
         Me.Label24.AutoSize = True
         Me.Label24.ForeColor = System.Drawing.Color.Black
-        Me.Label24.Location = New System.Drawing.Point(398, 377)
+        Me.Label24.Location = New System.Drawing.Point(6, 410)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(122, 24)
+        Me.Label24.Size = New System.Drawing.Size(130, 24)
         Me.Label24.TabIndex = 27
-        Me.Label24.Text = "ឈ្មោះអាណាព្យាបាល"
+        Me.Label24.Text = "ទីលំនៅអាណាព្យាបាល"
+        Me.Label24.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label22
         '
@@ -588,13 +590,13 @@ Partial Class frmStudentAdd
         Me.Label9.TabIndex = 27
         Me.Label9.Text = "អត្តលេខសិស្ស"
         '
-        'TextBox5
+        'txtNationalid
         '
-        Me.TextBox5.ForeColor = System.Drawing.Color.Black
-        Me.TextBox5.Location = New System.Drawing.Point(660, 107)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(179, 32)
-        Me.TextBox5.TabIndex = 26
+        Me.txtNationalid.ForeColor = System.Drawing.Color.Black
+        Me.txtNationalid.Location = New System.Drawing.Point(660, 107)
+        Me.txtNationalid.Name = "txtNationalid"
+        Me.txtNationalid.Size = New System.Drawing.Size(179, 32)
+        Me.txtNationalid.TabIndex = 26
         '
         'Label8
         '
@@ -615,14 +617,14 @@ Partial Class frmStudentAdd
         Me.DateTimePicker1.Size = New System.Drawing.Size(130, 32)
         Me.DateTimePicker1.TabIndex = 24
         '
-        'ComboBox1
+        'cboGender
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBox1.Location = New System.Drawing.Point(149, 107)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(111, 32)
-        Me.ComboBox1.TabIndex = 23
+        Me.cboGender.FormattingEnabled = True
+        Me.cboGender.Items.AddRange(New Object() {"Male", "Female"})
+        Me.cboGender.Location = New System.Drawing.Point(149, 107)
+        Me.cboGender.Name = "cboGender"
+        Me.cboGender.Size = New System.Drawing.Size(111, 32)
+        Me.cboGender.TabIndex = 23
         '
         'Label7
         '
@@ -644,14 +646,14 @@ Partial Class frmStudentAdd
         Me.Label6.TabIndex = 18
         Me.Label6.Text = "ភេទ"
         '
-        'TextBox4
+        'txtLNameEN
         '
-        Me.TextBox4.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.TextBox4.ForeColor = System.Drawing.Color.Black
-        Me.TextBox4.Location = New System.Drawing.Point(553, 68)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(286, 32)
-        Me.TextBox4.TabIndex = 17
+        Me.txtLNameEN.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.txtLNameEN.ForeColor = System.Drawing.Color.Black
+        Me.txtLNameEN.Location = New System.Drawing.Point(553, 68)
+        Me.txtLNameEN.Name = "txtLNameEN"
+        Me.txtLNameEN.Size = New System.Drawing.Size(286, 32)
+        Me.txtLNameEN.TabIndex = 17
         '
         'Label5
         '
@@ -663,14 +665,14 @@ Partial Class frmStudentAdd
         Me.Label5.TabIndex = 16
         Me.Label5.Text = "នាម(ឡាតាំង)"
         '
-        'TextBox3
+        'txtLNameKH
         '
-        Me.TextBox3.BackColor = System.Drawing.SystemColors.InactiveBorder
-        Me.TextBox3.ForeColor = System.Drawing.Color.Black
-        Me.TextBox3.Location = New System.Drawing.Point(149, 68)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(274, 32)
-        Me.TextBox3.TabIndex = 15
+        Me.txtLNameKH.BackColor = System.Drawing.SystemColors.InactiveBorder
+        Me.txtLNameKH.ForeColor = System.Drawing.Color.Black
+        Me.txtLNameKH.Location = New System.Drawing.Point(149, 68)
+        Me.txtLNameKH.Name = "txtLNameKH"
+        Me.txtLNameKH.Size = New System.Drawing.Size(274, 32)
+        Me.txtLNameKH.TabIndex = 15
         '
         'Label3
         '
@@ -682,23 +684,23 @@ Partial Class frmStudentAdd
         Me.Label3.TabIndex = 14
         Me.Label3.Text = "នាម(ខ្មែរ)"
         '
-        'TextBox2
+        'txtFNameEN
         '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.TextBox2.ForeColor = System.Drawing.Color.Black
-        Me.TextBox2.Location = New System.Drawing.Point(553, 30)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(286, 32)
-        Me.TextBox2.TabIndex = 13
+        Me.txtFNameEN.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.txtFNameEN.ForeColor = System.Drawing.Color.Black
+        Me.txtFNameEN.Location = New System.Drawing.Point(553, 30)
+        Me.txtFNameEN.Name = "txtFNameEN"
+        Me.txtFNameEN.Size = New System.Drawing.Size(286, 32)
+        Me.txtFNameEN.TabIndex = 13
         '
-        'TextBox1
+        'txtFNameKh
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.InactiveBorder
-        Me.TextBox1.ForeColor = System.Drawing.Color.Black
-        Me.TextBox1.Location = New System.Drawing.Point(149, 31)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(274, 32)
-        Me.TextBox1.TabIndex = 12
+        Me.txtFNameKh.BackColor = System.Drawing.SystemColors.InactiveBorder
+        Me.txtFNameKh.ForeColor = System.Drawing.Color.Black
+        Me.txtFNameKh.Location = New System.Drawing.Point(149, 31)
+        Me.txtFNameKh.Name = "txtFNameKh"
+        Me.txtFNameKh.Size = New System.Drawing.Size(274, 32)
+        Me.txtFNameKh.TabIndex = 12
         '
         'Label4
         '
@@ -737,14 +739,14 @@ Partial Class frmStudentAdd
         Me.GroupBox6.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.GroupBox6.Controls.Add(Me.Button8)
         Me.GroupBox6.Controls.Add(Me.Button7)
-        Me.GroupBox6.Controls.Add(Me.ListView1)
-        Me.GroupBox6.Controls.Add(Me.ComboBox8)
-        Me.GroupBox6.Controls.Add(Me.ComboBox7)
+        Me.GroupBox6.Controls.Add(Me.LVCourseOfEdu)
+        Me.GroupBox6.Controls.Add(Me.cboCourseType)
+        Me.GroupBox6.Controls.Add(Me.cboTvet)
         Me.GroupBox6.Controls.Add(Me.Label25)
-        Me.GroupBox6.Controls.Add(Me.TextBox16)
-        Me.GroupBox6.Controls.Add(Me.TextBox18)
-        Me.GroupBox6.Controls.Add(Me.TextBox17)
-        Me.GroupBox6.Controls.Add(Me.TextBox15)
+        Me.GroupBox6.Controls.Add(Me.txtEndCCourse)
+        Me.GroupBox6.Controls.Add(Me.txtLocation)
+        Me.GroupBox6.Controls.Add(Me.txtSclName)
+        Me.GroupBox6.Controls.Add(Me.txtTermName)
         Me.GroupBox6.Controls.Add(Me.Label31)
         Me.GroupBox6.Controls.Add(Me.Label30)
         Me.GroupBox6.Controls.Add(Me.Label29)
@@ -778,31 +780,31 @@ Partial Class frmStudentAdd
         Me.Button7.Text = "Button7"
         Me.Button7.UseVisualStyleBackColor = True
         '
-        'ListView1
+        'LVCourseOfEdu
         '
-        Me.ListView1.Location = New System.Drawing.Point(14, 139)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(820, 196)
-        Me.ListView1.TabIndex = 29
-        Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.LVCourseOfEdu.Location = New System.Drawing.Point(14, 139)
+        Me.LVCourseOfEdu.Name = "LVCourseOfEdu"
+        Me.LVCourseOfEdu.Size = New System.Drawing.Size(820, 196)
+        Me.LVCourseOfEdu.TabIndex = 29
+        Me.LVCourseOfEdu.UseCompatibleStateImageBehavior = False
         '
-        'ComboBox8
+        'cboCourseType
         '
-        Me.ComboBox8.FormattingEnabled = True
-        Me.ComboBox8.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBox8.Location = New System.Drawing.Point(284, 97)
-        Me.ComboBox8.Name = "ComboBox8"
-        Me.ComboBox8.Size = New System.Drawing.Size(152, 32)
-        Me.ComboBox8.TabIndex = 23
+        Me.cboCourseType.FormattingEnabled = True
+        Me.cboCourseType.Items.AddRange(New Object() {"Male", "Female"})
+        Me.cboCourseType.Location = New System.Drawing.Point(284, 97)
+        Me.cboCourseType.Name = "cboCourseType"
+        Me.cboCourseType.Size = New System.Drawing.Size(152, 32)
+        Me.cboCourseType.TabIndex = 23
         '
-        'ComboBox7
+        'cboTvet
         '
-        Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Items.AddRange(New Object() {"ទេ", "បាទ/ចាស"})
-        Me.ComboBox7.Location = New System.Drawing.Point(179, 98)
-        Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(99, 32)
-        Me.ComboBox7.TabIndex = 23
+        Me.cboTvet.FormattingEnabled = True
+        Me.cboTvet.Items.AddRange(New Object() {"ទេ", "បាទ/ចាស"})
+        Me.cboTvet.Location = New System.Drawing.Point(179, 98)
+        Me.cboTvet.Name = "cboTvet"
+        Me.cboTvet.Size = New System.Drawing.Size(99, 32)
+        Me.cboTvet.TabIndex = 23
         '
         'Label25
         '
@@ -815,37 +817,37 @@ Partial Class frmStudentAdd
         Me.Label25.TabIndex = 18
         Me.Label25.Text = "កម្មវិធី-វគ្គបណ្ដុះបណ្ដាល​ដែលបាន​ឆ្លងកាត់:"
         '
-        'TextBox16
+        'txtEndCCourse
         '
-        Me.TextBox16.ForeColor = System.Drawing.Color.Black
-        Me.TextBox16.Location = New System.Drawing.Point(442, 98)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(81, 32)
-        Me.TextBox16.TabIndex = 28
+        Me.txtEndCCourse.ForeColor = System.Drawing.Color.Black
+        Me.txtEndCCourse.Location = New System.Drawing.Point(442, 98)
+        Me.txtEndCCourse.Name = "txtEndCCourse"
+        Me.txtEndCCourse.Size = New System.Drawing.Size(81, 32)
+        Me.txtEndCCourse.TabIndex = 28
         '
-        'TextBox18
+        'txtLocation
         '
-        Me.TextBox18.ForeColor = System.Drawing.Color.Black
-        Me.TextBox18.Location = New System.Drawing.Point(692, 97)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(142, 32)
-        Me.TextBox18.TabIndex = 28
+        Me.txtLocation.ForeColor = System.Drawing.Color.Black
+        Me.txtLocation.Location = New System.Drawing.Point(692, 97)
+        Me.txtLocation.Name = "txtLocation"
+        Me.txtLocation.Size = New System.Drawing.Size(142, 32)
+        Me.txtLocation.TabIndex = 28
         '
-        'TextBox17
+        'txtSclName
         '
-        Me.TextBox17.ForeColor = System.Drawing.Color.Black
-        Me.TextBox17.Location = New System.Drawing.Point(529, 97)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(159, 32)
-        Me.TextBox17.TabIndex = 28
+        Me.txtSclName.ForeColor = System.Drawing.Color.Black
+        Me.txtSclName.Location = New System.Drawing.Point(529, 97)
+        Me.txtSclName.Name = "txtSclName"
+        Me.txtSclName.Size = New System.Drawing.Size(159, 32)
+        Me.txtSclName.TabIndex = 28
         '
-        'TextBox15
+        'txtTermName
         '
-        Me.TextBox15.ForeColor = System.Drawing.Color.Black
-        Me.TextBox15.Location = New System.Drawing.Point(14, 98)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(159, 32)
-        Me.TextBox15.TabIndex = 28
+        Me.txtTermName.ForeColor = System.Drawing.Color.Black
+        Me.txtTermName.Location = New System.Drawing.Point(14, 98)
+        Me.txtTermName.Name = "txtTermName"
+        Me.txtTermName.Size = New System.Drawing.Size(159, 32)
+        Me.txtTermName.TabIndex = 28
         '
         'Label31
         '
@@ -910,10 +912,10 @@ Partial Class frmStudentAdd
         'GroupBox3
         '
         Me.GroupBox3.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.GroupBox3.Controls.Add(Me.RadioButton2)
-        Me.GroupBox3.Controls.Add(Me.RadioButton1)
-        Me.GroupBox3.Controls.Add(Me.TextBox25)
-        Me.GroupBox3.Controls.Add(Me.ComboBox12)
+        Me.GroupBox3.Controls.Add(Me.rdbNo)
+        Me.GroupBox3.Controls.Add(Me.rdbYes)
+        Me.GroupBox3.Controls.Add(Me.txtEndyear)
+        Me.GroupBox3.Controls.Add(Me.cboGeneralEdu)
         Me.GroupBox3.Controls.Add(Me.Label44)
         Me.GroupBox3.Controls.Add(Me.Label43)
         Me.GroupBox3.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -925,52 +927,51 @@ Partial Class frmStudentAdd
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "(B) កម្រិតវប្បធម៌ទូទៅ"
         '
-        'RadioButton2
+        'rdbNo
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton2.Location = New System.Drawing.Point(574, 44)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(172, 28)
-        Me.RadioButton2.TabIndex = 35
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = " ទេ ។ បញ្ចប់ការសិក្សានៅឆ្នាំ"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.rdbNo.AutoSize = True
+        Me.rdbNo.ForeColor = System.Drawing.Color.Black
+        Me.rdbNo.Location = New System.Drawing.Point(562, 44)
+        Me.rdbNo.Name = "rdbNo"
+        Me.rdbNo.Size = New System.Drawing.Size(172, 28)
+        Me.rdbNo.TabIndex = 35
+        Me.rdbNo.TabStop = True
+        Me.rdbNo.Text = " ទេ ។ បញ្ចប់ការសិក្សានៅឆ្នាំ"
+        Me.rdbNo.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'rdbYes
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton1.Location = New System.Drawing.Point(574, 20)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(80, 28)
-        Me.RadioButton1.TabIndex = 35
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "បាទ​/​ចាស"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rdbYes.AutoSize = True
+        Me.rdbYes.ForeColor = System.Drawing.Color.Black
+        Me.rdbYes.Location = New System.Drawing.Point(562, 20)
+        Me.rdbYes.Name = "rdbYes"
+        Me.rdbYes.Size = New System.Drawing.Size(80, 28)
+        Me.rdbYes.TabIndex = 35
+        Me.rdbYes.TabStop = True
+        Me.rdbYes.Text = "បាទ​/​ចាស"
+        Me.rdbYes.UseVisualStyleBackColor = True
         '
-        'TextBox25
+        'txtEndyear
         '
-        Me.TextBox25.ForeColor = System.Drawing.Color.Black
-        Me.TextBox25.Location = New System.Drawing.Point(747, 39)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(87, 32)
-        Me.TextBox25.TabIndex = 28
+        Me.txtEndyear.ForeColor = System.Drawing.Color.Black
+        Me.txtEndyear.Location = New System.Drawing.Point(747, 39)
+        Me.txtEndyear.Name = "txtEndyear"
+        Me.txtEndyear.Size = New System.Drawing.Size(87, 32)
+        Me.txtEndyear.TabIndex = 28
         '
-        'ComboBox12
+        'cboGeneralEdu
         '
-        Me.ComboBox12.FormattingEnabled = True
-        Me.ComboBox12.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBox12.Location = New System.Drawing.Point(149, 29)
-        Me.ComboBox12.Name = "ComboBox12"
-        Me.ComboBox12.Size = New System.Drawing.Size(196, 32)
-        Me.ComboBox12.TabIndex = 23
+        Me.cboGeneralEdu.FormattingEnabled = True
+        Me.cboGeneralEdu.Location = New System.Drawing.Point(149, 29)
+        Me.cboGeneralEdu.Name = "cboGeneralEdu"
+        Me.cboGeneralEdu.Size = New System.Drawing.Size(168, 32)
+        Me.cboGeneralEdu.TabIndex = 23
         '
         'Label44
         '
         Me.Label44.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Label44.ForeColor = System.Drawing.Color.Black
-        Me.Label44.Location = New System.Drawing.Point(351, 20)
+        Me.Label44.Location = New System.Drawing.Point(335, 20)
         Me.Label44.Name = "Label44"
         Me.Label44.Padding = New System.Windows.Forms.Padding(2)
         Me.Label44.Size = New System.Drawing.Size(211, 52)
@@ -1008,7 +1009,7 @@ Partial Class frmStudentAdd
         Me.GroupBox4.Controls.Add(Me.ComboBox10)
         Me.GroupBox4.Controls.Add(Me.ComboBox11)
         Me.GroupBox4.Controls.Add(Me.ComboBox9)
-        Me.GroupBox4.Controls.Add(Me.ComboBox18)
+        Me.GroupBox4.Controls.Add(Me.cboEmStatus)
         Me.GroupBox4.Controls.Add(Me.Label33)
         Me.GroupBox4.Controls.Add(Me.Label69)
         Me.GroupBox4.Controls.Add(Me.Label32)
@@ -1094,14 +1095,14 @@ Partial Class frmStudentAdd
         Me.ComboBox9.Size = New System.Drawing.Size(193, 32)
         Me.ComboBox9.TabIndex = 23
         '
-        'ComboBox18
+        'cboEmStatus
         '
-        Me.ComboBox18.FormattingEnabled = True
-        Me.ComboBox18.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBox18.Location = New System.Drawing.Point(153, 32)
-        Me.ComboBox18.Name = "ComboBox18"
-        Me.ComboBox18.Size = New System.Drawing.Size(193, 32)
-        Me.ComboBox18.TabIndex = 23
+        Me.cboEmStatus.FormattingEnabled = True
+        Me.cboEmStatus.Items.AddRange(New Object() {"Male", "Female"})
+        Me.cboEmStatus.Location = New System.Drawing.Point(153, 32)
+        Me.cboEmStatus.Name = "cboEmStatus"
+        Me.cboEmStatus.Size = New System.Drawing.Size(193, 32)
+        Me.cboEmStatus.TabIndex = 23
         '
         'Label33
         '
@@ -1173,6 +1174,14 @@ Partial Class frmStudentAdd
         Me.GroupBox5.TabIndex = 9
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "(E) ការបញ្ចេញព័ត៌មានដោយស្ម័គ្រចិត្ត"
+        '
+        'ListView3
+        '
+        Me.ListView3.Location = New System.Drawing.Point(15, 176)
+        Me.ListView3.Name = "ListView3"
+        Me.ListView3.Size = New System.Drawing.Size(820, 235)
+        Me.ListView3.TabIndex = 37
+        Me.ListView3.UseCompatibleStateImageBehavior = False
         '
         'Label82
         '
@@ -1250,14 +1259,6 @@ Partial Class frmStudentAdd
         Me.Label93.TabIndex = 0
         Me.Label93.Text = "មូលហេតុរារាំងមិនឲ្យធ្វើការងារ"
         '
-        'ListView3
-        '
-        Me.ListView3.Location = New System.Drawing.Point(15, 176)
-        Me.ListView3.Name = "ListView3"
-        Me.ListView3.Size = New System.Drawing.Size(820, 235)
-        Me.ListView3.TabIndex = 37
-        Me.ListView3.UseCompatibleStateImageBehavior = False
-        '
         'frmStudentAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1304,28 +1305,28 @@ Partial Class frmStudentAdd
     Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents TextBox10 As System.Windows.Forms.TextBox
+    Friend WithEvents txtPob As System.Windows.Forms.TextBox
     Friend WithEvents Label17 As System.Windows.Forms.Label
-    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
+    Friend WithEvents txtDob As System.Windows.Forms.TextBox
     Friend WithEvents Label16 As System.Windows.Forms.Label
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents txtTravelDistance As System.Windows.Forms.TextBox
     Friend WithEvents Label13 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox6 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboTransportMethod As System.Windows.Forms.ComboBox
+    Friend WithEvents cboCommune As System.Windows.Forms.ComboBox
     Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox5 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboDistrict As System.Windows.Forms.ComboBox
     Friend WithEvents Label19 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboProvice As System.Windows.Forms.ComboBox
     Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents txtMaritalStatus As System.Windows.Forms.ComboBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNumOfDependants As System.Windows.Forms.TextBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents TextBox12 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox14 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox13 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox11 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
+    Friend WithEvents txtParentPhone As System.Windows.Forms.TextBox
+    Friend WithEvents txtParentAdress As System.Windows.Forms.TextBox
+    Friend WithEvents txtParentMail As System.Windows.Forms.TextBox
+    Friend WithEvents txtParentName As System.Windows.Forms.TextBox
+    Friend WithEvents txtStuID As System.Windows.Forms.TextBox
     Friend WithEvents Label24 As System.Windows.Forms.Label
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents Label23 As System.Windows.Forms.Label
@@ -1333,43 +1334,43 @@ Partial Class frmStudentAdd
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNationalid As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboGender As System.Windows.Forms.ComboBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtLNameEN As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtLNameKH As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtFNameEN As System.Windows.Forms.TextBox
+    Friend WithEvents txtFNameKh As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents ComboBox12 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboGeneralEdu As System.Windows.Forms.ComboBox
     Friend WithEvents Label43 As System.Windows.Forms.Label
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents Label48 As System.Windows.Forms.Label
     Friend WithEvents Label51 As System.Windows.Forms.Label
     Friend WithEvents ComboBox13 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox18 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboEmStatus As System.Windows.Forms.ComboBox
     Friend WithEvents Label69 As System.Windows.Forms.Label
     Friend WithEvents Label70 As System.Windows.Forms.Label
     Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
     Friend WithEvents Label82 As System.Windows.Forms.Label
     Friend WithEvents Label92 As System.Windows.Forms.Label
     Friend WithEvents Label93 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
+    Friend WithEvents rdbNo As System.Windows.Forms.RadioButton
+    Friend WithEvents rdbYes As System.Windows.Forms.RadioButton
     Friend WithEvents Label44 As System.Windows.Forms.Label
-    Friend WithEvents TextBox25 As System.Windows.Forms.TextBox
+    Friend WithEvents txtEndyear As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
-    Friend WithEvents ComboBox7 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboTvet As System.Windows.Forms.ComboBox
     Friend WithEvents Label26 As System.Windows.Forms.Label
     Friend WithEvents Label25 As System.Windows.Forms.Label
     Friend WithEvents Label31 As System.Windows.Forms.Label
@@ -1377,12 +1378,12 @@ Partial Class frmStudentAdd
     Friend WithEvents Label29 As System.Windows.Forms.Label
     Friend WithEvents Label28 As System.Windows.Forms.Label
     Friend WithEvents Label27 As System.Windows.Forms.Label
-    Friend WithEvents TextBox15 As System.Windows.Forms.TextBox
-    Friend WithEvents ComboBox8 As System.Windows.Forms.ComboBox
-    Friend WithEvents TextBox16 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox18 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox17 As System.Windows.Forms.TextBox
-    Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Friend WithEvents txtTermName As System.Windows.Forms.TextBox
+    Friend WithEvents cboCourseType As System.Windows.Forms.ComboBox
+    Friend WithEvents txtEndCCourse As System.Windows.Forms.TextBox
+    Friend WithEvents txtLocation As System.Windows.Forms.TextBox
+    Friend WithEvents txtSclName As System.Windows.Forms.TextBox
+    Friend WithEvents LVCourseOfEdu As System.Windows.Forms.ListView
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents TextBox19 As System.Windows.Forms.TextBox
