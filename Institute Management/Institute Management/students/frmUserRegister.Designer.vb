@@ -72,7 +72,7 @@ Partial Class frmUserRegister
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(860, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(175, 202)
+        Me.PictureBox1.Size = New System.Drawing.Size(175, 174)
         Me.PictureBox1.TabIndex = 16
         Me.PictureBox1.TabStop = False
         '
@@ -95,7 +95,7 @@ Partial Class frmUserRegister
         '
         Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button2.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(952, 220)
+        Me.Button2.Location = New System.Drawing.Point(952, 192)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(83, 35)
         Me.Button2.TabIndex = 18
@@ -106,7 +106,7 @@ Partial Class frmUserRegister
         '
         Me.btnBrowIM.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnBrowIM.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBrowIM.Location = New System.Drawing.Point(860, 220)
+        Me.btnBrowIM.Location = New System.Drawing.Point(860, 192)
         Me.btnBrowIM.Name = "btnBrowIM"
         Me.btnBrowIM.Size = New System.Drawing.Size(86, 35)
         Me.btnBrowIM.TabIndex = 17
@@ -121,16 +121,16 @@ Partial Class frmUserRegister
         Me.GroupBox2.Controls.Add(Me.Button4)
         Me.GroupBox2.Controls.Add(Me.Button5)
         Me.GroupBox2.Controls.Add(Me.Button6)
-        Me.GroupBox2.Location = New System.Drawing.Point(860, 263)
+        Me.GroupBox2.Location = New System.Drawing.Point(860, 233)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(175, 228)
+        Me.GroupBox2.Size = New System.Drawing.Size(175, 258)
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
         '
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(6, 13)
+        Me.Button8.Location = New System.Drawing.Point(6, 8)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(163, 34)
         Me.Button8.TabIndex = 2
@@ -140,7 +140,7 @@ Partial Class frmUserRegister
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(6, 185)
+        Me.Button7.Location = New System.Drawing.Point(6, 217)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(163, 34)
         Me.Button7.TabIndex = 2
@@ -150,7 +150,7 @@ Partial Class frmUserRegister
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(6, 143)
+        Me.Button4.Location = New System.Drawing.Point(6, 138)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(163, 34)
         Me.Button4.TabIndex = 2
@@ -160,7 +160,7 @@ Partial Class frmUserRegister
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(6, 96)
+        Me.Button5.Location = New System.Drawing.Point(6, 91)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(163, 34)
         Me.Button5.TabIndex = 2
@@ -171,7 +171,7 @@ Partial Class frmUserRegister
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button6.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(6, 53)
+        Me.Button6.Location = New System.Drawing.Point(6, 48)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(163, 34)
         Me.Button6.TabIndex = 1
