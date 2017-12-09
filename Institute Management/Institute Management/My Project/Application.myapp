@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MyApplicationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MySubMain>true</MySubMain>
-<<<<<<< HEAD
   <MainForm>frmStudentRegistration</MainForm>
-=======
-  <MainForm>frmStudentList</MainForm>
->>>>>>> ab78979b658b771bd710e9aa9b72d607f2bf053c
   <SingleInstance>false</SingleInstance>
   <ShutdownMode>0</ShutdownMode>
   <EnableVisualStyles>true</EnableVisualStyles>
