@@ -22,8 +22,6 @@ Partial Class frmStudentAdd
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -129,7 +127,9 @@ Partial Class frmStudentAdd
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label92 = New System.Windows.Forms.Label()
         Me.Label93 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.txtid = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -141,33 +141,8 @@ Partial Class frmStudentAdd
         Me.GroupBox4.SuspendLayout()
         Me.TabPage4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(914, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(175, 187)
-        Me.PictureBox1.TabIndex = 6
-        Me.PictureBox1.TabStop = False
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label2.BackColor = System.Drawing.Color.Navy
-        Me.Label2.Font = New System.Drawing.Font("Khmer OS Battambang", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(1, -2)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label2.Size = New System.Drawing.Size(1101, 56)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "ព័ត៌មាន​សង្ខេប​របស់​សិស្ស"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox2
         '
@@ -1259,20 +1234,53 @@ Partial Class frmStudentAdd
         Me.Label93.TabIndex = 0
         Me.Label93.Text = "មូលហេតុរារាំងមិនឲ្យធ្វើការងារ"
         '
+        'txtid
+        '
+        Me.txtid.Location = New System.Drawing.Point(8, -2)
+        Me.txtid.Name = "txtid"
+        Me.txtid.Size = New System.Drawing.Size(34, 20)
+        Me.txtid.TabIndex = 12
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label2.BackColor = System.Drawing.Color.Navy
+        Me.Label2.Font = New System.Drawing.Font("Khmer OS Battambang", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(0, -1)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Padding = New System.Windows.Forms.Padding(5)
+        Me.Label2.Size = New System.Drawing.Size(1101, 56)
+        Me.Label2.TabIndex = 13
+        Me.Label2.Text = "ព័ត៌មាន​សង្ខេប​របស់​សិស្ស"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Location = New System.Drawing.Point(914, 5)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(175, 187)
+        Me.PictureBox1.TabIndex = 14
+        Me.PictureBox1.TabStop = False
+        '
         'frmStudentAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1101, 556)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.txtid)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Label2)
         Me.Name = "frmStudentAdd"
         Me.Text = "frmStudentAdd"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
@@ -1289,11 +1297,11 @@ Partial Class frmStudentAdd
         Me.TabPage4.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
@@ -1399,4 +1407,7 @@ Partial Class frmStudentAdd
     Friend WithEvents Label34 As System.Windows.Forms.Label
     Friend WithEvents ComboBox17 As System.Windows.Forms.ComboBox
     Friend WithEvents ListView3 As System.Windows.Forms.ListView
+    Friend WithEvents txtid As System.Windows.Forms.TextBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class
