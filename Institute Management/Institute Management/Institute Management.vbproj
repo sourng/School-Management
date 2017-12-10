@@ -82,40 +82,40 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Course\Curriculum_Author.Designer.vb">
+    <Compile Include="LongCourse\Curriculum_Author.Designer.vb">
       <DependentUpon>Curriculum_Author.vb</DependentUpon>
     </Compile>
-    <Compile Include="Course\Curriculum_Author.vb">
+    <Compile Include="LongCourse\Curriculum_Author.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Course\Curriculum_Endorsement.Designer.vb">
+    <Compile Include="LongCourse\Curriculum_Endorsement.Designer.vb">
       <DependentUpon>Curriculum_Endorsement.vb</DependentUpon>
     </Compile>
-    <Compile Include="Course\Curriculum_Endorsement.vb">
+    <Compile Include="LongCourse\Curriculum_Endorsement.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Course\Generation_Group_Name.Designer.vb">
+    <Compile Include="LongCourse\Generation_Group_Name.Designer.vb">
       <DependentUpon>Generation_Group_Name.vb</DependentUpon>
     </Compile>
-    <Compile Include="Course\Generation_Group_Name.vb">
+    <Compile Include="LongCourse\Generation_Group_Name.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Course\Long_Program_List.Designer.vb">
+    <Compile Include="LongCourse\Long_Program_List.Designer.vb">
       <DependentUpon>Long_Program_List.vb</DependentUpon>
     </Compile>
-    <Compile Include="Course\Long_Program_List.vb">
+    <Compile Include="LongCourse\Long_Program_List.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Course\Overall_Fund.Designer.vb">
+    <Compile Include="LongCourse\Overall_Fund.Designer.vb">
       <DependentUpon>Overall_Fund.vb</DependentUpon>
     </Compile>
-    <Compile Include="Course\Overall_Fund.vb">
+    <Compile Include="LongCourse\Overall_Fund.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Course\Register_Long_Program.Designer.vb">
+    <Compile Include="LongCourse\Register_Long_Program.Designer.vb">
       <DependentUpon>Register_Long_Program.vb</DependentUpon>
     </Compile>
-    <Compile Include="Course\Register_Long_Program.vb">
+    <Compile Include="LongCourse\Register_Long_Program.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -139,6 +139,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ShortCourse\Short_Course_List.Designer.vb">
+      <DependentUpon>Short_Course_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShortCourse\Short_Course_List.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="students\frmCapture.Designer.vb">
       <DependentUpon>frmCapture.vb</DependentUpon>
@@ -184,22 +190,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Course\Curriculum_Author.resx">
+    <EmbeddedResource Include="LongCourse\Curriculum_Author.resx">
       <DependentUpon>Curriculum_Author.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Course\Curriculum_Endorsement.resx">
+    <EmbeddedResource Include="LongCourse\Curriculum_Endorsement.resx">
       <DependentUpon>Curriculum_Endorsement.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Course\Generation_Group_Name.resx">
+    <EmbeddedResource Include="LongCourse\Generation_Group_Name.resx">
       <DependentUpon>Generation_Group_Name.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Course\Long_Program_List.resx">
+    <EmbeddedResource Include="LongCourse\Long_Program_List.resx">
       <DependentUpon>Long_Program_List.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Course\Overall_Fund.resx">
+    <EmbeddedResource Include="LongCourse\Overall_Fund.resx">
       <DependentUpon>Overall_Fund.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Course\Register_Long_Program.resx">
+    <EmbeddedResource Include="LongCourse\Register_Long_Program.resx">
       <DependentUpon>Register_Long_Program.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -207,6 +213,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortCourse\Short_Course_List.resx">
+      <DependentUpon>Short_Course_List.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="students\frmCapture.resx">
       <DependentUpon>frmCapture.vb</DependentUpon>

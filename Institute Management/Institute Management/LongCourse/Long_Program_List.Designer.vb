@@ -53,7 +53,7 @@ Partial Class Long_Program_List
         Me.Label2.Location = New System.Drawing.Point(1, -1)
         Me.Label2.Name = "Label2"
         Me.Label2.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label2.Size = New System.Drawing.Size(1032, 56)
+        Me.Label2.Size = New System.Drawing.Size(1029, 56)
         Me.Label2.TabIndex = 21
         Me.Label2.Text = "បញ្ជីកម្មវិធីវគ្គវែង (PL)"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -74,7 +74,7 @@ Partial Class Long_Program_List
         Me.GroupBox1.Controls.Add(Me.cbobach)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(20, 58)
+        Me.GroupBox1.Location = New System.Drawing.Point(25, 58)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(989, 449)
         Me.GroupBox1.TabIndex = 20
@@ -83,9 +83,9 @@ Partial Class Long_Program_List
         'LVCourse
         '
         Me.LVCourse.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5})
-        Me.LVCourse.Location = New System.Drawing.Point(6, 81)
+        Me.LVCourse.Location = New System.Drawing.Point(7, 81)
         Me.LVCourse.Name = "LVCourse"
-        Me.LVCourse.Size = New System.Drawing.Size(977, 362)
+        Me.LVCourse.Size = New System.Drawing.Size(786, 362)
         Me.LVCourse.TabIndex = 32
         Me.LVCourse.UseCompatibleStateImageBehavior = False
         Me.LVCourse.View = System.Windows.Forms.View.Details
@@ -118,13 +118,13 @@ Partial Class Long_Program_List
         '
         Me.txtID.Location = New System.Drawing.Point(6, 43)
         Me.txtID.Name = "txtID"
-        Me.txtID.Size = New System.Drawing.Size(107, 32)
+        Me.txtID.Size = New System.Drawing.Size(92, 32)
         Me.txtID.TabIndex = 31
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(692, 15)
+        Me.Label12.Location = New System.Drawing.Point(660, 15)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(95, 24)
         Me.Label12.TabIndex = 1
@@ -133,7 +133,7 @@ Partial Class Long_Program_List
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(513, 15)
+        Me.Label6.Location = New System.Drawing.Point(488, 15)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(123, 24)
         Me.Label6.TabIndex = 1
@@ -142,7 +142,7 @@ Partial Class Long_Program_List
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(273, 15)
+        Me.Label5.Location = New System.Drawing.Point(253, 15)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(152, 24)
         Me.Label5.TabIndex = 1
@@ -151,7 +151,7 @@ Partial Class Long_Program_List
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(122, 15)
+        Me.Label3.Location = New System.Drawing.Point(106, 15)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(107, 24)
         Me.Label3.TabIndex = 1
@@ -160,7 +160,7 @@ Partial Class Long_Program_List
         'cboStuList
         '
         Me.cboStuList.FormattingEnabled = True
-        Me.cboStuList.Location = New System.Drawing.Point(692, 40)
+        Me.cboStuList.Location = New System.Drawing.Point(661, 40)
         Me.cboStuList.Name = "cboStuList"
         Me.cboStuList.Size = New System.Drawing.Size(132, 32)
         Me.cboStuList.TabIndex = 0
@@ -168,7 +168,7 @@ Partial Class Long_Program_List
         'cboPrType
         '
         Me.cboPrType.FormattingEnabled = True
-        Me.cboPrType.Location = New System.Drawing.Point(513, 43)
+        Me.cboPrType.Location = New System.Drawing.Point(488, 43)
         Me.cboPrType.Name = "cboPrType"
         Me.cboPrType.Size = New System.Drawing.Size(168, 32)
         Me.cboPrType.TabIndex = 0
@@ -185,7 +185,7 @@ Partial Class Long_Program_List
         'cboPrMainSubject
         '
         Me.cboPrMainSubject.FormattingEnabled = True
-        Me.cboPrMainSubject.Location = New System.Drawing.Point(273, 43)
+        Me.cboPrMainSubject.Location = New System.Drawing.Point(252, 43)
         Me.cboPrMainSubject.Name = "cboPrMainSubject"
         Me.cboPrMainSubject.Size = New System.Drawing.Size(231, 32)
         Me.cboPrMainSubject.TabIndex = 0
@@ -193,7 +193,7 @@ Partial Class Long_Program_List
         'cbobach
         '
         Me.cbobach.FormattingEnabled = True
-        Me.cbobach.Location = New System.Drawing.Point(119, 43)
+        Me.cbobach.Location = New System.Drawing.Point(103, 43)
         Me.cbobach.Name = "cbobach"
         Me.cbobach.Size = New System.Drawing.Size(144, 32)
         Me.cbobach.TabIndex = 0
@@ -202,7 +202,7 @@ Partial Class Long_Program_List
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1028, 512)
+        Me.ClientSize = New System.Drawing.Size(1025, 512)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Long_Program_List"
