@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Course_Name
+Partial Class Course_Code
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -45,12 +45,12 @@ Partial Class Course_Name
         Me.Label19.BackColor = System.Drawing.Color.Navy
         Me.Label19.Font = New System.Drawing.Font("Khmer OS Battambang", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(-1, -2)
+        Me.Label19.Location = New System.Drawing.Point(-3, -2)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(515, 56)
-        Me.Label19.TabIndex = 50
-        Me.Label19.Text = "ឈ្មោះវគ្គ"
+        Me.Label19.Size = New System.Drawing.Size(519, 56)
+        Me.Label19.TabIndex = 52
+        Me.Label19.Text = "លេខកូដវគ្គ"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox1
@@ -64,10 +64,10 @@ Partial Class Course_Name
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.txtCourseName)
         Me.GroupBox1.Controls.Add(Me.txtID)
-        Me.GroupBox1.Location = New System.Drawing.Point(1, 56)
+        Me.GroupBox1.Location = New System.Drawing.Point(5, 58)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(502, 428)
-        Me.GroupBox1.TabIndex = 49
+        Me.GroupBox1.TabIndex = 51
         Me.GroupBox1.TabStop = False
         '
         'btnUpdate
@@ -132,8 +132,8 @@ Partial Class Course_Name
         '
         'ColumnHeader2
         '
-        Me.ColumnHeader2.Text = "ឈ្មោះវគ្គ"
-        Me.ColumnHeader2.Width = 240
+        Me.ColumnHeader2.Text = "លេខកូដវគ្គ"
+        Me.ColumnHeader2.Width = 339
         '
         'Label3
         '
@@ -151,9 +151,9 @@ Partial Class Course_Name
         Me.Label1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 59)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(53, 22)
+        Me.Label1.Size = New System.Drawing.Size(62, 22)
         Me.Label1.TabIndex = 54
-        Me.Label1.Text = "ឈ្មោះវគ្គ"
+        Me.Label1.Text = "លេខកូដវគ្គ"
         '
         'txtCourseName
         '
@@ -171,15 +171,15 @@ Partial Class Course_Name
         Me.txtID.Size = New System.Drawing.Size(122, 30)
         Me.txtID.TabIndex = 56
         '
-        'Course_Name
+        'Course_Code
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(511, 496)
+        Me.ClientSize = New System.Drawing.Size(513, 486)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Course_Name"
-        Me.Text = "Course_Name"
+        Me.Name = "Course_Code"
+        Me.Text = "Course_Code"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
