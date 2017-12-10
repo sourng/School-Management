@@ -51,9 +51,9 @@ Partial Class Curriculum_Author
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(5, 70)
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 70)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(545, 384)
+        Me.GroupBox1.Size = New System.Drawing.Size(541, 348)
         Me.GroupBox1.TabIndex = 60
         Me.GroupBox1.TabStop = False
         '
@@ -107,7 +107,7 @@ Partial Class Curriculum_Author
         Me.LVBatch.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LVBatch.Location = New System.Drawing.Point(18, 103)
         Me.LVBatch.Name = "LVBatch"
-        Me.LVBatch.Size = New System.Drawing.Size(423, 266)
+        Me.LVBatch.Size = New System.Drawing.Size(423, 239)
         Me.LVBatch.TabIndex = 55
         Me.LVBatch.UseCompatibleStateImageBehavior = False
         Me.LVBatch.View = System.Windows.Forms.View.Details
@@ -165,7 +165,7 @@ Partial Class Curriculum_Author
         Me.Label19.Location = New System.Drawing.Point(-41, 11)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(601, 56)
+        Me.Label19.Size = New System.Drawing.Size(637, 56)
         Me.Label19.TabIndex = 59
         Me.Label19.Text = "កម្មវិធីសិក្សាបង្កើតឡើងដោយ"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -174,7 +174,7 @@ Partial Class Curriculum_Author
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(558, 451)
+        Me.ClientSize = New System.Drawing.Size(594, 451)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label19)
         Me.Name = "Curriculum_Author"
