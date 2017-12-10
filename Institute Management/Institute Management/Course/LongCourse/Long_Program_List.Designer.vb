@@ -53,14 +53,13 @@ Partial Class Long_Program_List
         Me.Label2.Location = New System.Drawing.Point(1, -1)
         Me.Label2.Name = "Label2"
         Me.Label2.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label2.Size = New System.Drawing.Size(1029, 56)
+        Me.Label2.Size = New System.Drawing.Size(821, 56)
         Me.Label2.TabIndex = 21
         Me.Label2.Text = "បញ្ជីកម្មវិធីវគ្គវែង (PL)"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox1
         '
-        Me.GroupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.GroupBox1.Controls.Add(Me.LVCourse)
         Me.GroupBox1.Controls.Add(Me.txtID)
         Me.GroupBox1.Controls.Add(Me.Label12)
@@ -74,9 +73,9 @@ Partial Class Long_Program_List
         Me.GroupBox1.Controls.Add(Me.cbobach)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(25, 58)
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 58)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(989, 449)
+        Me.GroupBox1.Size = New System.Drawing.Size(808, 449)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         '
@@ -202,7 +201,7 @@ Partial Class Long_Program_List
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1025, 512)
+        Me.ClientSize = New System.Drawing.Size(817, 512)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Long_Program_List"

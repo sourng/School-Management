@@ -48,15 +48,13 @@ Partial Class Register_Long_Program
         Me.Label19.Location = New System.Drawing.Point(-3, -1)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(572, 56)
+        Me.Label19.Size = New System.Drawing.Size(571, 56)
         Me.Label19.TabIndex = 22
         Me.Label19.Text = "ឈ្មោះកម្មវិធីសិក្សា (ជំ​នាញ)"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox1
         '
-        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.btnUpdate)
         Me.GroupBox1.Controls.Add(Me.btnDelete)
         Me.GroupBox1.Controls.Add(Me.btnAdd)
@@ -68,9 +66,9 @@ Partial Class Register_Long_Program
         Me.GroupBox1.Controls.Add(Me.txtID)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(4, 58)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 58)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(554, 348)
+        Me.GroupBox1.Size = New System.Drawing.Size(543, 347)
         Me.GroupBox1.TabIndex = 21
         Me.GroupBox1.TabStop = False
         '
@@ -78,9 +76,9 @@ Partial Class Register_Long_Program
         '
         Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(469, 146)
+        Me.btnUpdate.Location = New System.Drawing.Point(466, 55)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(65, 41)
+        Me.btnUpdate.Size = New System.Drawing.Size(65, 37)
         Me.btnUpdate.TabIndex = 56
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = False
@@ -89,7 +87,7 @@ Partial Class Register_Long_Program
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(469, 103)
+        Me.btnDelete.Location = New System.Drawing.Point(396, 51)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(65, 41)
         Me.btnDelete.TabIndex = 57
@@ -100,9 +98,9 @@ Partial Class Register_Long_Program
         '
         Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(469, 61)
+        Me.btnAdd.Location = New System.Drawing.Point(466, 8)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(65, 41)
+        Me.btnAdd.Size = New System.Drawing.Size(65, 37)
         Me.btnAdd.TabIndex = 58
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = False
@@ -111,9 +109,9 @@ Partial Class Register_Long_Program
         '
         Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(469, 18)
+        Me.btnClear.Location = New System.Drawing.Point(395, 8)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(65, 41)
+        Me.btnClear.Size = New System.Drawing.Size(65, 37)
         Me.btnClear.TabIndex = 59
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = False
@@ -122,9 +120,9 @@ Partial Class Register_Long_Program
         '
         Me.LVMainProgram.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader3, Me.ColumnHeader4})
         Me.LVMainProgram.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LVMainProgram.Location = New System.Drawing.Point(18, 103)
+        Me.LVMainProgram.Location = New System.Drawing.Point(18, 106)
         Me.LVMainProgram.Name = "LVMainProgram"
-        Me.LVMainProgram.Size = New System.Drawing.Size(423, 239)
+        Me.LVMainProgram.Size = New System.Drawing.Size(513, 229)
         Me.LVMainProgram.TabIndex = 55
         Me.LVMainProgram.UseCompatibleStateImageBehavior = False
         Me.LVMainProgram.View = System.Windows.Forms.View.Details
@@ -144,7 +142,7 @@ Partial Class Register_Long_Program
         Me.txtMainProgram.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMainProgram.Location = New System.Drawing.Point(172, 51)
         Me.txtMainProgram.Name = "txtMainProgram"
-        Me.txtMainProgram.Size = New System.Drawing.Size(269, 30)
+        Me.txtMainProgram.Size = New System.Drawing.Size(218, 30)
         Me.txtMainProgram.TabIndex = 54
         '
         'Label3
@@ -176,7 +174,7 @@ Partial Class Register_Long_Program
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(566, 486)
+        Me.ClientSize = New System.Drawing.Size(565, 406)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Register_Long_Program"
