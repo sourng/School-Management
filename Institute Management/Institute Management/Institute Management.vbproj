@@ -88,6 +88,36 @@
     <Compile Include="Course\Curriculum_Author.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Course\Curriculum_Endorsement.Designer.vb">
+      <DependentUpon>Curriculum_Endorsement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Course\Curriculum_Endorsement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\Generation_Group_Name.Designer.vb">
+      <DependentUpon>Generation_Group_Name.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Course\Generation_Group_Name.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\Long_Program_List.Designer.vb">
+      <DependentUpon>Long_Program_List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Course\Long_Program_List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\Overall_Fund.Designer.vb">
+      <DependentUpon>Overall_Fund.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Course\Overall_Fund.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Course\Register_Long_Program.Designer.vb">
+      <DependentUpon>Register_Long_Program.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Course\Register_Long_Program.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +186,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Course\Curriculum_Author.resx">
       <DependentUpon>Curriculum_Author.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\Curriculum_Endorsement.resx">
+      <DependentUpon>Curriculum_Endorsement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\Generation_Group_Name.resx">
+      <DependentUpon>Generation_Group_Name.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\Long_Program_List.resx">
+      <DependentUpon>Long_Program_List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\Overall_Fund.resx">
+      <DependentUpon>Overall_Fund.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Course\Register_Long_Program.resx">
+      <DependentUpon>Register_Long_Program.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -40,6 +40,8 @@ Partial Class Overall_Fund
         '
         'GroupBox1
         '
+        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.btnUpdate)
         Me.GroupBox1.Controls.Add(Me.btnDelete)
         Me.GroupBox1.Controls.Add(Me.btnAdd)
@@ -49,7 +51,7 @@ Partial Class Overall_Fund
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.txtOverallFund)
         Me.GroupBox1.Controls.Add(Me.txtID)
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 53)
+        Me.GroupBox1.Location = New System.Drawing.Point(2, 53)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(478, 359)
         Me.GroupBox1.TabIndex = 0
