@@ -37,7 +37,6 @@ Partial Class Long_Program_List
         Me.Label3 = New System.Windows.Forms.Label()
         Me.cboStuList = New System.Windows.Forms.ComboBox()
         Me.cboPrType = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.cboPrMainSubject = New System.Windows.Forms.ComboBox()
         Me.cbobach = New System.Windows.Forms.ComboBox()
         Me.btnUpdate = New System.Windows.Forms.Button()
@@ -76,7 +75,6 @@ Partial Class Long_Program_List
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.cboStuList)
         Me.GroupBox1.Controls.Add(Me.cboPrType)
-        Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.cboPrMainSubject)
         Me.GroupBox1.Controls.Add(Me.cbobach)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -123,9 +121,9 @@ Partial Class Long_Program_List
         '
         'txtID
         '
-        Me.txtID.Location = New System.Drawing.Point(11, 43)
+        Me.txtID.Location = New System.Drawing.Point(5, 31)
         Me.txtID.Name = "txtID"
-        Me.txtID.Size = New System.Drawing.Size(92, 32)
+        Me.txtID.Size = New System.Drawing.Size(58, 32)
         Me.txtID.TabIndex = 31
         '
         'Label12
@@ -179,15 +177,6 @@ Partial Class Long_Program_List
         Me.cboPrType.Name = "cboPrType"
         Me.cboPrType.Size = New System.Drawing.Size(168, 32)
         Me.cboPrType.TabIndex = 0
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(11, 15)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(58, 24)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "លេខរៀង"
         '
         'cboPrMainSubject
         '
@@ -278,7 +267,6 @@ Partial Class Long_Program_List
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents cboStuList As System.Windows.Forms.ComboBox
     Friend WithEvents cboPrType As System.Windows.Forms.ComboBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents cboPrMainSubject As System.Windows.Forms.ComboBox
     Friend WithEvents cbobach As System.Windows.Forms.ComboBox
     Friend WithEvents btnUpdate As System.Windows.Forms.Button

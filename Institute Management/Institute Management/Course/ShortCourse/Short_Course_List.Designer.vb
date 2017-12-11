@@ -30,19 +30,23 @@ Partial Class Short_Course_List
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.txtStuList = New System.Windows.Forms.TextBox()
         Me.txtID = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.cboTime = New System.Windows.Forms.ComboBox()
         Me.cboCourseCode = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cboCourseName = New System.Windows.Forms.ComboBox()
         Me.cboRecord = New System.Windows.Forms.ComboBox()
-        Me.txtStuList = New System.Windows.Forms.TextBox()
-        Me.cboTime = New System.Windows.Forms.ComboBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.btnAdd = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -56,7 +60,7 @@ Partial Class Short_Course_List
         Me.Label2.Location = New System.Drawing.Point(-3, -1)
         Me.Label2.Name = "Label2"
         Me.Label2.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label2.Size = New System.Drawing.Size(918, 48)
+        Me.Label2.Size = New System.Drawing.Size(967, 48)
         Me.Label2.TabIndex = 23
         Me.Label2.Text = "បញ្ជីវគ្គខ្លី"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -65,6 +69,10 @@ Partial Class Short_Course_List
         '
         Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.btnUpdate)
+        Me.GroupBox1.Controls.Add(Me.btnDelete)
+        Me.GroupBox1.Controls.Add(Me.btnAdd)
+        Me.GroupBox1.Controls.Add(Me.btnClear)
         Me.GroupBox1.Controls.Add(Me.LVCourse)
         Me.GroupBox1.Controls.Add(Me.txtStuList)
         Me.GroupBox1.Controls.Add(Me.txtID)
@@ -82,7 +90,7 @@ Partial Class Short_Course_List
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
         Me.GroupBox1.Location = New System.Drawing.Point(4, 51)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(897, 449)
+        Me.GroupBox1.Size = New System.Drawing.Size(946, 449)
         Me.GroupBox1.TabIndex = 22
         Me.GroupBox1.TabStop = False
         '
@@ -121,6 +129,18 @@ Partial Class Short_Course_List
         Me.ColumnHeader5.Text = "ចំនួនម៉ោងសិក្សារ"
         Me.ColumnHeader5.Width = 141
         '
+        'ColumnHeader6
+        '
+        Me.ColumnHeader6.Text = "បញ្ជីឈ្មោះសិស្ស"
+        Me.ColumnHeader6.Width = 145
+        '
+        'txtStuList
+        '
+        Me.txtStuList.Location = New System.Drawing.Point(719, 33)
+        Me.txtStuList.Name = "txtStuList"
+        Me.txtStuList.Size = New System.Drawing.Size(146, 32)
+        Me.txtStuList.TabIndex = 31
+        '
         'txtID
         '
         Me.txtID.Location = New System.Drawing.Point(6, 34)
@@ -136,6 +156,15 @@ Partial Class Short_Course_List
         Me.Label12.Size = New System.Drawing.Size(95, 24)
         Me.Label12.TabIndex = 1
         Me.Label12.Text = "បញ្ជីឈ្មោះសិស្ស"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(579, 7)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(98, 24)
+        Me.Label4.TabIndex = 1
+        Me.Label4.Text = "ចំនួនម៉ោងសិក្សារ"
         '
         'Label6
         '
@@ -163,6 +192,14 @@ Partial Class Short_Course_List
         Me.Label3.Size = New System.Drawing.Size(63, 24)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Record #"
+        '
+        'cboTime
+        '
+        Me.cboTime.FormattingEnabled = True
+        Me.cboTime.Location = New System.Drawing.Point(583, 34)
+        Me.cboTime.Name = "cboTime"
+        Me.cboTime.Size = New System.Drawing.Size(130, 32)
+        Me.cboTime.TabIndex = 0
         '
         'cboCourseCode
         '
@@ -197,40 +234,55 @@ Partial Class Short_Course_List
         Me.cboRecord.Size = New System.Drawing.Size(97, 32)
         Me.cboRecord.TabIndex = 0
         '
-        'txtStuList
+        'btnUpdate
         '
-        Me.txtStuList.Location = New System.Drawing.Point(719, 33)
-        Me.txtStuList.Name = "txtStuList"
-        Me.txtStuList.Size = New System.Drawing.Size(146, 32)
-        Me.txtStuList.TabIndex = 31
+        Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdate.Location = New System.Drawing.Point(871, 157)
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(65, 41)
+        Me.btnUpdate.TabIndex = 64
+        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.UseVisualStyleBackColor = False
         '
-        'cboTime
+        'btnDelete
         '
-        Me.cboTime.FormattingEnabled = True
-        Me.cboTime.Location = New System.Drawing.Point(583, 34)
-        Me.cboTime.Name = "cboTime"
-        Me.cboTime.Size = New System.Drawing.Size(130, 32)
-        Me.cboTime.TabIndex = 0
+        Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDelete.Location = New System.Drawing.Point(871, 114)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(65, 41)
+        Me.btnDelete.TabIndex = 65
+        Me.btnDelete.Text = "Delete"
+        Me.btnDelete.UseVisualStyleBackColor = False
         '
-        'Label4
+        'btnAdd
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(579, 7)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(98, 24)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "ចំនួនម៉ោងសិក្សារ"
+        Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAdd.Location = New System.Drawing.Point(871, 72)
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(65, 41)
+        Me.btnAdd.TabIndex = 66
+        Me.btnAdd.Text = "Add"
+        Me.btnAdd.UseVisualStyleBackColor = False
         '
-        'ColumnHeader6
+        'btnClear
         '
-        Me.ColumnHeader6.Text = "បញ្ជីឈ្មោះសិស្ស"
-        Me.ColumnHeader6.Width = 145
+        Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.Location = New System.Drawing.Point(871, 29)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(65, 41)
+        Me.btnClear.TabIndex = 67
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = False
         '
         'Short_Course_List
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(913, 512)
+        Me.ClientSize = New System.Drawing.Size(962, 512)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Short_Course_List"
@@ -261,4 +313,8 @@ Partial Class Short_Course_List
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents cboTime As System.Windows.Forms.ComboBox
     Friend WithEvents ColumnHeader6 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents btnUpdate As System.Windows.Forms.Button
+    Friend WithEvents btnDelete As System.Windows.Forms.Button
+    Friend WithEvents btnAdd As System.Windows.Forms.Button
+    Friend WithEvents btnClear As System.Windows.Forms.Button
 End Class
