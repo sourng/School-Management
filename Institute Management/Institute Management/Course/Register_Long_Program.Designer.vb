@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Register_Long_Program
+Partial Class Register_Long_Progr
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,8 +23,8 @@ Partial Class Register_Long_Program
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.TabControl1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,16 +39,6 @@ Partial Class Register_Long_Program
         Me.TabControl1.Size = New System.Drawing.Size(739, 428)
         Me.TabControl1.TabIndex = 0
         '
-        'TabPage2
-        '
-        Me.TabPage2.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(731, 391)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "ចុះបញ្ជីវគ្គវែង"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
         'TabPage1
         '
         Me.TabPage1.Location = New System.Drawing.Point(4, 33)
@@ -58,6 +48,16 @@ Partial Class Register_Long_Program
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "ចុះបញ្ជីវគ្គខ្លី"
         Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Location = New System.Drawing.Point(4, 33)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(731, 391)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "ចុះបញ្ជីវគ្គវែង"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'Register_Long_Program
         '

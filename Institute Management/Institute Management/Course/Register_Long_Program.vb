@@ -1,3 +1,2 @@
-﻿Public Class Register_Long_Program
-
+﻿Public Class Register_Long_Progr
 End Class

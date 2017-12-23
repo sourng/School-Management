@@ -38,12 +38,12 @@ Partial Class Long_Program_List
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.cboStuList = New System.Windows.Forms.ComboBox()
         Me.cboPrType = New System.Windows.Forms.ComboBox()
         Me.cboPrMainSubject = New System.Windows.Forms.ComboBox()
         Me.cbobach = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -199,6 +199,15 @@ Partial Class Long_Program_List
         Me.Label5.TabIndex = 1
         Me.Label5.Text = "ឈ្មោះកម្មវិធីសិក្សា (ជំ​នាញ)"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(7, 12)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(58, 24)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "លេខរៀង"
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -239,15 +248,6 @@ Partial Class Long_Program_List
         Me.cbobach.Name = "cbobach"
         Me.cbobach.Size = New System.Drawing.Size(144, 32)
         Me.cbobach.TabIndex = 0
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(7, 12)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(58, 24)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "លេខរៀង"
         '
         'Long_Program_List
         '
