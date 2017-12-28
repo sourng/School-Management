@@ -45,6 +45,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>if_school_object_study_student-14_2038389.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
       <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
@@ -58,6 +61,8 @@
       <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -82,6 +87,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="address\frmProvince.Designer.vb">
+      <DependentUpon>frmProvince.vb</DependentUpon>
+    </Compile>
+    <Compile Include="address\frmProvince.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Course\LongCourse\Curriculum_Author.Designer.vb">
       <DependentUpon>Curriculum_Author.vb</DependentUpon>
     </Compile>
@@ -131,6 +142,8 @@
     <Compile Include="Course\Register_Long_Program.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="InputLanguages.vb" />
+    <Compile Include="Modules\Mod_Functions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -208,6 +221,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="address\frmProvince.resx">
+      <DependentUpon>frmProvince.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Course\LongCourse\Curriculum_Author.resx">
       <DependentUpon>Curriculum_Author.vb</DependentUpon>
     </EmbeddedResource>
@@ -279,7 +295,27 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\if_Plus_206460.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_floppy_285657.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_edit-delete_23231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Find_27847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_document-new_23212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_close_delete_70975.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="if_school_object_study_student-14_2038389.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
