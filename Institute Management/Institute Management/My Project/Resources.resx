@@ -118,31 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="if_floppy_285657" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_floppy_285657.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_lock_43628" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_lock_43628.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lbl_province_kh" xml:space="preserve">
-    <value>ខេត្ត/ខ័ណ្ឌ​(ខ្មែរ)</value>
-  </data>
-  <data name="lbl_id" xml:space="preserve">
-    <value>ល.រ</value>
+  <data name="if_edit-delete_23231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_edit-delete_23231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="if_document-new_23212" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_document-new_23212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lbl_province_en" xml:space="preserve">
+  <data name="if_user-01_186382" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_user-01_186382.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_floppy_285657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_floppy_285657.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_close_delete_70975" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_close_delete_70975.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Find_27847" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Find_27847.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbl_province_kh" xml:space="preserve">
     <value>ខេត្ត/ខ័ណ្ឌ​(ខ្មែរ)</value>
   </data>
   <data name="if_Plus_206460" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_Plus_206460.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_Find_27847" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_Find_27847.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_edit-delete_23231" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_edit-delete_23231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_SEO-12_2588773" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_SEO-12_2588773.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_close_delete_70975" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_close_delete_70975.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="un_lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\un_lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbl_id" xml:space="preserve">
+    <value>ល.រ</value>
+  </data>
+  <data name="lbl_province_en" xml:space="preserve">
+    <value>ខេត្ត/ខ័ណ្ឌ​(ខ្មែរ)</value>
+  </data>
+  <data name="if_lock_43628 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_lock_43628 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="un_lock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\un_lock2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

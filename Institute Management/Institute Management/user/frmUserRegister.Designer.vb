@@ -22,12 +22,12 @@ Partial Class frmUserRegister
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("ID")
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Code")
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(KH)")
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(EN)")
-        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Gender")
-        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Date Of Birth")
+        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("ID")
+        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Code")
+        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(KH)")
+        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(EN)")
+        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Gender")
+        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Date Of Birth")
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -39,27 +39,27 @@ Partial Class frmUserRegister
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtRetypePass = New System.Windows.Forms.TextBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.txtLName = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtFName = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtRecord = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtID = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.LVCourseOfEdu = New System.Windows.Forms.ListView()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cboPermission = New System.Windows.Forms.ComboBox()
+        Me.cboGender = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -121,16 +121,16 @@ Partial Class frmUserRegister
         Me.GroupBox2.Controls.Add(Me.Button4)
         Me.GroupBox2.Controls.Add(Me.Button5)
         Me.GroupBox2.Controls.Add(Me.Button6)
-        Me.GroupBox2.Location = New System.Drawing.Point(860, 233)
+        Me.GroupBox2.Location = New System.Drawing.Point(860, 246)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(175, 258)
+        Me.GroupBox2.Size = New System.Drawing.Size(175, 245)
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
         '
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(6, 8)
+        Me.Button8.Location = New System.Drawing.Point(6, 13)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(163, 34)
         Me.Button8.TabIndex = 2
@@ -140,7 +140,7 @@ Partial Class frmUserRegister
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(6, 217)
+        Me.Button7.Location = New System.Drawing.Point(6, 203)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(163, 34)
         Me.Button7.TabIndex = 2
@@ -150,7 +150,7 @@ Partial Class frmUserRegister
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(6, 138)
+        Me.Button4.Location = New System.Drawing.Point(6, 143)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(163, 34)
         Me.Button4.TabIndex = 2
@@ -160,7 +160,7 @@ Partial Class frmUserRegister
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(6, 91)
+        Me.Button5.Location = New System.Drawing.Point(6, 96)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(163, 34)
         Me.Button5.TabIndex = 2
@@ -171,7 +171,7 @@ Partial Class frmUserRegister
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button6.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(6, 48)
+        Me.Button6.Location = New System.Drawing.Point(6, 53)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(163, 34)
         Me.Button6.TabIndex = 1
@@ -181,106 +181,99 @@ Partial Class frmUserRegister
         'GroupBox1
         '
         Me.GroupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.GroupBox1.Controls.Add(Me.TextBox8)
-        Me.GroupBox1.Controls.Add(Me.TextBox7)
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
-        Me.GroupBox1.Controls.Add(Me.TextBox6)
-        Me.GroupBox1.Controls.Add(Me.TextBox9)
-        Me.GroupBox1.Controls.Add(Me.TextBox5)
+        Me.GroupBox1.Controls.Add(Me.cboGender)
+        Me.GroupBox1.Controls.Add(Me.txtRetypePass)
+        Me.GroupBox1.Controls.Add(Me.txtPassword)
+        Me.GroupBox1.Controls.Add(Me.txtLName)
+        Me.GroupBox1.Controls.Add(Me.txtEmail)
+        Me.GroupBox1.Controls.Add(Me.txtUserName)
         Me.GroupBox1.Controls.Add(Me.Label10)
         Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.TextBox3)
+        Me.GroupBox1.Controls.Add(Me.txtFName)
         Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.Label11)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.txtRecord)
         Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.txtID)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.LVCourseOfEdu)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.cboPermission)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(2, 63)
+        Me.GroupBox1.Location = New System.Drawing.Point(2, 58)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(828, 449)
+        Me.GroupBox1.Size = New System.Drawing.Size(835, 449)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         '
-        'TextBox8
+        'txtRetypePass
         '
-        Me.TextBox8.Location = New System.Drawing.Point(410, 126)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(146, 32)
-        Me.TextBox8.TabIndex = 31
+        Me.txtRetypePass.Location = New System.Drawing.Point(358, 119)
+        Me.txtRetypePass.Name = "txtRetypePass"
+        Me.txtRetypePass.Size = New System.Drawing.Size(146, 32)
+        Me.txtRetypePass.TabIndex = 31
         '
-        'TextBox7
+        'txtPassword
         '
-        Me.TextBox7.Location = New System.Drawing.Point(258, 126)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(146, 32)
-        Me.TextBox7.TabIndex = 31
+        Me.txtPassword.Location = New System.Drawing.Point(212, 119)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(139, 32)
+        Me.txtPassword.TabIndex = 31
         '
-        'TextBox4
+        'txtLName
         '
-        Me.TextBox4.Location = New System.Drawing.Point(357, 54)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(135, 32)
-        Me.TextBox4.TabIndex = 31
+        Me.txtLName.Location = New System.Drawing.Point(357, 54)
+        Me.txtLName.Name = "txtLName"
+        Me.txtLName.Size = New System.Drawing.Size(155, 32)
+        Me.txtLName.TabIndex = 31
         '
-        'TextBox6
+        'txtEmail
         '
-        Me.TextBox6.Location = New System.Drawing.Point(15, 126)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(237, 32)
-        Me.TextBox6.TabIndex = 31
+        Me.txtEmail.Location = New System.Drawing.Point(15, 119)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(191, 32)
+        Me.txtEmail.TabIndex = 31
         '
-        'TextBox9
+        'txtUserName
         '
-        Me.TextBox9.Location = New System.Drawing.Point(708, 54)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(109, 32)
-        Me.TextBox9.TabIndex = 31
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(498, 54)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(204, 32)
-        Me.TextBox5.TabIndex = 31
+        Me.txtUserName.Location = New System.Drawing.Point(518, 54)
+        Me.txtUserName.Name = "txtUserName"
+        Me.txtUserName.Size = New System.Drawing.Size(184, 32)
+        Me.txtUserName.TabIndex = 31
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(557, 99)
+        Me.Label10.Location = New System.Drawing.Point(519, 89)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(69, 24)
+        Me.Label10.Size = New System.Drawing.Size(71, 24)
         Me.Label10.TabIndex = 1
-        Me.Label10.Text = "Permistion"
+        Me.Label10.Text = "Permission"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(406, 99)
+        Me.Label9.Location = New System.Drawing.Point(354, 92)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(115, 24)
         Me.Label9.TabIndex = 1
         Me.Label9.Text = "Retype PassWord"
         '
-        'TextBox3
+        'txtFName
         '
-        Me.TextBox3.Location = New System.Drawing.Point(212, 54)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(139, 32)
-        Me.TextBox3.TabIndex = 31
+        Me.txtFName.Location = New System.Drawing.Point(212, 54)
+        Me.txtFName.Name = "txtFName"
+        Me.txtFName.Size = New System.Drawing.Size(139, 32)
+        Me.txtFName.TabIndex = 31
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(254, 99)
+        Me.Label8.Location = New System.Drawing.Point(212, 92)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(73, 24)
         Me.Label8.TabIndex = 1
@@ -289,7 +282,7 @@ Partial Class frmUserRegister
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(11, 99)
+        Me.Label7.Location = New System.Drawing.Point(11, 92)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(45, 24)
         Me.Label7.TabIndex = 1
@@ -316,18 +309,18 @@ Partial Class frmUserRegister
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(494, 25)
+        Me.Label6.Location = New System.Drawing.Point(514, 25)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(74, 24)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "User Name"
         '
-        'TextBox2
+        'txtRecord
         '
-        Me.TextBox2.Location = New System.Drawing.Point(105, 54)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(101, 32)
-        Me.TextBox2.TabIndex = 31
+        Me.txtRecord.Location = New System.Drawing.Point(105, 54)
+        Me.txtRecord.Name = "txtRecord"
+        Me.txtRecord.Size = New System.Drawing.Size(101, 32)
+        Me.txtRecord.TabIndex = 31
         '
         'Label4
         '
@@ -338,12 +331,12 @@ Partial Class frmUserRegister
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "First Name"
         '
-        'TextBox1
+        'txtID
         '
-        Me.TextBox1.Location = New System.Drawing.Point(15, 54)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(84, 32)
-        Me.TextBox1.TabIndex = 31
+        Me.txtID.Location = New System.Drawing.Point(15, 54)
+        Me.txtID.Name = "txtID"
+        Me.txtID.Size = New System.Drawing.Size(84, 32)
+        Me.txtID.TabIndex = 31
         '
         'Label3
         '
@@ -356,10 +349,10 @@ Partial Class frmUserRegister
         '
         'LVCourseOfEdu
         '
-        Me.LVCourseOfEdu.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6})
-        Me.LVCourseOfEdu.Location = New System.Drawing.Point(6, 178)
+        Me.LVCourseOfEdu.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12})
+        Me.LVCourseOfEdu.Location = New System.Drawing.Point(15, 162)
         Me.LVCourseOfEdu.Name = "LVCourseOfEdu"
-        Me.LVCourseOfEdu.Size = New System.Drawing.Size(811, 271)
+        Me.LVCourseOfEdu.Size = New System.Drawing.Size(802, 271)
         Me.LVCourseOfEdu.TabIndex = 30
         Me.LVCourseOfEdu.UseCompatibleStateImageBehavior = False
         Me.LVCourseOfEdu.View = System.Windows.Forms.View.Details
@@ -373,13 +366,22 @@ Partial Class frmUserRegister
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "No."
         '
-        'ComboBox1
+        'cboPermission
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(562, 126)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(255, 32)
-        Me.ComboBox1.TabIndex = 0
+        Me.cboPermission.FormattingEnabled = True
+        Me.cboPermission.Location = New System.Drawing.Point(518, 119)
+        Me.cboPermission.Name = "cboPermission"
+        Me.cboPermission.Size = New System.Drawing.Size(299, 32)
+        Me.cboPermission.TabIndex = 0
+        '
+        'cboGender
+        '
+        Me.cboGender.FormattingEnabled = True
+        Me.cboGender.Items.AddRange(New Object() {"Male", "Female"})
+        Me.cboGender.Location = New System.Drawing.Point(708, 54)
+        Me.cboGender.Name = "cboGender"
+        Me.cboGender.Size = New System.Drawing.Size(109, 32)
+        Me.cboGender.TabIndex = 32
         '
         'frmUserRegister
         '
@@ -412,25 +414,25 @@ Partial Class frmUserRegister
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtID As System.Windows.Forms.TextBox
     Friend WithEvents LVCourseOfEdu As System.Windows.Forms.ListView
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents cboPermission As System.Windows.Forms.ComboBox
+    Friend WithEvents txtRecord As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtLName As System.Windows.Forms.TextBox
+    Friend WithEvents txtFName As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents txtEmail As System.Windows.Forms.TextBox
+    Friend WithEvents txtUserName As System.Windows.Forms.TextBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
+    Friend WithEvents txtRetypePass As System.Windows.Forms.TextBox
+    Friend WithEvents txtPassword As System.Windows.Forms.TextBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents cboGender As System.Windows.Forms.ComboBox
 End Class

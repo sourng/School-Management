@@ -23,12 +23,12 @@ Partial Class frmUserList
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("ID")
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Code")
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(KH)")
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(EN)")
-        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Gender")
-        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Date Of Birth")
+        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("ID")
+        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Code")
+        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(KH)")
+        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(EN)")
+        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Gender")
+        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Date Of Birth")
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox = New System.Windows.Forms.PictureBox()
         Me.btnCapter = New System.Windows.Forms.Button()
@@ -82,7 +82,7 @@ Partial Class frmUserList
         Me.PictureBox.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.PictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox.Location = New System.Drawing.Point(869, -1)
+        Me.PictureBox.Location = New System.Drawing.Point(869, 12)
         Me.PictureBox.Name = "PictureBox"
         Me.PictureBox.Size = New System.Drawing.Size(164, 187)
         Me.PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -211,7 +211,7 @@ Partial Class frmUserList
         '
         'LVCourseOfEdu
         '
-        Me.LVCourseOfEdu.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6})
+        Me.LVCourseOfEdu.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12})
         Me.LVCourseOfEdu.Location = New System.Drawing.Point(6, 87)
         Me.LVCourseOfEdu.Name = "LVCourseOfEdu"
         Me.LVCourseOfEdu.Size = New System.Drawing.Size(811, 306)
@@ -286,9 +286,9 @@ Partial Class frmUserList
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(6, 8)
+        Me.Button8.Location = New System.Drawing.Point(15, 18)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(163, 34)
+        Me.Button8.Size = New System.Drawing.Size(134, 37)
         Me.Button8.TabIndex = 2
         Me.Button8.Text = "អ្នកប្រើប្រាស់ថ្មី"
         Me.Button8.UseVisualStyleBackColor = True
@@ -296,9 +296,9 @@ Partial Class frmUserList
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(6, 138)
+        Me.Button4.Location = New System.Drawing.Point(15, 147)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(163, 34)
+        Me.Button4.Size = New System.Drawing.Size(134, 37)
         Me.Button4.TabIndex = 2
         Me.Button4.Text = "កែប្រែ"
         Me.Button4.UseVisualStyleBackColor = True
@@ -306,9 +306,9 @@ Partial Class frmUserList
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(6, 91)
+        Me.Button5.Location = New System.Drawing.Point(15, 104)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(163, 34)
+        Me.Button5.Size = New System.Drawing.Size(134, 37)
         Me.Button5.TabIndex = 2
         Me.Button5.Text = "ត្រឡប់ក្រោយ"
         Me.Button5.UseVisualStyleBackColor = True
@@ -317,9 +317,9 @@ Partial Class frmUserList
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Button6.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(6, 48)
+        Me.Button6.Location = New System.Drawing.Point(15, 61)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(163, 34)
+        Me.Button6.Size = New System.Drawing.Size(134, 37)
         Me.Button6.TabIndex = 1
         Me.Button6.Text = "រក្សារទុក"
         Me.Button6.UseVisualStyleBackColor = False

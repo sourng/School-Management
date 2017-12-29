@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Curriculum_Author
+Partial Class frmGeneration_Group_Name
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -30,7 +30,7 @@ Partial Class Curriculum_Author
         Me.LVBatch = New System.Windows.Forms.ListView()
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.txtCrlAuthor = New System.Windows.Forms.TextBox()
+        Me.txtMainProgram = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -45,16 +45,16 @@ Partial Class Curriculum_Author
         Me.GroupBox1.Controls.Add(Me.btnAdd)
         Me.GroupBox1.Controls.Add(Me.btnClear)
         Me.GroupBox1.Controls.Add(Me.LVBatch)
-        Me.GroupBox1.Controls.Add(Me.txtCrlAuthor)
+        Me.GroupBox1.Controls.Add(Me.txtMainProgram)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(6, 70)
+        Me.GroupBox1.Location = New System.Drawing.Point(5, 60)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(541, 348)
-        Me.GroupBox1.TabIndex = 60
+        Me.GroupBox1.Size = New System.Drawing.Size(554, 370)
+        Me.GroupBox1.TabIndex = 59
         Me.GroupBox1.TabStop = False
         '
         'btnUpdate
@@ -107,7 +107,7 @@ Partial Class Curriculum_Author
         Me.LVBatch.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LVBatch.Location = New System.Drawing.Point(18, 103)
         Me.LVBatch.Name = "LVBatch"
-        Me.LVBatch.Size = New System.Drawing.Size(423, 239)
+        Me.LVBatch.Size = New System.Drawing.Size(423, 261)
         Me.LVBatch.TabIndex = 55
         Me.LVBatch.UseCompatibleStateImageBehavior = False
         Me.LVBatch.View = System.Windows.Forms.View.Details
@@ -119,16 +119,16 @@ Partial Class Curriculum_Author
         '
         'ColumnHeader4
         '
-        Me.ColumnHeader4.Text = "កម្មវិធីសិក្សាបង្កើតឡើងដោយ"
+        Me.ColumnHeader4.Text = "ឈ្មោះជំនាន់/ក្រុម"
         Me.ColumnHeader4.Width = 288
         '
-        'txtCrlAuthor
+        'txtMainProgram
         '
-        Me.txtCrlAuthor.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCrlAuthor.Location = New System.Drawing.Point(180, 51)
-        Me.txtCrlAuthor.Name = "txtCrlAuthor"
-        Me.txtCrlAuthor.Size = New System.Drawing.Size(261, 30)
-        Me.txtCrlAuthor.TabIndex = 54
+        Me.txtMainProgram.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtMainProgram.Location = New System.Drawing.Point(138, 51)
+        Me.txtMainProgram.Name = "txtMainProgram"
+        Me.txtMainProgram.Size = New System.Drawing.Size(303, 30)
+        Me.txtMainProgram.TabIndex = 54
         '
         'Label2
         '
@@ -144,13 +144,13 @@ Partial Class Curriculum_Author
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(14, 51)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(160, 24)
+        Me.Label4.Size = New System.Drawing.Size(99, 24)
         Me.Label4.TabIndex = 0
-        Me.Label4.Text = "កម្មវិធីសិក្សាបង្កើតឡើងដោយ"
+        Me.Label4.Text = "ឈ្មោះជំនាន់/ក្រុម"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(180, 16)
+        Me.TextBox1.Location = New System.Drawing.Point(138, 13)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(118, 32)
         Me.TextBox1.TabIndex = 31
@@ -162,23 +162,23 @@ Partial Class Curriculum_Author
         Me.Label19.BackColor = System.Drawing.Color.Navy
         Me.Label19.Font = New System.Drawing.Font("Khmer OS Battambang", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(-41, 11)
+        Me.Label19.Location = New System.Drawing.Point(-2, -1)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(637, 56)
-        Me.Label19.TabIndex = 59
-        Me.Label19.Text = "កម្មវិធីសិក្សាបង្កើតឡើងដោយ"
+        Me.Label19.Size = New System.Drawing.Size(574, 62)
+        Me.Label19.TabIndex = 58
+        Me.Label19.Text = "ឈ្មោះជំនាន់​ / ក្រុម"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Curriculum_Author
+        'Generation_Group_Name
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(594, 451)
+        Me.ClientSize = New System.Drawing.Size(570, 442)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label19)
-        Me.Name = "Curriculum_Author"
-        Me.Text = "Curriculum_Author"
+        Me.Name = "Generation_Group_Name"
+        Me.Text = "Generation_Group_Name"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
@@ -192,7 +192,7 @@ Partial Class Curriculum_Author
     Friend WithEvents LVBatch As System.Windows.Forms.ListView
     Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ColumnHeader4 As System.Windows.Forms.ColumnHeader
-    Friend WithEvents txtCrlAuthor As System.Windows.Forms.TextBox
+    Friend WithEvents txtMainProgram As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox

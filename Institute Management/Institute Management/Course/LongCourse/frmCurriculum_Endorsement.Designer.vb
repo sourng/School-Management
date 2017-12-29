@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Curriculum_Endorsement
+Partial Class frmCurriculum_Endorsement
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -78,7 +78,7 @@ Partial Class Curriculum_Endorsement
         Me.ListView.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListView.Location = New System.Drawing.Point(12, 146)
         Me.ListView.Name = "ListView"
-        Me.ListView.Size = New System.Drawing.Size(414, 263)
+        Me.ListView.Size = New System.Drawing.Size(414, 246)
         Me.ListView.TabIndex = 68
         Me.ListView.UseCompatibleStateImageBehavior = False
         Me.ListView.View = System.Windows.Forms.View.Details
