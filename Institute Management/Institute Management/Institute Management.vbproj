@@ -333,6 +333,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="if_school_object_study_student-14_2038389.ico" />
+    <None Include="Resources\teacher_m.png" />
+    <None Include="Resources\finance.png" />
+    <None Include="Resources\human-resource.png" />
+    <None Include="Resources\new_students1.png" />
+    <None Include="Resources\timetable.png" />
+    <None Include="Resources\if_Credit_Card_10997.png" />
+    <None Include="Resources\time_table.PNG" />
+    <None Include="Resources\courses.png" />
+    <None Include="Resources\user_group.png" />
+    <None Include="Resources\new_students.png" />
+    <None Include="Resources\transport.png" />
     <None Include="Resources\un_lock2.png" />
     <None Include="Resources\un_lock.png" />
     <None Include="Resources\if_lock_43628 %281%29.png" />
