@@ -38,36 +38,36 @@ Partial Class frmCurriculum_Endorsement
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(432, 166)
+        Me.btnUpdate.Location = New System.Drawing.Point(445, 275)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(78, 26)
+        Me.btnUpdate.Size = New System.Drawing.Size(90, 38)
         Me.btnUpdate.TabIndex = 70
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'btnDelet
         '
-        Me.btnDelet.Location = New System.Drawing.Point(432, 132)
+        Me.btnDelet.Location = New System.Drawing.Point(445, 232)
         Me.btnDelet.Name = "btnDelet"
-        Me.btnDelet.Size = New System.Drawing.Size(78, 26)
+        Me.btnDelet.Size = New System.Drawing.Size(90, 38)
         Me.btnDelet.TabIndex = 71
         Me.btnDelet.Text = "Delete"
         Me.btnDelet.UseVisualStyleBackColor = True
         '
         'btnAdd
         '
-        Me.btnAdd.Location = New System.Drawing.Point(432, 98)
+        Me.btnAdd.Location = New System.Drawing.Point(445, 189)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(78, 26)
+        Me.btnAdd.Size = New System.Drawing.Size(90, 38)
         Me.btnAdd.TabIndex = 72
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(432, 64)
+        Me.btnClear.Location = New System.Drawing.Point(445, 146)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(78, 26)
+        Me.btnClear.Size = New System.Drawing.Size(90, 38)
         Me.btnClear.TabIndex = 69
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
@@ -139,16 +139,16 @@ Partial Class frmCurriculum_Endorsement
         Me.Label19.Location = New System.Drawing.Point(-2, -1)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(524, 56)
+        Me.Label19.Size = New System.Drawing.Size(563, 56)
         Me.Label19.TabIndex = 63
         Me.Label19.Text = "កម្មវិធីសិក្សាទទួលស្គាល់ដោយ"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Curriculum_Endorsement
+        'frmCurriculum_Endorsement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(519, 404)
+        Me.ClientSize = New System.Drawing.Size(558, 404)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.btnDelet)
         Me.Controls.Add(Me.btnAdd)
@@ -159,7 +159,7 @@ Partial Class frmCurriculum_Endorsement
         Me.Controls.Add(Me.txtCrEndorsement)
         Me.Controls.Add(Me.txtID)
         Me.Controls.Add(Me.Label19)
-        Me.Name = "Curriculum_Endorsement"
+        Me.Name = "frmCurriculum_Endorsement"
         Me.Text = "Curriculum_Endorsement"
         Me.ResumeLayout(False)
         Me.PerformLayout()

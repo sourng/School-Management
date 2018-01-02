@@ -178,6 +178,9 @@
   <data name="if_lock_43628" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_lock_43628.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="teacher_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teacher_m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -186,6 +189,9 @@
   </data>
   <data name="if_floppy_285657" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_floppy_285657.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\library.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="if_Find_27847" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_Find_27847.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,7 +205,7 @@
   <data name="user_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="teacher_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\teacher_m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="finance1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finance1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

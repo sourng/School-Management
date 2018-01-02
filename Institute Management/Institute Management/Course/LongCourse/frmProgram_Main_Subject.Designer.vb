@@ -48,7 +48,7 @@ Partial Class Register_Long_Program
         Me.Label19.Location = New System.Drawing.Point(-3, -1)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(571, 56)
+        Me.Label19.Size = New System.Drawing.Size(612, 56)
         Me.Label19.TabIndex = 22
         Me.Label19.Text = "ឈ្មោះកម្មវិធីសិក្សា (ជំ​នាញ)"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -68,7 +68,7 @@ Partial Class Register_Long_Program
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
         Me.GroupBox1.Location = New System.Drawing.Point(12, 58)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(543, 347)
+        Me.GroupBox1.Size = New System.Drawing.Size(582, 347)
         Me.GroupBox1.TabIndex = 21
         Me.GroupBox1.TabStop = False
         '
@@ -76,9 +76,9 @@ Partial Class Register_Long_Program
         '
         Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(466, 55)
+        Me.btnUpdate.Location = New System.Drawing.Point(455, 256)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(65, 37)
+        Me.btnUpdate.Size = New System.Drawing.Size(108, 40)
         Me.btnUpdate.TabIndex = 56
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = False
@@ -87,9 +87,9 @@ Partial Class Register_Long_Program
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(396, 51)
+        Me.btnDelete.Location = New System.Drawing.Point(455, 204)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(65, 41)
+        Me.btnDelete.Size = New System.Drawing.Size(108, 44)
         Me.btnDelete.TabIndex = 57
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
@@ -98,9 +98,9 @@ Partial Class Register_Long_Program
         '
         Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(466, 8)
+        Me.btnAdd.Location = New System.Drawing.Point(455, 155)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(65, 37)
+        Me.btnAdd.Size = New System.Drawing.Size(108, 40)
         Me.btnAdd.TabIndex = 58
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = False
@@ -109,9 +109,9 @@ Partial Class Register_Long_Program
         '
         Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(395, 8)
+        Me.btnClear.Location = New System.Drawing.Point(455, 105)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(65, 37)
+        Me.btnClear.Size = New System.Drawing.Size(108, 40)
         Me.btnClear.TabIndex = 59
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = False
@@ -122,7 +122,7 @@ Partial Class Register_Long_Program
         Me.LVMainProgram.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LVMainProgram.Location = New System.Drawing.Point(18, 106)
         Me.LVMainProgram.Name = "LVMainProgram"
-        Me.LVMainProgram.Size = New System.Drawing.Size(513, 229)
+        Me.LVMainProgram.Size = New System.Drawing.Size(413, 229)
         Me.LVMainProgram.TabIndex = 55
         Me.LVMainProgram.UseCompatibleStateImageBehavior = False
         Me.LVMainProgram.View = System.Windows.Forms.View.Details
@@ -140,15 +140,15 @@ Partial Class Register_Long_Program
         'txtMainProgram
         '
         Me.txtMainProgram.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMainProgram.Location = New System.Drawing.Point(172, 51)
+        Me.txtMainProgram.Location = New System.Drawing.Point(180, 63)
         Me.txtMainProgram.Name = "txtMainProgram"
-        Me.txtMainProgram.Size = New System.Drawing.Size(218, 30)
+        Me.txtMainProgram.Size = New System.Drawing.Size(251, 30)
         Me.txtMainProgram.TabIndex = 54
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(14, 16)
+        Me.Label3.Location = New System.Drawing.Point(22, 28)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(58, 24)
         Me.Label3.TabIndex = 0
@@ -157,7 +157,7 @@ Partial Class Register_Long_Program
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(14, 51)
+        Me.Label1.Location = New System.Drawing.Point(22, 63)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(152, 24)
         Me.Label1.TabIndex = 0
@@ -165,7 +165,7 @@ Partial Class Register_Long_Program
         '
         'txtID
         '
-        Me.txtID.Location = New System.Drawing.Point(172, 13)
+        Me.txtID.Location = New System.Drawing.Point(180, 25)
         Me.txtID.Name = "txtID"
         Me.txtID.Size = New System.Drawing.Size(112, 32)
         Me.txtID.TabIndex = 31
@@ -174,7 +174,7 @@ Partial Class Register_Long_Program
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(565, 406)
+        Me.ClientSize = New System.Drawing.Size(606, 415)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Register_Long_Program"

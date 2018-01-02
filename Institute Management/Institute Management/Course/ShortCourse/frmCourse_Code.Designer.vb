@@ -48,7 +48,7 @@ Partial Class frmCourse_Code
         Me.Label19.Location = New System.Drawing.Point(-3, -2)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(519, 56)
+        Me.Label19.Size = New System.Drawing.Size(666, 56)
         Me.Label19.TabIndex = 52
         Me.Label19.Text = "លេខកូដវគ្គ"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -66,7 +66,7 @@ Partial Class frmCourse_Code
         Me.GroupBox1.Controls.Add(Me.txtID)
         Me.GroupBox1.Location = New System.Drawing.Point(5, 58)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(502, 428)
+        Me.GroupBox1.Size = New System.Drawing.Size(643, 428)
         Me.GroupBox1.TabIndex = 51
         Me.GroupBox1.TabStop = False
         '
@@ -74,9 +74,9 @@ Partial Class frmCourse_Code
         '
         Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(432, 59)
+        Me.btnUpdate.Location = New System.Drawing.Point(518, 258)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(65, 34)
+        Me.btnUpdate.Size = New System.Drawing.Size(102, 43)
         Me.btnUpdate.TabIndex = 58
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = False
@@ -85,9 +85,9 @@ Partial Class frmCourse_Code
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(361, 59)
+        Me.btnDelete.Location = New System.Drawing.Point(518, 209)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(65, 34)
+        Me.btnDelete.Size = New System.Drawing.Size(102, 43)
         Me.btnDelete.TabIndex = 59
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
@@ -96,9 +96,9 @@ Partial Class frmCourse_Code
         '
         Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(431, 16)
+        Me.btnAdd.Location = New System.Drawing.Point(518, 160)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(65, 34)
+        Me.btnAdd.Size = New System.Drawing.Size(102, 43)
         Me.btnAdd.TabIndex = 60
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = False
@@ -107,9 +107,9 @@ Partial Class frmCourse_Code
         '
         Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(361, 16)
+        Me.btnClear.Location = New System.Drawing.Point(518, 111)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(65, 34)
+        Me.btnClear.Size = New System.Drawing.Size(102, 43)
         Me.btnClear.TabIndex = 61
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = False
@@ -171,14 +171,14 @@ Partial Class frmCourse_Code
         Me.txtID.Size = New System.Drawing.Size(122, 30)
         Me.txtID.TabIndex = 56
         '
-        'Course_Code
+        'frmCourse_Code
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(513, 486)
+        Me.ClientSize = New System.Drawing.Size(660, 486)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Course_Code"
+        Me.Name = "frmCourse_Code"
         Me.Text = "Course_Code"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

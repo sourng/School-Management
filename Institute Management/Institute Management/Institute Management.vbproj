@@ -333,6 +333,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="if_school_object_study_student-14_2038389.ico" />
+    <None Include="Resources\finance1.png" />
+    <None Include="Resources\library.png" />
     <None Include="Resources\teacher_m.png" />
     <None Include="Resources\finance.png" />
     <None Include="Resources\human-resource.png" />

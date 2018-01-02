@@ -53,7 +53,7 @@ Partial Class frmOverall_Fund
         Me.GroupBox1.Controls.Add(Me.txtID)
         Me.GroupBox1.Location = New System.Drawing.Point(2, 53)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(478, 359)
+        Me.GroupBox1.Size = New System.Drawing.Size(556, 346)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
@@ -61,9 +61,9 @@ Partial Class frmOverall_Fund
         '
         Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(396, 144)
+        Me.btnUpdate.Location = New System.Drawing.Point(429, 239)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(65, 34)
+        Me.btnUpdate.Size = New System.Drawing.Size(106, 41)
         Me.btnUpdate.TabIndex = 58
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = False
@@ -72,9 +72,9 @@ Partial Class frmOverall_Fund
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(396, 101)
+        Me.btnDelete.Location = New System.Drawing.Point(429, 196)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(65, 34)
+        Me.btnDelete.Size = New System.Drawing.Size(106, 41)
         Me.btnDelete.TabIndex = 59
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
@@ -83,9 +83,9 @@ Partial Class frmOverall_Fund
         '
         Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(396, 59)
+        Me.btnAdd.Location = New System.Drawing.Point(429, 154)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(65, 34)
+        Me.btnAdd.Size = New System.Drawing.Size(106, 41)
         Me.btnAdd.TabIndex = 60
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = False
@@ -94,9 +94,9 @@ Partial Class frmOverall_Fund
         '
         Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(396, 16)
+        Me.btnClear.Location = New System.Drawing.Point(429, 111)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(65, 34)
+        Me.btnClear.Size = New System.Drawing.Size(106, 41)
         Me.btnClear.TabIndex = 61
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = False
@@ -105,9 +105,9 @@ Partial Class frmOverall_Fund
         '
         Me.LVOverallFund.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2})
         Me.LVOverallFund.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LVOverallFund.Location = New System.Drawing.Point(22, 111)
+        Me.LVOverallFund.Location = New System.Drawing.Point(16, 95)
         Me.LVOverallFund.Name = "LVOverallFund"
-        Me.LVOverallFund.Size = New System.Drawing.Size(371, 210)
+        Me.LVOverallFund.Size = New System.Drawing.Size(395, 238)
         Me.LVOverallFund.TabIndex = 57
         Me.LVOverallFund.UseCompatibleStateImageBehavior = False
         Me.LVOverallFund.View = System.Windows.Forms.View.Details
@@ -147,7 +147,7 @@ Partial Class frmOverall_Fund
         Me.txtOverallFund.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtOverallFund.Location = New System.Drawing.Point(102, 59)
         Me.txtOverallFund.Name = "txtOverallFund"
-        Me.txtOverallFund.Size = New System.Drawing.Size(291, 30)
+        Me.txtOverallFund.Size = New System.Drawing.Size(309, 30)
         Me.txtOverallFund.TabIndex = 55
         '
         'txtID
@@ -168,19 +168,19 @@ Partial Class frmOverall_Fund
         Me.Label19.Location = New System.Drawing.Point(0, -5)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(495, 56)
+        Me.Label19.Size = New System.Drawing.Size(573, 56)
         Me.Label19.TabIndex = 48
         Me.Label19.Text = "មូលនិធិជារួម"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Overall_Fund
+        'frmOverall_Fund
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(489, 411)
+        Me.ClientSize = New System.Drawing.Size(567, 411)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Overall_Fund"
+        Me.Name = "frmOverall_Fund"
         Me.Text = "Overall_Fund"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

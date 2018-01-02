@@ -40,14 +40,14 @@ Partial Class frmMain
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
+        Me.btnCourses = New System.Windows.Forms.Button()
+        Me.btnAcademy = New System.Windows.Forms.Button()
+        Me.btnStudentEnroll = New System.Windows.Forms.Button()
+        Me.btnCurriculumEndorsement = New System.Windows.Forms.Button()
+        Me.btnClassRoom = New System.Windows.Forms.Button()
+        Me.btnDeptandOffice = New System.Windows.Forms.Button()
+        Me.btnTimeTable = New System.Windows.Forms.Button()
+        Me.btnOverallFund = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
@@ -255,149 +255,149 @@ Partial Class frmMain
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "បញ្ជីរ​ | Menu"
         '
-        'Button5
+        'btnCourses
         '
-        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Image = Global.Institute_Management.My.Resources.Resources.transport
-        Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button5.Location = New System.Drawing.Point(630, 237)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(133, 95)
-        Me.Button5.TabIndex = 13
-        Me.Button5.Text = "គ្រប់​គ្រង​វគ្គ​វែង"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.btnCourses.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnCourses.FlatAppearance.BorderSize = 0
+        Me.btnCourses.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCourses.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCourses.Image = Global.Institute_Management.My.Resources.Resources.library
+        Me.btnCourses.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnCourses.Location = New System.Drawing.Point(630, 236)
+        Me.btnCourses.Name = "btnCourses"
+        Me.btnCourses.Size = New System.Drawing.Size(133, 95)
+        Me.btnCourses.TabIndex = 13
+        Me.btnCourses.Text = "គ្រប់​គ្រងវគ្គ"
+        Me.btnCourses.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnCourses.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnCourses.UseVisualStyleBackColor = False
         '
-        'Button6
+        'btnAcademy
         '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
-        Me.Button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button6.Location = New System.Drawing.Point(467, 237)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(148, 95)
-        Me.Button6.TabIndex = 12
-        Me.Button6.Text = "គ្រប់​គ្រង​ជំនាញ"
-        Me.Button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.btnAcademy.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnAcademy.FlatAppearance.BorderSize = 0
+        Me.btnAcademy.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnAcademy.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAcademy.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAcademy.Image = CType(resources.GetObject("btnAcademy.Image"), System.Drawing.Image)
+        Me.btnAcademy.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnAcademy.Location = New System.Drawing.Point(467, 236)
+        Me.btnAcademy.Name = "btnAcademy"
+        Me.btnAcademy.Size = New System.Drawing.Size(148, 95)
+        Me.btnAcademy.TabIndex = 12
+        Me.btnAcademy.Text = "គ្រប់​គ្រង​ជំនាញ"
+        Me.btnAcademy.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnAcademy.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnAcademy.UseVisualStyleBackColor = False
         '
-        'Button7
+        'btnStudentEnroll
         '
-        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Image = CType(resources.GetObject("Button7.Image"), System.Drawing.Image)
-        Me.Button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button7.Location = New System.Drawing.Point(259, 237)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(192, 95)
-        Me.Button7.TabIndex = 11
-        Me.Button7.Text = "ដាក់​ពាក្យ​ចូល​រៀន​"
-        Me.Button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.btnStudentEnroll.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(151, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnStudentEnroll.FlatAppearance.BorderSize = 0
+        Me.btnStudentEnroll.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnStudentEnroll.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnStudentEnroll.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnStudentEnroll.Image = CType(resources.GetObject("btnStudentEnroll.Image"), System.Drawing.Image)
+        Me.btnStudentEnroll.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnStudentEnroll.Location = New System.Drawing.Point(259, 236)
+        Me.btnStudentEnroll.Name = "btnStudentEnroll"
+        Me.btnStudentEnroll.Size = New System.Drawing.Size(192, 95)
+        Me.btnStudentEnroll.TabIndex = 11
+        Me.btnStudentEnroll.Text = "ដាក់​ពាក្យ​ចូល​រៀន​"
+        Me.btnStudentEnroll.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnStudentEnroll.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnStudentEnroll.UseVisualStyleBackColor = False
         '
-        'Button8
+        'btnCurriculumEndorsement
         '
-        Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button8.FlatAppearance.BorderSize = 0
-        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
-        Me.Button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button8.Location = New System.Drawing.Point(588, 129)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(175, 91)
-        Me.Button8.TabIndex = 10
-        Me.Button8.Text = "កម្មវិធី​សិក្សា"
-        Me.Button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.btnCurriculumEndorsement.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnCurriculumEndorsement.FlatAppearance.BorderSize = 0
+        Me.btnCurriculumEndorsement.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnCurriculumEndorsement.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCurriculumEndorsement.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCurriculumEndorsement.Image = CType(resources.GetObject("btnCurriculumEndorsement.Image"), System.Drawing.Image)
+        Me.btnCurriculumEndorsement.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnCurriculumEndorsement.Location = New System.Drawing.Point(588, 129)
+        Me.btnCurriculumEndorsement.Name = "btnCurriculumEndorsement"
+        Me.btnCurriculumEndorsement.Size = New System.Drawing.Size(175, 91)
+        Me.btnCurriculumEndorsement.TabIndex = 10
+        Me.btnCurriculumEndorsement.Text = "កម្មវិធី​សិក្សា"
+        Me.btnCurriculumEndorsement.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnCurriculumEndorsement.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnCurriculumEndorsement.UseVisualStyleBackColor = False
         '
-        'Button9
+        'btnClassRoom
         '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(100, Byte), Integer))
-        Me.Button9.FlatAppearance.BorderSize = 0
-        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
-        Me.Button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button9.Location = New System.Drawing.Point(447, 129)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(126, 91)
-        Me.Button9.TabIndex = 9
-        Me.Button9.Text = "បន្ទប់​សិក្សា"
-        Me.Button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.btnClassRoom.BackColor = System.Drawing.Color.FromArgb(CType(CType(235, Byte), Integer), CType(CType(234, Byte), Integer), CType(CType(100, Byte), Integer))
+        Me.btnClassRoom.FlatAppearance.BorderSize = 0
+        Me.btnClassRoom.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnClassRoom.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClassRoom.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClassRoom.Image = CType(resources.GetObject("btnClassRoom.Image"), System.Drawing.Image)
+        Me.btnClassRoom.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnClassRoom.Location = New System.Drawing.Point(447, 129)
+        Me.btnClassRoom.Name = "btnClassRoom"
+        Me.btnClassRoom.Size = New System.Drawing.Size(126, 91)
+        Me.btnClassRoom.TabIndex = 9
+        Me.btnClassRoom.Text = "បន្ទប់​សិក្សា"
+        Me.btnClassRoom.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnClassRoom.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnClassRoom.UseVisualStyleBackColor = False
         '
-        'Button10
+        'btnDeptandOffice
         '
-        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button10.FlatAppearance.BorderSize = 0
-        Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
-        Me.Button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button10.Location = New System.Drawing.Point(259, 129)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(170, 91)
-        Me.Button10.TabIndex = 8
-        Me.Button10.Text = "ដេប៉ាតឺម៉ង់/ការិយាល័យ"
-        Me.Button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.btnDeptandOffice.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnDeptandOffice.FlatAppearance.BorderSize = 0
+        Me.btnDeptandOffice.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnDeptandOffice.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDeptandOffice.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDeptandOffice.Image = CType(resources.GetObject("btnDeptandOffice.Image"), System.Drawing.Image)
+        Me.btnDeptandOffice.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnDeptandOffice.Location = New System.Drawing.Point(259, 129)
+        Me.btnDeptandOffice.Name = "btnDeptandOffice"
+        Me.btnDeptandOffice.Size = New System.Drawing.Size(170, 91)
+        Me.btnDeptandOffice.TabIndex = 8
+        Me.btnDeptandOffice.Text = "ដេប៉ាតឺម៉ង់/ការិយាល័យ"
+        Me.btnDeptandOffice.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnDeptandOffice.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnDeptandOffice.UseVisualStyleBackColor = False
         '
-        'Button11
+        'btnTimeTable
         '
-        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button11.FlatAppearance.BorderSize = 0
-        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Image = Global.Institute_Management.My.Resources.Resources.timetable
-        Me.Button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button11.Location = New System.Drawing.Point(779, 129)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(175, 91)
-        Me.Button11.TabIndex = 14
-        Me.Button11.Text = "កាលវិភាគ"
-        Me.Button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button11.UseVisualStyleBackColor = False
+        Me.btnTimeTable.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnTimeTable.FlatAppearance.BorderSize = 0
+        Me.btnTimeTable.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnTimeTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnTimeTable.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTimeTable.Image = Global.Institute_Management.My.Resources.Resources.timetable
+        Me.btnTimeTable.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnTimeTable.Location = New System.Drawing.Point(779, 129)
+        Me.btnTimeTable.Name = "btnTimeTable"
+        Me.btnTimeTable.Size = New System.Drawing.Size(175, 91)
+        Me.btnTimeTable.TabIndex = 14
+        Me.btnTimeTable.Text = "កាលវិភាគ"
+        Me.btnTimeTable.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnTimeTable.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnTimeTable.UseVisualStyleBackColor = False
         '
-        'Button12
+        'btnOverallFund
         '
-        Me.Button12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button12.FlatAppearance.BorderSize = 0
-        Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Image = Global.Institute_Management.My.Resources.Resources.transport
-        Me.Button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button12.Location = New System.Drawing.Point(779, 237)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(175, 95)
-        Me.Button12.TabIndex = 15
-        Me.Button12.Text = "គ្រប់គ្រង​វគ្គ​ខ្លី"
-        Me.Button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.Button12.UseVisualStyleBackColor = False
+        Me.btnOverallFund.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnOverallFund.FlatAppearance.BorderSize = 0
+        Me.btnOverallFund.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnOverallFund.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnOverallFund.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnOverallFund.Image = Global.Institute_Management.My.Resources.Resources.finance1
+        Me.btnOverallFund.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnOverallFund.Location = New System.Drawing.Point(779, 236)
+        Me.btnOverallFund.Name = "btnOverallFund"
+        Me.btnOverallFund.Size = New System.Drawing.Size(175, 95)
+        Me.btnOverallFund.TabIndex = 15
+        Me.btnOverallFund.Text = "មូលនិធិជារួម"
+        Me.btnOverallFund.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnOverallFund.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnOverallFund.UseVisualStyleBackColor = False
         '
         'Button13
         '
@@ -408,9 +408,9 @@ Partial Class frmMain
         Me.Button13.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button13.Image = Global.Institute_Management.My.Resources.Resources.transport
         Me.Button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button13.Location = New System.Drawing.Point(259, 351)
+        Me.Button13.Location = New System.Drawing.Point(259, 346)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(175, 89)
+        Me.Button13.Size = New System.Drawing.Size(157, 89)
         Me.Button13.TabIndex = 16
         Me.Button13.Text = "បរិញ្ញាបត្រ​រង​"
         Me.Button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -426,9 +426,9 @@ Partial Class frmMain
         Me.Button14.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.Image = Global.Institute_Management.My.Resources.Resources.transport
         Me.Button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button14.Location = New System.Drawing.Point(447, 351)
+        Me.Button14.Location = New System.Drawing.Point(435, 346)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(175, 89)
+        Me.Button14.Size = New System.Drawing.Size(180, 89)
         Me.Button14.TabIndex = 17
         Me.Button14.Text = "បរិញ្ញាបត្រ​"
         Me.Button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -444,9 +444,9 @@ Partial Class frmMain
         Me.Button15.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button15.Image = Global.Institute_Management.My.Resources.Resources.transport
         Me.Button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button15.Location = New System.Drawing.Point(635, 351)
+        Me.Button15.Location = New System.Drawing.Point(630, 346)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(175, 89)
+        Me.Button15.Size = New System.Drawing.Size(166, 89)
         Me.Button15.TabIndex = 18
         Me.Button15.Text = "វិញ្ញាប័ណ្ណបត្រ​វិជ្ជា​ជីវ"
         Me.Button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -462,9 +462,9 @@ Partial Class frmMain
         Me.Button16.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button16.Image = Global.Institute_Management.My.Resources.Resources.transport
         Me.Button16.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button16.Location = New System.Drawing.Point(816, 351)
+        Me.Button16.Location = New System.Drawing.Point(812, 346)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(138, 89)
+        Me.Button16.Size = New System.Drawing.Size(142, 89)
         Me.Button16.TabIndex = 19
         Me.Button16.Text = "វិញ្ញាប័ណ្ណបត្រ​វិជ្ជា​ជីវ"
         Me.Button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -523,14 +523,14 @@ Partial Class frmMain
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.btnOverallFund)
+        Me.Controls.Add(Me.btnTimeTable)
+        Me.Controls.Add(Me.btnCourses)
+        Me.Controls.Add(Me.btnAcademy)
+        Me.Controls.Add(Me.btnStudentEnroll)
+        Me.Controls.Add(Me.btnCurriculumEndorsement)
+        Me.Controls.Add(Me.btnClassRoom)
+        Me.Controls.Add(Me.btnDeptandOffice)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button4)
@@ -564,14 +564,14 @@ Partial Class frmMain
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
-    Friend WithEvents Button7 As System.Windows.Forms.Button
-    Friend WithEvents Button8 As System.Windows.Forms.Button
-    Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button10 As System.Windows.Forms.Button
-    Friend WithEvents Button11 As System.Windows.Forms.Button
-    Friend WithEvents Button12 As System.Windows.Forms.Button
+    Friend WithEvents btnCourses As System.Windows.Forms.Button
+    Friend WithEvents btnAcademy As System.Windows.Forms.Button
+    Friend WithEvents btnStudentEnroll As System.Windows.Forms.Button
+    Friend WithEvents btnCurriculumEndorsement As System.Windows.Forms.Button
+    Friend WithEvents btnClassRoom As System.Windows.Forms.Button
+    Friend WithEvents btnDeptandOffice As System.Windows.Forms.Button
+    Friend WithEvents btnTimeTable As System.Windows.Forms.Button
+    Friend WithEvents btnOverallFund As System.Windows.Forms.Button
     Friend WithEvents Button13 As System.Windows.Forms.Button
     Friend WithEvents Button14 As System.Windows.Forms.Button
     Friend WithEvents Button15 As System.Windows.Forms.Button

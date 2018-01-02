@@ -97,6 +97,10 @@ Partial Class frmLogin
         Me.btnClose.BackgroundImage = Global.Institute_Management.My.Resources.Resources.if_close_delete_70975
         Me.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnClose.FlatAppearance.BorderSize = 0
+        Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnClose.Location = New System.Drawing.Point(512, 141)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(38, 33)

@@ -24,6 +24,8 @@ Partial Class frmCourse_Name
     Private Sub InitializeComponent()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnAdd = New System.Windows.Forms.Button()
@@ -35,8 +37,6 @@ Partial Class frmCourse_Name
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtCourseName = New System.Windows.Forms.TextBox()
         Me.txtID = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -74,11 +74,29 @@ Partial Class frmCourse_Name
         Me.GroupBox1.TabIndex = 49
         Me.GroupBox1.TabStop = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(12, 95)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(78, 22)
+        Me.Label2.TabIndex = 62
+        Me.Label2.Text = "ឈ្មោះវគ្គ(EN)"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(102, 95)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(253, 30)
+        Me.TextBox1.TabIndex = 63
+        '
         'btnUpdate
         '
         Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(382, 150)
+        Me.btnUpdate.Location = New System.Drawing.Point(379, 270)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(93, 34)
         Me.btnUpdate.TabIndex = 58
@@ -89,7 +107,7 @@ Partial Class frmCourse_Name
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(382, 110)
+        Me.btnDelete.Location = New System.Drawing.Point(379, 230)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(93, 34)
         Me.btnDelete.TabIndex = 59
@@ -100,7 +118,7 @@ Partial Class frmCourse_Name
         '
         Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(382, 70)
+        Me.btnAdd.Location = New System.Drawing.Point(379, 190)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(93, 34)
         Me.btnAdd.TabIndex = 60
@@ -111,7 +129,7 @@ Partial Class frmCourse_Name
         '
         Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(382, 30)
+        Me.btnClear.Location = New System.Drawing.Point(379, 150)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(93, 34)
         Me.btnClear.TabIndex = 61
@@ -175,32 +193,14 @@ Partial Class frmCourse_Name
         Me.txtID.Size = New System.Drawing.Size(122, 30)
         Me.txtID.TabIndex = 56
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 95)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(78, 22)
-        Me.Label2.TabIndex = 62
-        Me.Label2.Text = "ឈ្មោះវគ្គ(EN)"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(102, 95)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(253, 30)
-        Me.TextBox1.TabIndex = 63
-        '
-        'Course_Name
+        'frmCourse_Name
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(511, 496)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Course_Name"
+        Me.Name = "frmCourse_Name"
         Me.Text = "Course_Name"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

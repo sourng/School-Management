@@ -53,7 +53,7 @@ Partial Class frmGeneration_Group_Name
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
         Me.GroupBox1.Location = New System.Drawing.Point(5, 60)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(554, 370)
+        Me.GroupBox1.Size = New System.Drawing.Size(590, 370)
         Me.GroupBox1.TabIndex = 59
         Me.GroupBox1.TabStop = False
         '
@@ -61,9 +61,9 @@ Partial Class frmGeneration_Group_Name
         '
         Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(469, 146)
+        Me.btnUpdate.Location = New System.Drawing.Point(463, 246)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(65, 41)
+        Me.btnUpdate.Size = New System.Drawing.Size(102, 47)
         Me.btnUpdate.TabIndex = 56
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = False
@@ -72,9 +72,9 @@ Partial Class frmGeneration_Group_Name
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(469, 103)
+        Me.btnDelete.Location = New System.Drawing.Point(463, 196)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(65, 41)
+        Me.btnDelete.Size = New System.Drawing.Size(102, 47)
         Me.btnDelete.TabIndex = 57
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = False
@@ -83,9 +83,9 @@ Partial Class frmGeneration_Group_Name
         '
         Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(469, 61)
+        Me.btnAdd.Location = New System.Drawing.Point(463, 146)
         Me.btnAdd.Name = "btnAdd"
-        Me.btnAdd.Size = New System.Drawing.Size(65, 41)
+        Me.btnAdd.Size = New System.Drawing.Size(102, 47)
         Me.btnAdd.TabIndex = 58
         Me.btnAdd.Text = "Add"
         Me.btnAdd.UseVisualStyleBackColor = False
@@ -94,9 +94,9 @@ Partial Class frmGeneration_Group_Name
         '
         Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(469, 18)
+        Me.btnClear.Location = New System.Drawing.Point(463, 97)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(65, 41)
+        Me.btnClear.Size = New System.Drawing.Size(102, 47)
         Me.btnClear.TabIndex = 59
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = False
@@ -165,19 +165,19 @@ Partial Class frmGeneration_Group_Name
         Me.Label19.Location = New System.Drawing.Point(-2, -1)
         Me.Label19.Name = "Label19"
         Me.Label19.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label19.Size = New System.Drawing.Size(574, 62)
+        Me.Label19.Size = New System.Drawing.Size(611, 62)
         Me.Label19.TabIndex = 58
         Me.Label19.Text = "ឈ្មោះជំនាន់​ / ក្រុម"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Generation_Group_Name
+        'frmGeneration_Group_Name
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(570, 442)
+        Me.ClientSize = New System.Drawing.Size(607, 442)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label19)
-        Me.Name = "Generation_Group_Name"
+        Me.Name = "frmGeneration_Group_Name"
         Me.Text = "Generation_Group_Name"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
