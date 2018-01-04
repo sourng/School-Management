@@ -93,20 +93,26 @@ Partial Class frmLogin
         '
         'btnClose
         '
-        Me.btnClose.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnClose.BackgroundImage = Global.Institute_Management.My.Resources.Resources.if_close_delete_70975
-        Me.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnClose.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.btnClose.BackColor = System.Drawing.Color.Transparent
+        Me.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnClose.FlatAppearance.BorderSize = 0
         Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClose.Location = New System.Drawing.Point(512, 141)
+        Me.btnClose.Font = New System.Drawing.Font("Khmer OS Battambang", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClose.ForeColor = System.Drawing.Color.White
+        Me.btnClose.Image = Global.Institute_Management.My.Resources.Resources.if_Close_22138
+        Me.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnClose.Location = New System.Drawing.Point(12, 401)
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(38, 33)
+        Me.btnClose.Size = New System.Drawing.Size(120, 40)
         Me.btnClose.TabIndex = 23
-        Me.btnClose.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
-        Me.btnClose.UseVisualStyleBackColor = True
+        Me.btnClose.Text = "ចាកចេញ"
+        Me.btnClose.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnClose.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnClose.UseVisualStyleBackColor = False
         '
         'frmLogin
         '

@@ -93,6 +93,7 @@
     <Compile Include="address\frmProvince.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Course\LongCourse\frmCurriculum_Author.Designer.vb">
       <DependentUpon>frmCurriculum_Author.vb</DependentUpon>
     </Compile>
@@ -148,8 +149,33 @@
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmMainDept.Designer.vb">
+      <DependentUpon>frmMainDept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainDept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainOffice.Designer.vb">
+      <DependentUpon>frmMainOffice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainOffice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainTeacher.Designer.vb">
+      <DependentUpon>frmMainTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InputLanguages.vb" />
     <Compile Include="Modules\Mod_Functions.vb" />
+    <Compile Include="Modules\Mod_Image.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -260,6 +286,18 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMainDept.resx">
+      <DependentUpon>frmMainDept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainOffice.resx">
+      <DependentUpon>frmMainOffice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainTeacher.resx">
+      <DependentUpon>frmMainTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -333,6 +371,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="if_school_object_study_student-14_2038389.ico" />
+    <None Include="Resources\if_Close_22138.png" />
+    <None Include="Resources\student_detail.png" />
     <None Include="Resources\time_table1.PNG" />
     <None Include="Resources\finance1.png" />
     <None Include="Resources\library.png" />

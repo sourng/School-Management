@@ -103,6 +103,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property if_Close_22138() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("if_Close_22138", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property if_close_delete_70975() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("if_close_delete_70975", resourceCulture)
@@ -273,6 +283,16 @@ Namespace My.Resources
         Friend ReadOnly Property new_students1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("new_students1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property student_detail() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("student_detail", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
