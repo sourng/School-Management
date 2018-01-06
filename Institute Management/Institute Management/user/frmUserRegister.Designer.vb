@@ -22,12 +22,12 @@ Partial Class frmUserRegister
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("ID")
-        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Code")
-        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(KH)")
-        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(EN)")
-        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Gender")
-        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Date Of Birth")
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("ID")
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Code")
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(KH)")
+        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Name(EN)")
+        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Gender")
+        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Date Of Birth")
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -39,6 +39,7 @@ Partial Class frmUserRegister
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.cboGender = New System.Windows.Forms.ComboBox()
         Me.txtRetypePass = New System.Windows.Forms.TextBox()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.txtLName = New System.Windows.Forms.TextBox()
@@ -59,10 +60,19 @@ Partial Class frmUserRegister
         Me.LVCourseOfEdu = New System.Windows.Forms.ListView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cboPermission = New System.Windows.Forms.ComboBox()
-        Me.cboGender = New System.Windows.Forms.ComboBox()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.btnNew = New System.Windows.Forms.ToolStripButton()
+        Me.btnSave = New System.Windows.Forms.ToolStripButton()
+        Me.btnEdit = New System.Windows.Forms.ToolStripButton()
+        Me.btnDelete = New System.Windows.Forms.ToolStripButton()
+        Me.btnSearch = New System.Windows.Forms.ToolStripButton()
+        Me.btnPrint = New System.Windows.Forms.ToolStripButton()
+        Me.btnExport = New System.Windows.Forms.ToolStripButton()
+        Me.btnClose = New System.Windows.Forms.ToolStripButton()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -206,9 +216,18 @@ Partial Class frmUserRegister
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
         Me.GroupBox1.Location = New System.Drawing.Point(2, 58)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(835, 449)
+        Me.GroupBox1.Size = New System.Drawing.Size(835, 415)
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
+        '
+        'cboGender
+        '
+        Me.cboGender.FormattingEnabled = True
+        Me.cboGender.Items.AddRange(New Object() {"Male", "Female"})
+        Me.cboGender.Location = New System.Drawing.Point(708, 54)
+        Me.cboGender.Name = "cboGender"
+        Me.cboGender.Size = New System.Drawing.Size(109, 32)
+        Me.cboGender.TabIndex = 32
         '
         'txtRetypePass
         '
@@ -349,10 +368,10 @@ Partial Class frmUserRegister
         '
         'LVCourseOfEdu
         '
-        Me.LVCourseOfEdu.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12})
+        Me.LVCourseOfEdu.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6})
         Me.LVCourseOfEdu.Location = New System.Drawing.Point(15, 162)
         Me.LVCourseOfEdu.Name = "LVCourseOfEdu"
-        Me.LVCourseOfEdu.Size = New System.Drawing.Size(802, 271)
+        Me.LVCourseOfEdu.Size = New System.Drawing.Size(802, 235)
         Me.LVCourseOfEdu.TabIndex = 30
         Me.LVCourseOfEdu.UseCompatibleStateImageBehavior = False
         Me.LVCourseOfEdu.View = System.Windows.Forms.View.Details
@@ -374,20 +393,88 @@ Partial Class frmUserRegister
         Me.cboPermission.Size = New System.Drawing.Size(299, 32)
         Me.cboPermission.TabIndex = 0
         '
-        'cboGender
+        'ToolStrip1
         '
-        Me.cboGender.FormattingEnabled = True
-        Me.cboGender.Items.AddRange(New Object() {"Male", "Female"})
-        Me.cboGender.Location = New System.Drawing.Point(708, 54)
-        Me.cboGender.Name = "cboGender"
-        Me.cboGender.Size = New System.Drawing.Size(109, 32)
-        Me.cboGender.TabIndex = 32
+        Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.ToolStrip1.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnNew, Me.btnSave, Me.btnEdit, Me.btnDelete, Me.btnSearch, Me.btnPrint, Me.btnExport, Me.btnClose})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 485)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(1047, 39)
+        Me.ToolStrip1.TabIndex = 21
+        Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'btnNew
+        '
+        Me.btnNew.Image = Global.Institute_Management.My.Resources.Resources.if_Plus_206460
+        Me.btnNew.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnNew.Name = "btnNew"
+        Me.btnNew.Size = New System.Drawing.Size(93, 36)
+        Me.btnNew.Text = "បន្ថែម​ថ្មី"
+        '
+        'btnSave
+        '
+        Me.btnSave.Image = Global.Institute_Management.My.Resources.Resources.if_floppy_285657
+        Me.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(93, 36)
+        Me.btnSave.Text = "រក្សាទុក"
+        '
+        'btnEdit
+        '
+        Me.btnEdit.Image = Global.Institute_Management.My.Resources.Resources.if_retweet_334739
+        Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(123, 36)
+        Me.btnEdit.Text = "បន្ទាន់​សម័យ"
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Image = Global.Institute_Management.My.Resources.Resources.if_edit_delete_23231
+        Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(73, 36)
+        Me.btnDelete.Text = "លុប"
+        '
+        'btnSearch
+        '
+        Me.btnSearch.Image = Global.Institute_Management.My.Resources.Resources.if_Find_27847
+        Me.btnSearch.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnSearch.Name = "btnSearch"
+        Me.btnSearch.Size = New System.Drawing.Size(93, 36)
+        Me.btnSearch.Text = "ស្វែងរក"
+        '
+        'btnPrint
+        '
+        Me.btnPrint.Image = Global.Institute_Management.My.Resources.Resources.if_print_173079
+        Me.btnPrint.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(95, 36)
+        Me.btnPrint.Text = "បោះពុម្ភ"
+        '
+        'btnExport
+        '
+        Me.btnExport.Image = Global.Institute_Management.My.Resources.Resources.if_export_excel_64174
+        Me.btnExport.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnExport.Name = "btnExport"
+        Me.btnExport.Size = New System.Drawing.Size(154, 36)
+        Me.btnExport.Text = "នាំចេញទៅ​ Excel"
+        '
+        'btnClose
+        '
+        Me.btnClose.Image = Global.Institute_Management.My.Resources.Resources.if_close_delete_70975
+        Me.btnClose.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(68, 36)
+        Me.btnClose.Text = "បិត"
         '
         'frmUserRegister
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1047, 524)
+        Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Button2)
@@ -400,7 +487,10 @@ Partial Class frmUserRegister
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.ToolStrip1.ResumeLayout(False)
+        Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
@@ -435,4 +525,13 @@ Partial Class frmUserRegister
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents cboGender As System.Windows.Forms.ComboBox
+    Friend WithEvents ToolStrip1 As System.Windows.Forms.ToolStrip
+    Friend WithEvents btnNew As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnSave As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnEdit As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnDelete As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnSearch As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnPrint As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnExport As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnClose As System.Windows.Forms.ToolStripButton
 End Class

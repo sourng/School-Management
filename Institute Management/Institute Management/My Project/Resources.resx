@@ -133,6 +133,9 @@
   <data name="human-resource" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\human-resource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="if_book_image_add_103392" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_book_image_add_103392.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="un_lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\un_lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="finance1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\finance1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_export_excel_64174" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_export_excel_64174.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,11 +184,14 @@
   <data name="courses" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\courses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="if_lock_43628 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_lock_43628 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lbl_province_kh" xml:space="preserve">
     <value>ខេត្ត/ខ័ណ្ឌ​(ខ្មែរ)</value>
   </data>
-  <data name="if_lock_43628" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_lock_43628.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_Close_22138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Close_22138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="teacher_m" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teacher_m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,16 +214,25 @@
   <data name="if_Find_27847" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_Find_27847.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_lock_43628 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_lock_43628 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_webcam_49730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_webcam_49730.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="transport" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\transport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="if_lock_43628" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_lock_43628.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_print_173079" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_print_173079.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_retweet_334739" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_retweet_334739.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user_group" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_Close_22138" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_Close_22138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_document-new_232121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_document-new_232121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

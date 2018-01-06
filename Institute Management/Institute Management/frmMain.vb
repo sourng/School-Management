@@ -1,6 +1,8 @@
 ﻿Public Class frmMain
 
     Private Sub btnUsers_Click(sender As Object, e As EventArgs) Handles btnUsers.Click
+        frmStudentAdd.Text = "Add new student"
+        frmStudentAdd.Show()
 
     End Sub
 

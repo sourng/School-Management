@@ -53,7 +53,7 @@ Partial Class frmCurriculum_Author
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
         Me.GroupBox1.Location = New System.Drawing.Point(6, 70)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(541, 348)
+        Me.GroupBox1.Size = New System.Drawing.Size(558, 348)
         Me.GroupBox1.TabIndex = 60
         Me.GroupBox1.TabStop = False
         '
@@ -87,7 +87,7 @@ Partial Class frmCurriculum_Author
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(65, 41)
         Me.btnAdd.TabIndex = 58
-        Me.btnAdd.Text = "Add"
+        Me.btnAdd.Text = "Save"
         Me.btnAdd.UseVisualStyleBackColor = False
         '
         'btnClear
@@ -125,7 +125,7 @@ Partial Class frmCurriculum_Author
         'txtCrlAuthor
         '
         Me.txtCrlAuthor.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCrlAuthor.Location = New System.Drawing.Point(180, 51)
+        Me.txtCrlAuthor.Location = New System.Drawing.Point(180, 57)
         Me.txtCrlAuthor.Name = "txtCrlAuthor"
         Me.txtCrlAuthor.Size = New System.Drawing.Size(261, 30)
         Me.txtCrlAuthor.TabIndex = 54
@@ -142,7 +142,7 @@ Partial Class frmCurriculum_Author
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(14, 51)
+        Me.Label4.Location = New System.Drawing.Point(14, 57)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(160, 24)
         Me.Label4.TabIndex = 0
@@ -170,14 +170,17 @@ Partial Class frmCurriculum_Author
         Me.Label19.Text = "កម្មវិធីសិក្សាបង្កើតឡើងដោយ"
         Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Curriculum_Author
+        'frmCurriculum_Author
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(594, 451)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label19)
-        Me.Name = "Curriculum_Author"
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
+        Me.Name = "frmCurriculum_Author"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Curriculum_Author"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

@@ -371,6 +371,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="if_school_object_study_student-14_2038389.ico" />
+    <None Include="Resources\if_document-new_232121.png" />
+    <None Include="Resources\if_retweet_334739.png" />
+    <None Include="Resources\if_export_excel_64174.png" />
+    <None Include="Resources\if_book_image_add_103392.png" />
+    <None Include="Resources\if_webcam_49730.png" />
+    <None Include="Resources\if_print_173079.png" />
     <None Include="Resources\if_Close_22138.png" />
     <None Include="Resources\student_detail.png" />
     <None Include="Resources\time_table1.PNG" />
