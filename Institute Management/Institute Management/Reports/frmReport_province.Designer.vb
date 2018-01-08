@@ -25,15 +25,17 @@ Partial Class frmReport_province
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.btnView = New System.Windows.Forms.Button()
         Me.txtID = New System.Windows.Forms.TextBox()
+        Me.rptProvince = New Microsoft.Reporting.WinForms.ReportViewer()
+        Me.btnPrint = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ReportViewer1
         '
-        Me.ReportViewer1.Location = New System.Drawing.Point(12, 112)
+        Me.ReportViewer1.Location = New System.Drawing.Point(12, 270)
         Me.ReportViewer1.Name = "ReportViewer1"
         Me.ReportViewer1.ProcessingMode = Microsoft.Reporting.WinForms.ProcessingMode.Remote
         Me.ReportViewer1.ServerReport.ReportServerUrl = New System.Uri("", System.UriKind.Relative)
-        Me.ReportViewer1.Size = New System.Drawing.Size(822, 343)
+        Me.ReportViewer1.Size = New System.Drawing.Size(822, 185)
         Me.ReportViewer1.TabIndex = 0
         '
         'btnView
@@ -52,11 +54,29 @@ Partial Class frmReport_province
         Me.txtID.Size = New System.Drawing.Size(160, 20)
         Me.txtID.TabIndex = 2
         '
+        'rptProvince
+        '
+        Me.rptProvince.Location = New System.Drawing.Point(12, 113)
+        Me.rptProvince.Name = "rptProvince"
+        Me.rptProvince.Size = New System.Drawing.Size(647, 151)
+        Me.rptProvince.TabIndex = 3
+        '
+        'btnPrint
+        '
+        Me.btnPrint.Location = New System.Drawing.Point(686, 113)
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(113, 37)
+        Me.btnPrint.TabIndex = 4
+        Me.btnPrint.Text = "Print"
+        Me.btnPrint.UseVisualStyleBackColor = True
+        '
         'frmReport_province
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(846, 467)
+        Me.Controls.Add(Me.btnPrint)
+        Me.Controls.Add(Me.rptProvince)
         Me.Controls.Add(Me.txtID)
         Me.Controls.Add(Me.btnView)
         Me.Controls.Add(Me.ReportViewer1)
@@ -69,4 +89,6 @@ Partial Class frmReport_province
     Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents btnView As System.Windows.Forms.Button
     Friend WithEvents txtID As System.Windows.Forms.TextBox
+    Friend WithEvents rptProvince As Microsoft.Reporting.WinForms.ReportViewer
+    Friend WithEvents btnPrint As System.Windows.Forms.Button
 End Class

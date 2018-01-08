@@ -141,6 +141,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_Province.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_ProvinceReport.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ProvinceReport.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -339,6 +344,7 @@
       <DependentUpon>frmReport_province.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Report1.rdlc" />
+    <EmbeddedResource Include="Reports\rptProvince.rdlc" />
     <EmbeddedResource Include="students\frmCapture.resx">
       <DependentUpon>frmCapture.vb</DependentUpon>
     </EmbeddedResource>
@@ -375,6 +381,17 @@
     </None>
     <None Include="DS_Province.xss">
       <DependentUpon>DS_Province.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ProvinceReport.xsc">
+      <DependentUpon>DS_ProvinceReport.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ProvinceReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ProvinceReport.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_ProvinceReport.xss">
+      <DependentUpon>DS_ProvinceReport.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
