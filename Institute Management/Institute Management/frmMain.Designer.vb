@@ -55,10 +55,13 @@ Partial Class frmMain
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lbl_user = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnExit = New System.Windows.Forms.ToolStripButton()
         Me.ToolStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnUsers
@@ -68,7 +71,7 @@ Partial Class frmMain
         Me.btnUsers.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight
         Me.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnUsers.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUsers.Image = CType(resources.GetObject("btnUsers.Image"), System.Drawing.Image)
+        Me.btnUsers.Image = Global.Institute_Management.My.Resources.Resources.student_detail
         Me.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnUsers.Location = New System.Drawing.Point(0, 121)
         Me.btnUsers.Name = "btnUsers"
@@ -110,7 +113,7 @@ Partial Class frmMain
         Me.ToolStrip1.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ToolStrip1.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripSeparator1, Me.ToolStripButton4, Me.ToolStripButton5, Me.ToolStripSeparator2, Me.ToolStripButton6, Me.ToolStripSeparator3, Me.ToolStripButton3, Me.ToolStripButton7})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripSeparator1, Me.ToolStripButton4, Me.ToolStripButton5, Me.ToolStripSeparator2, Me.ToolStripButton6, Me.ToolStripSeparator3, Me.ToolStripButton3, Me.ToolStripButton7, Me.btnExit})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(1234, 66)
@@ -394,9 +397,9 @@ Partial Class frmMain
         Me.btnOverallFund.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnOverallFund.Image = Global.Institute_Management.My.Resources.Resources.finance1
         Me.btnOverallFund.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnOverallFund.Location = New System.Drawing.Point(750, 205)
+        Me.btnOverallFund.Location = New System.Drawing.Point(696, 205)
         Me.btnOverallFund.Name = "btnOverallFund"
-        Me.btnOverallFund.Size = New System.Drawing.Size(175, 95)
+        Me.btnOverallFund.Size = New System.Drawing.Size(166, 95)
         Me.btnOverallFund.TabIndex = 15
         Me.btnOverallFund.Text = "មូលនិធិជារួម"
         Me.btnOverallFund.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -414,7 +417,7 @@ Partial Class frmMain
         Me.Button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button13.Location = New System.Drawing.Point(467, 355)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(157, 89)
+        Me.Button13.Size = New System.Drawing.Size(203, 89)
         Me.Button13.TabIndex = 16
         Me.Button13.Text = "បរិញ្ញាបត្រ​រង​"
         Me.Button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -430,9 +433,9 @@ Partial Class frmMain
         Me.Button14.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.Image = Global.Institute_Management.My.Resources.Resources.transport
         Me.Button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button14.Location = New System.Drawing.Point(972, 384)
+        Me.Button14.Location = New System.Drawing.Point(881, 205)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(180, 89)
+        Me.Button14.Size = New System.Drawing.Size(158, 89)
         Me.Button14.TabIndex = 17
         Me.Button14.Text = "បរិញ្ញាបត្រ​"
         Me.Button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -466,9 +469,9 @@ Partial Class frmMain
         Me.Button16.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button16.Image = Global.Institute_Management.My.Resources.Resources.transport
         Me.Button16.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button16.Location = New System.Drawing.Point(812, 315)
+        Me.Button16.Location = New System.Drawing.Point(696, 306)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(142, 89)
+        Me.Button16.Size = New System.Drawing.Size(166, 89)
         Me.Button16.TabIndex = 19
         Me.Button16.Text = "វិញ្ញាប័ណ្ណបត្រ​វិជ្ជា​ជីវ"
         Me.Button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -488,20 +491,20 @@ Partial Class frmMain
         Me.Label2.TabIndex = 20
         Me.Label2.Text = "ផ្ទាំងគ្រប់គ្រង | Dashboard"
         '
-        'Label3
+        'lbl_user
         '
-        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label3.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.Label3.Font = New System.Drawing.Font("Khmer OS Battambang", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Image = Global.Institute_Management.My.Resources.Resources.teacher_m
-        Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Label3.Location = New System.Drawing.Point(876, 34)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Padding = New System.Windows.Forms.Padding(10, 4, 10, 4)
-        Me.Label3.Size = New System.Drawing.Size(244, 74)
-        Me.Label3.TabIndex = 21
-        Me.Label3.Text = "អ្នក​កំពុង​ប្រើ : សេង​ ស៊ង់​"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.lbl_user.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lbl_user.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.lbl_user.Font = New System.Drawing.Font("Khmer OS Battambang", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_user.Image = Global.Institute_Management.My.Resources.Resources.teacher_m
+        Me.lbl_user.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.lbl_user.Location = New System.Drawing.Point(823, 34)
+        Me.lbl_user.Name = "lbl_user"
+        Me.lbl_user.Padding = New System.Windows.Forms.Padding(10, 4, 10, 4)
+        Me.lbl_user.Size = New System.Drawing.Size(297, 74)
+        Me.lbl_user.TabIndex = 21
+        Me.lbl_user.Text = "អ្នក​កំពុង​ប្រើ : សេង​ ស៊ង់​"
+        Me.lbl_user.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label4
         '
@@ -533,13 +536,33 @@ Partial Class frmMain
         Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button5.UseVisualStyleBackColor = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(930, 317)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(165, 146)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 23
+        Me.PictureBox1.TabStop = False
+        '
+        'btnExit
+        '
+        Me.btnExit.Image = Global.Institute_Management.My.Resources.Resources.if_Close_22138
+        Me.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(71, 63)
+        Me.btnExit.Text = "ចាកចេញ"
+        Me.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1234, 568)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.lbl_user)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
@@ -566,6 +589,7 @@ Partial Class frmMain
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -598,10 +622,12 @@ Partial Class frmMain
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents Button16 As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lbl_user As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents ToolStripSeparator3 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents ToolStripButton7 As System.Windows.Forms.ToolStripButton
     Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents btnExit As System.Windows.Forms.ToolStripButton
 End Class

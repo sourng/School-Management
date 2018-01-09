@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -22,6 +23,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>Institute Management.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +34,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>Institute Management.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -61,12 +64,20 @@
       <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
       <Private>True</Private>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="MySql.Web.v20, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+=======
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+>>>>>>> 34a63d86c75a17e860210f32d39c41a3f442e2b0
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -93,6 +104,7 @@
     <Compile Include="address\frmProvince.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Course\LongCourse\frmCurriculum_Author.Designer.vb">
       <DependentUpon>frmCurriculum_Author.vb</DependentUpon>
     </Compile>
@@ -129,6 +141,16 @@
     <Compile Include="Course\LongCourse\frmProgram_Main_Subject.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DS_Province.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_Province.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_ProvinceReport.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ProvinceReport.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -148,8 +170,33 @@
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmMainDept.Designer.vb">
+      <DependentUpon>frmMainDept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainDept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainOffice.Designer.vb">
+      <DependentUpon>frmMainOffice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainOffice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainTeacher.Designer.vb">
+      <DependentUpon>frmMainTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InputLanguages.vb" />
     <Compile Include="Modules\Mod_Functions.vb" />
+    <Compile Include="Modules\Mod_Image.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -181,6 +228,17 @@
       <DependentUpon>frmShort_Course_List.vb</DependentUpon>
     </Compile>
     <Compile Include="Course\ShortCourse\frmShort_Course_List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReport_province.Designer.vb">
+      <DependentUpon>frmReport_province.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReport_province.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="students\frmCapture.Designer.vb">
@@ -260,6 +318,18 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMainDept.resx">
+      <DependentUpon>frmMainDept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainOffice.resx">
+      <DependentUpon>frmMainOffice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainTeacher.resx">
+      <DependentUpon>frmMainTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -275,6 +345,11 @@
     <EmbeddedResource Include="Course\ShortCourse\frmShort_Course_List.resx">
       <DependentUpon>frmShort_Course_List.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReport_province.resx">
+      <DependentUpon>frmReport_province.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Report1.rdlc" />
+    <EmbeddedResource Include="Reports\rptProvince.rdlc" />
     <EmbeddedResource Include="students\frmCapture.resx">
       <DependentUpon>frmCapture.vb</DependentUpon>
     </EmbeddedResource>
@@ -301,6 +376,28 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="DS_Province.xsc">
+      <DependentUpon>DS_Province.xsd</DependentUpon>
+    </None>
+    <None Include="DS_Province.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_Province.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_Province.xss">
+      <DependentUpon>DS_Province.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ProvinceReport.xsc">
+      <DependentUpon>DS_ProvinceReport.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ProvinceReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ProvinceReport.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DS_ProvinceReport.xss">
+      <DependentUpon>DS_ProvinceReport.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -314,6 +411,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Reports\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Reports\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Resources\if_Plus_206460.png" />
   </ItemGroup>
   <ItemGroup>
@@ -333,6 +441,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="if_school_object_study_student-14_2038389.ico" />
+    <None Include="Resources\if_document-new_232121.png" />
+    <None Include="Resources\if_retweet_334739.png" />
+    <None Include="Resources\if_export_excel_64174.png" />
+    <None Include="Resources\if_book_image_add_103392.png" />
+    <None Include="Resources\if_webcam_49730.png" />
+    <None Include="Resources\if_print_173079.png" />
+    <None Include="Resources\if_Close_22138.png" />
+    <None Include="Resources\student_detail.png" />
     <None Include="Resources\time_table1.PNG" />
     <None Include="Resources\finance1.png" />
     <None Include="Resources\library.png" />

@@ -60,7 +60,7 @@ Partial Class frmShort_Course_List
         Me.Label2.Location = New System.Drawing.Point(-3, -1)
         Me.Label2.Name = "Label2"
         Me.Label2.Padding = New System.Windows.Forms.Padding(5)
-        Me.Label2.Size = New System.Drawing.Size(1017, 48)
+        Me.Label2.Size = New System.Drawing.Size(1085, 48)
         Me.Label2.TabIndex = 23
         Me.Label2.Text = "បញ្ជីវគ្គខ្លី"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -90,7 +90,7 @@ Partial Class frmShort_Course_List
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
         Me.GroupBox1.Location = New System.Drawing.Point(4, 51)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(996, 449)
+        Me.GroupBox1.Size = New System.Drawing.Size(1064, 449)
         Me.GroupBox1.TabIndex = 22
         Me.GroupBox1.TabStop = False
         '
@@ -98,7 +98,7 @@ Partial Class frmShort_Course_List
         '
         Me.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnUpdate.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(878, 200)
+        Me.btnUpdate.Location = New System.Drawing.Point(907, 221)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(105, 41)
         Me.btnUpdate.TabIndex = 64
@@ -109,7 +109,7 @@ Partial Class frmShort_Course_List
         '
         Me.btnDelete.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnDelete.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(878, 157)
+        Me.btnDelete.Location = New System.Drawing.Point(907, 178)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(105, 41)
         Me.btnDelete.TabIndex = 65
@@ -120,7 +120,7 @@ Partial Class frmShort_Course_List
         '
         Me.btnAdd.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnAdd.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAdd.Location = New System.Drawing.Point(878, 115)
+        Me.btnAdd.Location = New System.Drawing.Point(907, 136)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(105, 41)
         Me.btnAdd.TabIndex = 66
@@ -131,7 +131,7 @@ Partial Class frmShort_Course_List
         '
         Me.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnClear.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(878, 72)
+        Me.btnClear.Location = New System.Drawing.Point(907, 93)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(105, 41)
         Me.btnClear.TabIndex = 67
@@ -141,9 +141,9 @@ Partial Class frmShort_Course_List
         'LVCourse
         '
         Me.LVCourse.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6})
-        Me.LVCourse.Location = New System.Drawing.Point(6, 72)
+        Me.LVCourse.Location = New System.Drawing.Point(11, 93)
         Me.LVCourse.Name = "LVCourse"
-        Me.LVCourse.Size = New System.Drawing.Size(859, 362)
+        Me.LVCourse.Size = New System.Drawing.Size(859, 340)
         Me.LVCourse.TabIndex = 32
         Me.LVCourse.UseCompatibleStateImageBehavior = False
         Me.LVCourse.View = System.Windows.Forms.View.Details
@@ -180,14 +180,14 @@ Partial Class frmShort_Course_List
         '
         'txtStuList
         '
-        Me.txtStuList.Location = New System.Drawing.Point(719, 33)
+        Me.txtStuList.Location = New System.Drawing.Point(724, 55)
         Me.txtStuList.Name = "txtStuList"
         Me.txtStuList.Size = New System.Drawing.Size(146, 32)
         Me.txtStuList.TabIndex = 31
         '
         'txtID
         '
-        Me.txtID.Location = New System.Drawing.Point(6, 34)
+        Me.txtID.Location = New System.Drawing.Point(11, 56)
         Me.txtID.Name = "txtID"
         Me.txtID.Size = New System.Drawing.Size(72, 32)
         Me.txtID.TabIndex = 31
@@ -195,7 +195,7 @@ Partial Class frmShort_Course_List
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(715, 7)
+        Me.Label12.Location = New System.Drawing.Point(715, 28)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(95, 24)
         Me.Label12.TabIndex = 1
@@ -204,7 +204,7 @@ Partial Class frmShort_Course_List
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(579, 7)
+        Me.Label4.Location = New System.Drawing.Point(579, 28)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(98, 24)
         Me.Label4.TabIndex = 1
@@ -213,7 +213,7 @@ Partial Class frmShort_Course_List
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(405, 6)
+        Me.Label6.Location = New System.Drawing.Point(405, 28)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(68, 24)
         Me.Label6.TabIndex = 1
@@ -222,7 +222,7 @@ Partial Class frmShort_Course_List
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(187, 6)
+        Me.Label5.Location = New System.Drawing.Point(187, 28)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(55, 24)
         Me.Label5.TabIndex = 1
@@ -231,7 +231,7 @@ Partial Class frmShort_Course_List
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(84, 5)
+        Me.Label3.Location = New System.Drawing.Point(84, 28)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(63, 24)
         Me.Label3.TabIndex = 1
@@ -240,7 +240,7 @@ Partial Class frmShort_Course_List
         'cboTime
         '
         Me.cboTime.FormattingEnabled = True
-        Me.cboTime.Location = New System.Drawing.Point(583, 34)
+        Me.cboTime.Location = New System.Drawing.Point(588, 56)
         Me.cboTime.Name = "cboTime"
         Me.cboTime.Size = New System.Drawing.Size(130, 32)
         Me.cboTime.TabIndex = 0
@@ -248,7 +248,7 @@ Partial Class frmShort_Course_List
         'cboCourseCode
         '
         Me.cboCourseCode.FormattingEnabled = True
-        Me.cboCourseCode.Location = New System.Drawing.Point(409, 33)
+        Me.cboCourseCode.Location = New System.Drawing.Point(414, 55)
         Me.cboCourseCode.Name = "cboCourseCode"
         Me.cboCourseCode.Size = New System.Drawing.Size(168, 32)
         Me.cboCourseCode.TabIndex = 0
@@ -256,7 +256,7 @@ Partial Class frmShort_Course_List
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(11, 6)
+        Me.Label1.Location = New System.Drawing.Point(11, 28)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(58, 24)
         Me.Label1.TabIndex = 1
@@ -265,7 +265,7 @@ Partial Class frmShort_Course_List
         'cboCourseName
         '
         Me.cboCourseName.FormattingEnabled = True
-        Me.cboCourseName.Location = New System.Drawing.Point(185, 34)
+        Me.cboCourseName.Location = New System.Drawing.Point(190, 56)
         Me.cboCourseName.Name = "cboCourseName"
         Me.cboCourseName.Size = New System.Drawing.Size(219, 32)
         Me.cboCourseName.TabIndex = 0
@@ -273,7 +273,7 @@ Partial Class frmShort_Course_List
         'cboRecord
         '
         Me.cboRecord.FormattingEnabled = True
-        Me.cboRecord.Location = New System.Drawing.Point(83, 33)
+        Me.cboRecord.Location = New System.Drawing.Point(88, 55)
         Me.cboRecord.Name = "cboRecord"
         Me.cboRecord.Size = New System.Drawing.Size(97, 32)
         Me.cboRecord.TabIndex = 0
@@ -282,7 +282,7 @@ Partial Class frmShort_Course_List
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1012, 512)
+        Me.ClientSize = New System.Drawing.Size(1080, 512)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "frmShort_Course_List"

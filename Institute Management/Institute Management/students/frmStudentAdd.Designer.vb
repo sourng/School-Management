@@ -25,8 +25,8 @@ Partial Class frmStudentAdd
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnChooseImage = New System.Windows.Forms.Button()
+        Me.btnCamera = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
@@ -118,7 +118,6 @@ Partial Class frmStudentAdd
         Me.Label70 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.ListView3 = New System.Windows.Forms.ListView()
         Me.Label82 = New System.Windows.Forms.Label()
         Me.ComboBox16 = New System.Windows.Forms.ComboBox()
         Me.ComboBox15 = New System.Windows.Forms.ComboBox()
@@ -130,6 +129,15 @@ Partial Class frmStudentAdd
         Me.txtid = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.btnNew = New System.Windows.Forms.ToolStripButton()
+        Me.btnSave = New System.Windows.Forms.ToolStripButton()
+        Me.btnEdit = New System.Windows.Forms.ToolStripButton()
+        Me.btnDelete = New System.Windows.Forms.ToolStripButton()
+        Me.btnSearch = New System.Windows.Forms.ToolStripButton()
+        Me.btnPrint = New System.Windows.Forms.ToolStripButton()
+        Me.btnExport = New System.Windows.Forms.ToolStripButton()
+        Me.btnClose = New System.Windows.Forms.ToolStripButton()
         Me.GroupBox2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -142,6 +150,7 @@ Partial Class frmStudentAdd
         Me.TabPage4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox2
@@ -157,46 +166,71 @@ Partial Class frmStudentAdd
         '
         'Button4
         '
+        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(6, 65)
+        Me.Button4.Image = Global.Institute_Management.My.Resources.Resources.if_close_delete_70975
+        Me.Button4.Location = New System.Drawing.Point(6, 62)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(163, 45)
         Me.Button4.TabIndex = 2
         Me.Button4.Text = "ត្រឡប់ក្រោយ"
+        Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Image = Global.Institute_Management.My.Resources.Resources.if_floppy_285657
+        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button3.Location = New System.Drawing.Point(6, 14)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(163, 45)
+        Me.Button3.Size = New System.Drawing.Size(163, 43)
         Me.Button3.TabIndex = 1
         Me.Button3.Text = "រក្សារទុក"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnChooseImage
         '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(914, 206)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(175, 39)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "ជ្រើសរូបថត"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnChooseImage.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnChooseImage.BackColor = System.Drawing.Color.Transparent
+        Me.btnChooseImage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnChooseImage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnChooseImage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnChooseImage.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnChooseImage.Image = Global.Institute_Management.My.Resources.Resources.if_book_image_add_103392
+        Me.btnChooseImage.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnChooseImage.Location = New System.Drawing.Point(917, 198)
+        Me.btnChooseImage.Name = "btnChooseImage"
+        Me.btnChooseImage.Size = New System.Drawing.Size(89, 68)
+        Me.btnChooseImage.TabIndex = 9
+        Me.btnChooseImage.Text = "ជ្រើសរូបថត"
+        Me.btnChooseImage.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnChooseImage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnChooseImage.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnCamera
         '
-        Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button2.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(914, 251)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(175, 35)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "ថតរូប"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnCamera.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnCamera.BackColor = System.Drawing.Color.Transparent
+        Me.btnCamera.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnCamera.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnCamera.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCamera.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCamera.Image = Global.Institute_Management.My.Resources.Resources.if_webcam_49730
+        Me.btnCamera.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnCamera.Location = New System.Drawing.Point(1012, 198)
+        Me.btnCamera.Name = "btnCamera"
+        Me.btnCamera.Size = New System.Drawing.Size(77, 68)
+        Me.btnCamera.TabIndex = 10
+        Me.btnCamera.Text = "ថតផ្ទាល់"
+        Me.btnCamera.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnCamera.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.btnCamera.UseVisualStyleBackColor = False
         '
         'OpenFileDialog1
         '
@@ -276,7 +310,7 @@ Partial Class frmStudentAdd
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(18, 6)
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 6)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(851, 448)
         Me.GroupBox1.TabIndex = 8
@@ -1000,9 +1034,9 @@ Partial Class frmStudentAdd
         '
         'ListView2
         '
-        Me.ListView2.Location = New System.Drawing.Point(7, 222)
+        Me.ListView2.Location = New System.Drawing.Point(13, 197)
         Me.ListView2.Name = "ListView2"
-        Me.ListView2.Size = New System.Drawing.Size(820, 205)
+        Me.ListView2.Size = New System.Drawing.Size(824, 205)
         Me.ListView2.TabIndex = 36
         Me.ListView2.UseCompatibleStateImageBehavior = False
         '
@@ -1037,7 +1071,6 @@ Partial Class frmStudentAdd
         'ComboBox13
         '
         Me.ComboBox13.FormattingEnabled = True
-        Me.ComboBox13.Items.AddRange(New Object() {"នៅលីវ", "រៀបការរួច", "លេងលះ", "ពោះម៉ាយ​ ឬ មេម៉ាយ"})
         Me.ComboBox13.Location = New System.Drawing.Point(579, 131)
         Me.ComboBox13.Name = "ComboBox13"
         Me.ComboBox13.Size = New System.Drawing.Size(179, 32)
@@ -1046,7 +1079,6 @@ Partial Class frmStudentAdd
         'ComboBox10
         '
         Me.ComboBox10.FormattingEnabled = True
-        Me.ComboBox10.Items.AddRange(New Object() {"នៅលីវ", "រៀបការរួច", "លេងលះ", "ពោះម៉ាយ​ ឬ មេម៉ាយ"})
         Me.ComboBox10.Location = New System.Drawing.Point(579, 81)
         Me.ComboBox10.Name = "ComboBox10"
         Me.ComboBox10.Size = New System.Drawing.Size(179, 32)
@@ -1055,7 +1087,6 @@ Partial Class frmStudentAdd
         'ComboBox11
         '
         Me.ComboBox11.FormattingEnabled = True
-        Me.ComboBox11.Items.AddRange(New Object() {"Male", "Female"})
         Me.ComboBox11.Location = New System.Drawing.Point(153, 131)
         Me.ComboBox11.Name = "ComboBox11"
         Me.ComboBox11.Size = New System.Drawing.Size(193, 32)
@@ -1064,7 +1095,6 @@ Partial Class frmStudentAdd
         'ComboBox9
         '
         Me.ComboBox9.FormattingEnabled = True
-        Me.ComboBox9.Items.AddRange(New Object() {"Male", "Female"})
         Me.ComboBox9.Location = New System.Drawing.Point(153, 81)
         Me.ComboBox9.Name = "ComboBox9"
         Me.ComboBox9.Size = New System.Drawing.Size(193, 32)
@@ -1073,7 +1103,6 @@ Partial Class frmStudentAdd
         'cboEmStatus
         '
         Me.cboEmStatus.FormattingEnabled = True
-        Me.cboEmStatus.Items.AddRange(New Object() {"Male", "Female"})
         Me.cboEmStatus.Location = New System.Drawing.Point(153, 32)
         Me.cboEmStatus.Name = "cboEmStatus"
         Me.cboEmStatus.Size = New System.Drawing.Size(193, 32)
@@ -1132,7 +1161,6 @@ Partial Class frmStudentAdd
         'GroupBox5
         '
         Me.GroupBox5.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.GroupBox5.Controls.Add(Me.ListView3)
         Me.GroupBox5.Controls.Add(Me.Label82)
         Me.GroupBox5.Controls.Add(Me.ComboBox16)
         Me.GroupBox5.Controls.Add(Me.ComboBox15)
@@ -1149,14 +1177,6 @@ Partial Class frmStudentAdd
         Me.GroupBox5.TabIndex = 9
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "(E) ការបញ្ចេញព័ត៌មានដោយស្ម័គ្រចិត្ត"
-        '
-        'ListView3
-        '
-        Me.ListView3.Location = New System.Drawing.Point(15, 176)
-        Me.ListView3.Name = "ListView3"
-        Me.ListView3.Size = New System.Drawing.Size(820, 235)
-        Me.ListView3.TabIndex = 37
-        Me.ListView3.UseCompatibleStateImageBehavior = False
         '
         'Label82
         '
@@ -1267,19 +1287,97 @@ Partial Class frmStudentAdd
         Me.PictureBox1.TabIndex = 14
         Me.PictureBox1.TabStop = False
         '
+        'ToolStrip1
+        '
+        Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.ToolStrip1.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnNew, Me.btnSave, Me.btnEdit, Me.btnDelete, Me.btnSearch, Me.btnPrint, Me.btnExport, Me.btnClose})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 562)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(1101, 39)
+        Me.ToolStrip1.TabIndex = 15
+        Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'btnNew
+        '
+        Me.btnNew.Image = Global.Institute_Management.My.Resources.Resources.if_Plus_206460
+        Me.btnNew.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnNew.Name = "btnNew"
+        Me.btnNew.Size = New System.Drawing.Size(93, 36)
+        Me.btnNew.Text = "បន្ថែម​ថ្មី"
+        '
+        'btnSave
+        '
+        Me.btnSave.Image = Global.Institute_Management.My.Resources.Resources.if_floppy_285657
+        Me.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(93, 36)
+        Me.btnSave.Text = "រក្សាទុក"
+        '
+        'btnEdit
+        '
+        Me.btnEdit.Image = Global.Institute_Management.My.Resources.Resources.if_retweet_334739
+        Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(123, 36)
+        Me.btnEdit.Text = "បន្ទាន់​សម័យ"
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Image = Global.Institute_Management.My.Resources.Resources.if_edit_delete_23231
+        Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(73, 36)
+        Me.btnDelete.Text = "លុប"
+        '
+        'btnSearch
+        '
+        Me.btnSearch.Image = Global.Institute_Management.My.Resources.Resources.if_Find_27847
+        Me.btnSearch.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnSearch.Name = "btnSearch"
+        Me.btnSearch.Size = New System.Drawing.Size(93, 36)
+        Me.btnSearch.Text = "ស្វែងរក"
+        '
+        'btnPrint
+        '
+        Me.btnPrint.Image = Global.Institute_Management.My.Resources.Resources.if_print_173079
+        Me.btnPrint.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(95, 36)
+        Me.btnPrint.Text = "បោះពុម្ភ"
+        '
+        'btnExport
+        '
+        Me.btnExport.Image = Global.Institute_Management.My.Resources.Resources.if_export_excel_64174
+        Me.btnExport.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnExport.Name = "btnExport"
+        Me.btnExport.Size = New System.Drawing.Size(154, 36)
+        Me.btnExport.Text = "នាំចេញទៅ​ Excel"
+        '
+        'btnClose
+        '
+        Me.btnClose.Image = Global.Institute_Management.My.Resources.Resources.if_close_delete_70975
+        Me.btnClose.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(68, 36)
+        Me.btnClose.Text = "បិត"
+        '
         'frmStudentAdd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1101, 556)
+        Me.ClientSize = New System.Drawing.Size(1101, 601)
+        Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtid)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnCamera)
+        Me.Controls.Add(Me.btnChooseImage)
         Me.Controls.Add(Me.GroupBox2)
         Me.Name = "frmStudentAdd"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmStudentAdd"
         Me.GroupBox2.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
@@ -1298,6 +1396,8 @@ Partial Class frmStudentAdd
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ToolStrip1.ResumeLayout(False)
+        Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1305,8 +1405,8 @@ Partial Class frmStudentAdd
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnChooseImage As System.Windows.Forms.Button
+    Friend WithEvents btnCamera As System.Windows.Forms.Button
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents SaveFileDialog1 As System.Windows.Forms.SaveFileDialog
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
@@ -1406,8 +1506,16 @@ Partial Class frmStudentAdd
     Friend WithEvents ComboBox14 As System.Windows.Forms.ComboBox
     Friend WithEvents Label34 As System.Windows.Forms.Label
     Friend WithEvents ComboBox17 As System.Windows.Forms.ComboBox
-    Friend WithEvents ListView3 As System.Windows.Forms.ListView
     Friend WithEvents txtid As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents ToolStrip1 As System.Windows.Forms.ToolStrip
+    Friend WithEvents btnNew As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnSave As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnDelete As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnSearch As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnClose As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnPrint As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnExport As System.Windows.Forms.ToolStripButton
+    Friend WithEvents btnEdit As System.Windows.Forms.ToolStripButton
 End Class

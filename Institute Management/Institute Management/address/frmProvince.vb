@@ -7,7 +7,9 @@ Public Class frmProvince
     Dim dr As MySqlDataReader
 
     Dim save_edit As Boolean = False
-
+    Dim result As Integer
+    Dim imgpath As String
+    Dim arrImage() As Byte
 
     Private Sub txtProvince_Kh_GotFocus(sender As Object, e As EventArgs) Handles txtProvince_Kh.GotFocus
         InputLang.KhmerKeyboard()
@@ -18,7 +20,10 @@ Public Class frmProvince
 
     Private Sub frmProvince_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ConnectDB()  'Call Function Connection
+        GetDataToListViewImage()
+
         GetDataToListView()
+
     End Sub
 
     Private Sub GetDataToListView()
@@ -55,6 +60,53 @@ Public Class frmProvince
             dr.Close()
         End Try
     End Sub
+
+
+    Private Sub GetDataToListViewImage()
+        'Create ImageList objects. 
+        Dim imageListLarge As New ImageList()
+        imageListLarge.ImageSize = New Size(90, 90)
+        imageListLarge.ColorDepth = ColorDepth.Depth32Bit
+
+
+        lvProvince.Items.Clear()
+        Dim arrImage() As Byte
+        Dim i As Integer = 0
+
+        Try
+            'conn = New MySqlConnection
+            'conn.ConnectionString = My.Settings.Conn
+            MysqlConn.Open()
+            Dim sql As String
+            sql = "SELECT * FROM tbl_province"
+            cmd = New MySqlCommand(sql, MysqlConn)
+            dr = cmd.ExecuteReader
+           
+            Do While dr.Read = True
+
+                arrImage = dr(3)
+                Dim mstream As New System.IO.MemoryStream(arrImage)
+                Dim image6 = Bitmap.FromStream(mstream)
+                imageListLarge.Images.AddRange({image6})
+
+                Me.ListView1.Items.Add(dr(1), i)
+                i = i + 1
+
+            Loop
+            'Assign the ImageList objects to the ListView.
+            ListView1.LargeImageList = imageListLarge
+
+        Catch ex As MySqlException
+            MysqlConn.Close()
+            MsgBox(ex.Message)
+            Exit Try
+
+        Finally
+            MysqlConn.Close()
+            dr.Close()
+        End Try
+    End Sub
+
 
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         'If IsConnectionAvailable() = True Then
@@ -95,22 +147,45 @@ Public Class frmProvince
 
                 'Save Data From form to Database table name tbl_users
 
-                Dim READER As MySqlDataReader
+                'Dim READER As MySqlDataReader
                 Try
+
+                    'Image
+                    Dim mstream As New System.IO.MemoryStream()
+                    Pic1.Image.Save(mstream, System.Drawing.Imaging.ImageFormat.Jpeg)
+                    arrImage = mstream.GetBuffer()
+                    Dim FileSize As UInt32
+                    FileSize = mstream.Length
+
+                    mstream.Close()
+
+                    ' End Image operator
+
                     MysqlConn.Open()
                     Dim Query As String
-
-                    Query = "INSERT INTO tbl_province (province_kh, province_en) values ('" _
-                       & txtProvince_Kh.Text & "','" & txtProvince_En.Text & "')"
-
-                    Dim Command = New MySqlCommand(Query, MysqlConn)
-                    READER = Command.ExecuteReader
-                    'MessageBox.Show("Data Saved")
+                    Query = "INSERT INTO tbl_province(province_kh,province_en, Image) VALUES (@province_kh, @province_en,@Image)"
+                    cmd.Connection = MysqlConn
+                    cmd.CommandText = Query
+                    cmd.Parameters.AddWithValue("@province_kh", txtProvince_Kh.Text)
+                    cmd.Parameters.AddWithValue("@province_en", txtProvince_En.Text)
+                    
+                    cmd.Parameters.AddWithValue("@Image", arrImage)
+                    Dim r As Integer
+                    r = cmd.ExecuteNonQuery()
+                    If r > 0 Then
+                        MsgBox("Province Record hass been Saved!")
+                    Else
+                        MsgBox("No record has been saved!")
+                    End If
+                    cmd.Parameters.Clear()
                     MysqlConn.Close()
 
                     lvProvince.Items.Add(Me.txtID.Text)
                     lvProvince.Items(j).SubItems.Add(Me.txtProvince_Kh.Text)
                     lvProvince.Items(j).SubItems.Add(Me.txtProvince_En.Text)
+
+                    Pic1.Image = Nothing
+
                 Catch ex As MySqlException
                     MessageBox.Show(ex.Message)
                 Finally
@@ -123,29 +198,51 @@ Public Class frmProvince
                
 
                 Try
+                    'Image
+                    Dim mstream As New System.IO.MemoryStream()
+                    Pic1.Image.Save(mstream, System.Drawing.Imaging.ImageFormat.Jpeg)
+                    arrImage = mstream.GetBuffer()
+                    Dim FileSize As UInt32
+                    FileSize = mstream.Length
+
+                    mstream.Close()
+
+                    ' End Image operator
+
                     MysqlConn.Open()
                     Dim Query As String
 
-                    Query = "UPDATE tbl_province SET province_kh ='" + txtProvince_Kh.Text + "',"
-                    Query = Query + "province_en = '" + txtProvince_En.Text + "'"
-                    Query = Query + " WHERE province_id = " + txtID.Text
+                    'Query = "UPDATE tbl_province SET province_kh ='" + txtProvince_Kh.Text + "',"
+                    'Query = Query + "province_en = '" + txtProvince_En.Text + "'"
+                    'Query = Query + " WHERE province_id = " + txtID.Text
 
-                    Dim cmd As MySqlCommand = New MySqlCommand(Query, MysqlConn)
-                    'MsgBox(Query)
-                    Dim i As Integer = cmd.ExecuteNonQuery()
-                    If (i > 0) Then
-                        MsgBox("Record is Successfully Updated !")
+                    'MysqlConn.Open()
 
+                    Query = "UPDATE tbl_province SET province_kh=@province_kh,province_en=@province_en,Image=@Image WHERE province_id =@province_id"
+                    cmd.Connection = MysqlConn
+                    cmd.CommandText = Query
+                    cmd.Parameters.AddWithValue("@province_kh", txtProvince_Kh.Text)
+                    cmd.Parameters.AddWithValue("@province_en", txtProvince_En.Text)
+                    cmd.Parameters.AddWithValue("@Image", arrImage)
+                    cmd.Parameters.AddWithValue("@province_id", txtID.Text)
+
+                    Dim r As Integer
+                    r = cmd.ExecuteNonQuery()
+                    If r > 0 Then
+                        MsgBox("Provice Record hass been Update!")
                     Else
-
-                        MsgBox("Record is not Updated !")
+                        MsgBox("No record has been Updated!")
                     End If
+                    cmd.Parameters.Clear()
                     MysqlConn.Close()
+
 
 
                     lvProvince.Items.Add(Me.txtID.Text)
                     lvProvince.Items(j).SubItems.Add(Me.txtProvince_Kh.Text)
                     lvProvince.Items(j).SubItems.Add(Me.txtProvince_En.Text)
+
+                    Pic1.Image = Nothing
 
                 Catch ex As MySqlException
                     MessageBox.Show(ex.Message)
@@ -172,13 +269,45 @@ Public Class frmProvince
         For i = 0 To Me.lvProvince.Items.Count - 1
             If lvProvince.Items(i).Selected Then
                 Me.txtID.Text = lvProvince.Items(i).Text
-                Me.txtProvince_Kh.Text = lvProvince.Items(i).SubItems(1).Text
-                Me.txtProvince_En.Text = lvProvince.Items(i).SubItems(2).Text
+                'Me.txtProvince_Kh.Text = lvProvince.Items(i).SubItems(1).Text
+                'Me.txtProvince_En.Text = lvProvince.Items(i).SubItems(2).Text
                 save_edit = True
-
+                ShowDetail(Me.txtID.Text)
                 Me.txtTotalDistrict.Text = sql_count("Select * FROM tbl_district WHERE province_id =" & txtID.Text)
             End If
         Next
+    End Sub
+
+    Private Sub ShowDetail(ByVal Param As String)
+        Dim Sql As String
+
+        Sql = "SELECT * FROM tbl_province WHERE province_id=" & Val(Param) & " OR province_kh='" & Param & "'"
+        'conn.ConnectionString = Myconnection
+        MysqlConn.Open()
+        With cmd
+            .Connection = MysqlConn
+            .CommandText = Sql
+        End With
+        Dim arrImage() As Byte
+        Dim publictable As New DataTable
+        Try
+            da.SelectCommand = cmd
+            da.Fill(publictable)
+            Me.txtID.Text = publictable.Rows(0).Item(0)
+            Me.txtProvince_Kh.Text = publictable.Rows(0).Item(1)
+            Me.txtProvince_En.Text = publictable.Rows(0).Item(2)
+
+            arrImage = publictable.Rows(0).Item(3)
+            Dim mstream As New System.IO.MemoryStream(arrImage)
+            Pic1.Image = Image.FromStream(mstream)
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            da.Dispose()
+
+            MysqlConn.Close()
+
+        End Try
     End Sub
 
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
@@ -202,8 +331,7 @@ Public Class frmProvince
     End Sub
 
     Private Sub txtFind_TextChanged(sender As Object, e As EventArgs) Handles txtFind.TextChanged
-        'query = "select * from " & tablename & " where (Item_Description LIKE '%" & TextBox11.Text & "%' or Vendor LIKE '%" & TextBox11.Text & "%' OR S_N LIKE '%" & TextBox11.Text & "%' or Tag_num LIKE '%" & TextBox11.Text & "%')"
-
+        
         lvProvince.Items.Clear()
         Try
             'conn = New MySqlConnection
@@ -236,5 +364,35 @@ Public Class frmProvince
             MysqlConn.Close()
             dr.Close()
         End Try
+    End Sub
+
+    Private Sub btnChooseImage_Click(sender As Object, e As EventArgs) Handles btnChooseImage.Click
+        Try
+            Dim OFD As FileDialog = New OpenFileDialog()
+            OFD.Filter = "Image File (*.jpg;*.bmp;*.gif;*.png)|*.jpg;*.bmp;*.gif;*.png"
+            If OFD.ShowDialog() = DialogResult.OK Then
+                imgpath = OFD.FileName
+                Pic1.ImageLocation = imgpath
+            End If
+            OFD = Nothing
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString())
+        End Try
+    End Sub
+
+    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
+        Dim i As Integer
+        For i = 0 To Me.ListView1.Items.Count - 1
+            If ListView1.Items(i).Selected Then
+                Me.txtID.Text = ListView1.Items(i).Text
+                save_edit = True
+                ShowDetail(Me.txtID.Text)
+                Me.txtTotalDistrict.Text = sql_count("Select * FROM tbl_district WHERE province_id =" & txtID.Text)
+            End If
+        Next
+    End Sub
+
+    Private Sub txtProvince_Kh_TextChanged(sender As Object, e As EventArgs) Handles txtProvince_Kh.TextChanged
+
     End Sub
 End Class
