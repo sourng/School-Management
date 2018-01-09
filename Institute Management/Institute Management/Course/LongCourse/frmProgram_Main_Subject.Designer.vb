@@ -30,13 +30,13 @@ Partial Class frmProgram_Main_Subject
         Me.txt_pms_note = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txt_pms_name_en = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.LVMainProgram = New System.Windows.Forms.ListView()
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.txt_pms_name_kh = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.txtpms_id = New System.Windows.Forms.TextBox()
         Me.btnChooseImage = New System.Windows.Forms.Button()
         Me.Pic1 = New System.Windows.Forms.PictureBox()
@@ -44,7 +44,7 @@ Partial Class frmProgram_Main_Subject
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnAdd = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnPrint = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.Pic1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -72,11 +72,11 @@ Partial Class frmProgram_Main_Subject
         Me.GroupBox1.Controls.Add(Me.txt_pms_note)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.txt_pms_name_en)
-        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.LVMainProgram)
         Me.GroupBox1.Controls.Add(Me.txt_pms_name_kh)
-        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.txtpms_id)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
@@ -134,17 +134,19 @@ Partial Class frmProgram_Main_Subject
         Me.txt_pms_name_en.Size = New System.Drawing.Size(356, 30)
         Me.txt_pms_name_en.TabIndex = 57
         '
-        'Label2
+        'Label3
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(448, 148)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(176, 24)
-        Me.Label2.TabIndex = 56
-        Me.Label2.Text = "ឈ្មោះកម្មវិធីសិក្សា (ជំ​នាញ)(En)"
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(448, 148)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(176, 24)
+        Me.Label3.TabIndex = 56
+        Me.Label3.Text = "ឈ្មោះកម្មវិធីសិក្សា (ជំ​នាញ)(En)"
         '
         'LVMainProgram
         '
+        Me.LVMainProgram.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.LVMainProgram.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.LVMainProgram.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader3, Me.ColumnHeader4})
         Me.LVMainProgram.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LVMainProgram.Location = New System.Drawing.Point(12, 61)
@@ -153,6 +155,7 @@ Partial Class frmProgram_Main_Subject
         Me.LVMainProgram.Size = New System.Drawing.Size(414, 392)
         Me.LVMainProgram.TabIndex = 55
         Me.LVMainProgram.UseCompatibleStateImageBehavior = False
+        Me.LVMainProgram.View = System.Windows.Forms.View.SmallIcon
         '
         'ColumnHeader3
         '
@@ -172,26 +175,27 @@ Partial Class frmProgram_Main_Subject
         Me.txt_pms_name_kh.Size = New System.Drawing.Size(356, 30)
         Me.txt_pms_name_kh.TabIndex = 54
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(448, 26)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(58, 24)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "លេខរៀង"
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(448, 88)
+        Me.Label1.Location = New System.Drawing.Point(448, 26)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(178, 24)
+        Me.Label1.Size = New System.Drawing.Size(58, 24)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ឈ្មោះកម្មវិធីសិក្សា (ជំ​នាញ)(KH)"
+        Me.Label1.Text = "លេខរៀង"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(448, 88)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(178, 24)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "ឈ្មោះកម្មវិធីសិក្សា (ជំ​នាញ)(KH)"
         '
         'txtpms_id
         '
+        Me.txtpms_id.Enabled = False
         Me.txtpms_id.Location = New System.Drawing.Point(448, 53)
         Me.txtpms_id.Name = "txtpms_id"
         Me.txtpms_id.Size = New System.Drawing.Size(112, 32)
@@ -298,29 +302,29 @@ Partial Class frmProgram_Main_Subject
         Me.btnAdd.Text = "បន្ថែម"
         Me.btnAdd.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnPrint
         '
-        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Image = Global.Institute_Management.My.Resources.Resources.if_print_173079
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(864, 398)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(171, 42)
-        Me.Button1.TabIndex = 60
-        Me.Button1.Text = "លុប"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnPrint.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnPrint.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.btnPrint.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnPrint.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPrint.Font = New System.Drawing.Font("Khmer OS Battambang", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPrint.Image = Global.Institute_Management.My.Resources.Resources.if_print_173079
+        Me.btnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPrint.Location = New System.Drawing.Point(864, 398)
+        Me.btnPrint.Name = "btnPrint"
+        Me.btnPrint.Size = New System.Drawing.Size(171, 42)
+        Me.btnPrint.TabIndex = 60
+        Me.btnPrint.Text = "បោះពុម្ភ"
+        Me.btnPrint.UseVisualStyleBackColor = False
         '
         'frmProgram_Main_Subject
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1062, 529)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnPrint)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnChooseImage)
         Me.Controls.Add(Me.btnDelete)
@@ -334,7 +338,7 @@ Partial Class frmProgram_Main_Subject
         Me.MaximizeBox = False
         Me.Name = "frmProgram_Main_Subject"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Register_Long_Program"
+        Me.Text = "Main Subjects"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.Pic1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -347,8 +351,8 @@ Partial Class frmProgram_Main_Subject
     Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ColumnHeader4 As System.Windows.Forms.ColumnHeader
     Friend WithEvents txt_pms_name_kh As System.Windows.Forms.TextBox
-    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txtpms_id As System.Windows.Forms.TextBox
     Friend WithEvents btnChooseImage As System.Windows.Forms.Button
     Friend WithEvents Pic1 As System.Windows.Forms.PictureBox
@@ -357,8 +361,8 @@ Partial Class frmProgram_Main_Subject
     Friend WithEvents btnSave As System.Windows.Forms.Button
     Friend WithEvents btnAdd As System.Windows.Forms.Button
     Friend WithEvents txt_pms_name_en As System.Windows.Forms.TextBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents btnPrint As System.Windows.Forms.Button
     Friend WithEvents txt_pms_note As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents btnFind As System.Windows.Forms.Button

@@ -132,12 +132,12 @@ Partial Class frmStudentAdd
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.btnNew = New System.Windows.Forms.ToolStripButton()
         Me.btnSave = New System.Windows.Forms.ToolStripButton()
+        Me.btnEdit = New System.Windows.Forms.ToolStripButton()
         Me.btnDelete = New System.Windows.Forms.ToolStripButton()
         Me.btnSearch = New System.Windows.Forms.ToolStripButton()
         Me.btnPrint = New System.Windows.Forms.ToolStripButton()
         Me.btnExport = New System.Windows.Forms.ToolStripButton()
         Me.btnClose = New System.Windows.Forms.ToolStripButton()
-        Me.btnEdit = New System.Windows.Forms.ToolStripButton()
         Me.GroupBox2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -170,7 +170,7 @@ Partial Class frmStudentAdd
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Image = Global.Institute_Management.My.Resources.Resources.if_close_delete_70975
-        Me.Button4.Location = New System.Drawing.Point(6, 65)
+        Me.Button4.Location = New System.Drawing.Point(6, 62)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(163, 45)
         Me.Button4.TabIndex = 2
@@ -310,7 +310,7 @@ Partial Class frmStudentAdd
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Blue
-        Me.GroupBox1.Location = New System.Drawing.Point(18, 6)
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 6)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(851, 448)
         Me.GroupBox1.TabIndex = 8
@@ -1315,6 +1315,14 @@ Partial Class frmStudentAdd
         Me.btnSave.Size = New System.Drawing.Size(93, 36)
         Me.btnSave.Text = "រក្សាទុក"
         '
+        'btnEdit
+        '
+        Me.btnEdit.Image = Global.Institute_Management.My.Resources.Resources.if_retweet_334739
+        Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(123, 36)
+        Me.btnEdit.Text = "បន្ទាន់​សម័យ"
+        '
         'btnDelete
         '
         Me.btnDelete.Image = Global.Institute_Management.My.Resources.Resources.if_edit_delete_23231
@@ -1354,14 +1362,6 @@ Partial Class frmStudentAdd
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(68, 36)
         Me.btnClose.Text = "បិត"
-        '
-        'btnEdit
-        '
-        Me.btnEdit.Image = Global.Institute_Management.My.Resources.Resources.if_retweet_334739
-        Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btnEdit.Name = "btnEdit"
-        Me.btnEdit.Size = New System.Drawing.Size(123, 36)
-        Me.btnEdit.Text = "បន្ទាន់​សម័យ"
         '
         'frmStudentAdd
         '

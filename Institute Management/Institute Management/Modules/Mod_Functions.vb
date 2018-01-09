@@ -168,5 +168,60 @@ Module Mod_Functions
         Return countNumber
     End Function
 
+    ' Get ID
+    Function GetID_BySQL(ByVal sqlStr As String) As Integer
+        'Dim countNumber As Integer = 0
+        Dim getID As Integer = 0
+
+        MysqlConn.Open()
+        Try
+            cmd = New MySqlCommand(sqlStr, MysqlConn)
+            dr = cmd.ExecuteReader
+            Do While dr.Read = True
+                getID = dr(0)
+
+            Loop
+
+        Catch ex As MySqlException
+            MysqlConn.Close()
+            MsgBox(ex.Message)
+            Exit Try
+
+        Finally
+            MysqlConn.Close()
+            dr.Close()
+
+        End Try
+
+        Return getID
+    End Function
+
+    'Add Data To Combo
+    Public Sub AddData2Combo(ByVal SQLString As String, ByVal ComboName As ComboBox)
+        ComboName.Items.Clear()
+        Try
+            'conn = New MySqlConnection
+            'conn.ConnectionString = My.Settings.Conn
+            If MysqlConn.State = ConnectionState.Closed Then
+                MysqlConn.Open()
+            End If
+
+            cmd = New MySqlCommand(SQLString, MysqlConn)
+            dr = cmd.ExecuteReader
+            Do While dr.Read = True
+                ComboName.Items.Add(dr(0))
+            Loop
+        Catch ex As MySqlException
+            MysqlConn.Close()
+            MsgBox(ex.Message)
+            Exit Try
+
+        Finally
+            MysqlConn.Close()
+            dr.Close()
+        End Try
+    End Sub
+
+
 
 End Module

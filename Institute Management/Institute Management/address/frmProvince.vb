@@ -392,7 +392,7 @@ Public Class frmProvince
         Next
     End Sub
 
-    Private Sub btnFind_Click(sender As Object, e As EventArgs) Handles btnFind.Click
+    Private Sub txtProvince_Kh_TextChanged(sender As Object, e As EventArgs) Handles txtProvince_Kh.TextChanged
 
     End Sub
 End Class
